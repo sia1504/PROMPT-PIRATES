@@ -4,570 +4,741 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
-<title>Stock Desk</title>
+<title>Manyavar | Stock Desk</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{color-scheme:light;--bg:#FFFFFF;--text:#1F1B1A;--muted:#6E6762;--line:#ECE8E5;--accent:#7F1D2D;--ok:#2E7D4F;--warn:#9A5B00;--bad:#B42318;--gutter:16px;--sans:'DM Sans',system-ui,-apple-system,sans-serif}
+:root{color-scheme:light;
+  --orange:#E04E1C;--orange-2:#E95827;--brown:#852201;--brown-2:#875031;--brown-3:#511D00;
+  --cream-1:#FFFBF2;--cream-2:#FFF3DD;--cream-3:#F8ECD7;--sand:#E8D7B7;--sand-2:#E1CEAC;
+  --ink:#212529;--muted:#666561;--border:#F1F1F1;--ok:#2F7D4F;--warn:#B7791F;--bad:#C0392B;
+  --sans:'Figtree',system-ui,-apple-system,sans-serif;--serif:'Rufina',Georgia,serif;--gutter:16px;
+  --lotus:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cg fill='none' stroke='%23F8ECD7' stroke-width='1.3'%3E%3Ccircle cx='22' cy='22' r='5'/%3E%3Cpath d='M22 3c4 6 4 10 0 15-4-5-4-9 0-15zM22 41c4-6 4-10 0-15-4 5-4 9 0 15zM3 22c6-4 10-4 15 0-5 4-9 4-15 0zM41 22c-6-4-10-4-15 0 5 4 9 4 15 0z'/%3E%3C/g%3E%3C/svg%3E")}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);font:400 15px/1.45 var(--sans);overflow-wrap:anywhere}
-.wrap{max-width:960px;margin:0 auto;padding:0 var(--gutter) 96px}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-h1,h2{margin:0;font-weight:700}
+body{margin:0;background:var(--cream-1);color:var(--ink);font:400 15px/1.5 var(--sans);overflow-wrap:anywhere}
+h1,h2,h3{font-family:var(--serif);color:var(--brown-3);margin:0;font-weight:700}
 button{font:inherit;cursor:pointer}
-.tb{background:none;border:0;padding:6px 0;color:var(--accent);font-weight:500;font-size:14px}
-.tb:hover{text-decoration:underline}
-.tb:disabled{color:var(--muted);cursor:default;text-decoration:none}
-.tb.mute{color:var(--muted)}
-.primary{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;font-weight:500;font-size:14px;min-height:40px}
-.primary:disabled{opacity:.45;cursor:default}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:8px;vertical-align:middle}
-.dot.bad{background:var(--bad)} .dot.na{background:var(--warn)}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 var(--gutter) 110px}
 .muted{color:var(--muted)}
-header{display:flex;justify-content:space-between;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line)}
-.brand{font-weight:700;font-size:15px}
-header .muted{font-size:13px}
-.summary{padding:28px 0 20px}
-.summary h1{font-size:22px;line-height:1.3;margin-bottom:14px}
-.nums{display:flex;gap:28px;flex-wrap:wrap}
-.nums div{font-size:13px;color:var(--muted)}
-.nums b{display:block;font-size:32px;line-height:1.1;font-weight:700;color:var(--text)}
-.nums .hl b{color:var(--accent)}
-.val{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;font-size:14px}
-.val button{background:none;border:0;padding:0;color:var(--text);text-align:left;width:100%}
-.vd{padding:10px 0 0;font-size:13px;color:var(--muted)}
-.vd span{display:inline-block;margin:0 14px 4px 0}
-.sec{padding:32px 0 6px}
-.sech{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:8px}
-.sech h2{font-size:22px}
-.filters{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:14px 0 0;font-size:13px;color:var(--muted)}
-select,input[type=number]{font:inherit;font-size:14px;color:var(--text);background:#fff;border:1px solid var(--line);border-radius:6px;padding:6px 8px;min-height:36px;max-width:100%}
-.row{display:grid;grid-template-columns:1fr;gap:8px;padding:16px 0;border-bottom:1px solid var(--line)}
-.rt{display:flex;gap:10px;align-items:flex-start}
-.rt input[type=checkbox]{appearance:none;-webkit-appearance:none;width:20px;height:20px;margin:1px 0 0;border:1.5px solid var(--muted);border-radius:50%;flex:none;cursor:pointer;background:#fff;display:grid;place-content:center}
-.rt input[type=checkbox]:checked{background:var(--accent);border-color:var(--accent)}
-.rt input[type=checkbox]:checked:after{content:"";width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
-.rt input[type=checkbox]:disabled{opacity:.4;cursor:default}
-.reason{font-weight:500;font-size:15px}
-.sub{font-size:13px;color:var(--muted)}
-.tag{color:var(--warn);font-size:13px}
-.tag:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--warn);margin-right:5px;vertical-align:middle}
-.c{display:none;font-size:13px}
-.acts{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
-.st{font-size:13px;font-weight:500}
-.st.Approved{color:var(--ok)} .st.Skipped{color:var(--bad)}
-.row.Skipped .reason{color:var(--muted);text-decoration:line-through}
-.qedit{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
-.qedit input{width:80px}
-@media(min-width:900px){
- .row{grid-template-columns:minmax(0,1fr) 210px;gap:24px;align-items:start}
- .acts{justify-content:flex-end}
- .qedit{grid-column:1/-1}
-}
-.actl{font-weight:600;font-size:16px;line-height:1.35}
+/* header */
+.band{background:var(--cream-1) var(--lotus);border-bottom:1px solid var(--sand)}
+.band .in{max-width:1080px;margin:0 auto;padding:12px var(--gutter);display:flex;align-items:center;gap:12px}
+.crest{width:36px;height:36px;border-radius:10px;background:var(--orange);color:var(--cream-1);display:grid;place-items:center;font:700 20px var(--serif);box-shadow:inset 0 0 0 2px var(--cream-1),inset 0 0 0 3px var(--orange-2);flex:none}
+.word{font:700 17px var(--serif);color:var(--brown-3);line-height:1.1}
+.word span{font:500 12px var(--sans);display:block;color:var(--brown-2);letter-spacing:.14em;text-transform:uppercase;margin-top:2px}
+.me{margin-left:auto;display:flex;align-items:center;gap:10px;min-width:0}
+.me .who{display:flex;flex-direction:column;text-align:right;line-height:1.2;font-size:14px;min-width:0}
+.me .who small{color:var(--muted);font-size:12px}
+.av{width:34px;height:34px;border-radius:50%;background:var(--cream-3);color:var(--brown);display:grid;place-items:center;font:700 13px var(--sans);border:1px solid var(--sand);flex:none}
+.demo{background:var(--cream-2);border-bottom:1px solid var(--sand);font-size:13px;color:var(--brown-3);text-align:center;padding:6px var(--gutter)}
+/* buttons */
+.btn{background:var(--orange);color:#fff;border:0;border-radius:12px;padding:11px 18px;font-weight:600;font-size:15px;min-height:44px}
+.btn:hover{background:var(--orange-2)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.sm{min-height:40px;padding:8px 14px;font-size:14px}
+.tb{background:none;border:0;color:var(--brown);font-weight:600;font-size:14px;padding:8px 6px;min-height:40px}
+.tb:hover{text-decoration:underline}
+.tb.mute{color:var(--muted);font-weight:500}
+.gbtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:#fff;border:1.5px solid var(--sand-2);color:var(--ink);border-radius:12px;min-height:48px;font-weight:600;font-size:15px}
+.gbtn:hover{border-color:var(--orange)}
+/* hero / gate */
+.hero{background:var(--cream-1) var(--lotus);border:1px solid var(--sand);border-radius:24px;padding:34px 22px;text-align:center;max-width:460px;margin:40px auto 0}
+.hero h1{font-size:30px;margin:14px 0 6px}
+.hero p{margin:0 0 20px;color:var(--muted)}
+.hero .note{font-size:13px;background:var(--cream-2);border-radius:12px;padding:10px 12px;margin-top:16px;color:var(--brown-3);text-align:left}
+.hero .err{color:var(--bad);font-size:14px;margin-top:12px}
+.ulist{max-width:460px;margin:16px auto 0;display:grid;gap:8px}
+.ucard{display:flex;justify-content:space-between;gap:10px;align-items:center;background:#fff;border:1px solid var(--sand);border-radius:14px;padding:12px 14px;text-align:left;width:100%;color:var(--ink);min-height:48px}
+.ucard:hover{border-color:var(--orange)}
+.ucard small{color:var(--muted);text-align:right}
+.orn{display:flex;align-items:center;gap:12px;color:var(--sand-2);margin:26px 0 6px}
+.orn:before,.orn:after{content:"";flex:1;height:1px;background:var(--sand)}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0 6px}
+.stat{background:var(--cream-2);border:1px solid var(--cream-3);border-radius:18px;padding:14px 16px}
+.stat b{display:block;font:700 28px/1.1 var(--serif);color:var(--brown)}
+.stat span{font-size:13px;color:var(--muted)}
+.stat.hot b{color:var(--orange)}
+/* controls */
+.bar2{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:18px 0 6px}
+.seg{display:inline-flex;background:var(--cream-3);border-radius:999px;padding:3px;gap:2px;max-width:100%;overflow-x:auto}
+.seg button{border:0;background:none;border-radius:999px;padding:8px 16px;font-weight:600;font-size:14px;color:var(--brown-2);white-space:nowrap;min-height:38px}
+.seg button[aria-selected=true],.seg button[aria-pressed=true]{background:#fff;color:var(--orange);box-shadow:0 1px 3px rgba(81,29,0,.12)}
+select{font:inherit;font-size:14px;color:var(--ink);background:#fff;border:1.5px solid var(--sand);border-radius:10px;padding:8px 10px;min-height:40px;max-width:100%}
+.push{margin-left:auto}
+/* cards */
+.grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}
+@media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(4,1fr)}}
+@media(min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border:1px solid var(--sand);border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card.alert{border-color:var(--orange)}
+.ct{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.cname{background:none;border:0;padding:0;text-align:left;font:700 24px/1.15 var(--serif);color:var(--brown-3)}
+.cname:hover{color:var(--orange)}
+.chip{font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;background:var(--cream-3);color:var(--brown-2);white-space:nowrap}
+.chip.clear{background:#EEF3EE;color:var(--ok)}
+.chead{font-weight:600;font-size:14px;margin:0;color:var(--ink)}
+.csum{font-size:14px;color:var(--muted);margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.facts{display:flex;gap:6px}
+.fact{flex:1;background:var(--cream-1);border-radius:12px;padding:8px 10px;min-width:0}
+.fact b{display:block;font:700 17px var(--serif);color:var(--brown)}
+.fact span{font-size:12px;color:var(--muted)}
+.lvl{height:6px;background:var(--cream-3);border-radius:6px;overflow:hidden}
+.lvl i{display:block;height:100%;border-radius:6px;background:var(--ok)}
+.lvl.r i{background:var(--bad)} .lvl.a i{background:var(--warn)}
+.urg{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:7px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex:none}
+.dot.r{background:var(--bad)} .dot.a{background:var(--warn)}
+.need{font-size:13px;color:var(--warn);font-weight:600}
+.src{font-size:12px;color:var(--muted)}
+.srow{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.pill{font-size:12px;font-weight:600;background:var(--cream-3);color:var(--brown-2);border-radius:999px;padding:2px 10px;white-space:nowrap}
+.cf{display:flex;align-items:center;gap:8px;margin-top:auto;flex-wrap:wrap}
+.cf .btn{flex:1 1 auto}
+.row{padding:14px 0;border-bottom:1px solid var(--cream-3)}
+.row .rt{display:flex;gap:10px;align-items:flex-start}
+.row input[type=checkbox]{appearance:none;-webkit-appearance:none;width:22px;height:22px;margin:1px 0 0;border:1.5px solid var(--sand-2);border-radius:50%;flex:none;cursor:pointer;background:#fff;display:grid;place-content:center}
+.row input[type=checkbox]:checked{background:var(--orange);border-color:var(--orange)}
+.row input[type=checkbox]:checked:after{content:"";width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.row input[type=checkbox]:disabled{opacity:.4;cursor:default}
+.actl{font-weight:600;font-size:16px;line-height:1.35;color:var(--brown-3)}
+.sub{font-size:13px;color:var(--muted);margin-top:2px}
 .why{font-size:14px;margin-top:6px}
 .because{font-size:13px;color:var(--warn);margin-top:6px}
-.because b{font-weight:500}
-.more{padding:12px 0}
-.bulk{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid var(--line)}
-.find{padding:14px 0;border-bottom:1px solid var(--line)}
-.find b{font-weight:500}
-.find p{margin:2px 0 0;font-size:13px;color:var(--muted)}
-.find .kind{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-details{border-bottom:1px solid var(--line)}
-summary{cursor:pointer;padding:12px 0;font-weight:500;font-size:15px}
-details details{margin-left:0;border-bottom:0}
-details details summary{font-weight:400;font-size:14px}
-.brow{padding:7px 0;border-top:1px solid var(--line);font-size:13px}
-ul.as{margin:4px 0 14px;padding-left:18px;font-size:13px;color:var(--muted)}
-table{border-collapse:collapse;width:100%;font-size:13px}
-td{padding:6px 10px 6px 0;border-top:1px solid var(--line);vertical-align:top}
-.empty,.note{color:var(--muted);font-size:13px;padding:10px 0}
-.err{padding:40px 0}
-.tabs{display:flex;gap:22px;overflow-x:auto;border-bottom:1px solid var(--line);margin-top:6px;scrollbar-width:none}
-.tabs::-webkit-scrollbar{display:none}
-.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:14px 0 10px;color:var(--muted);font-weight:500;font-size:14px;white-space:nowrap;flex:none}
-.tabs button[aria-selected=true]{color:var(--text);border-bottom-color:var(--accent)}
-.tabs button:hover{color:var(--text)}
-.lead{font-size:13px;color:var(--muted);margin:14px 0 4px}
-.gh{display:flex;justify-content:space-between;gap:12px;padding:22px 0 6px;border-bottom:1px solid var(--line);font-weight:700}
-.gh span{font-weight:400;color:var(--muted);font-size:13px}
-.line{padding:9px 0;border-bottom:1px solid var(--line);font-size:14px}
-.line .sub{display:block}
-h3.bh{font-size:15px;margin:26px 0 4px}
-.sticky{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);z-index:5}
-.sticky div{max-width:960px;margin:0 auto;padding:12px var(--gutter);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.sticky .primary{flex:0 1 auto}
-header{position:relative}
-.who{position:relative}
-.whobtn{display:flex;align-items:center;gap:10px;background:none;border:0;padding:4px 0;text-align:left;color:var(--text)}
-.av{width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700;flex:none}
-.wn{display:flex;flex-direction:column;line-height:1.2;font-size:14px}
-.wn span{font-size:12px;color:var(--muted)}
-.menu{position:absolute;right:0;top:100%;margin-top:6px;background:#fff;border:1px solid var(--line);border-radius:8px;width:min(320px,calc(100vw - 32px));max-height:70vh;overflow:auto;z-index:20;padding:6px 0}
-.menu h3{margin:10px 14px 2px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
-.mi{display:block;width:100%;text-align:left;background:none;border:0;padding:8px 14px;font-size:14px;color:var(--text)}
-.mi:hover{background:#F7F4F2}
-.mi[aria-current=true]{font-weight:700}
-.mi small{display:block;color:var(--muted);font-weight:400;font-size:12px}
-.gate{max-width:420px;margin:0 auto;padding:56px 0 40px}
-.gate h1{font-size:32px;margin:18px 0 6px}
-.gate label{display:block;font-size:13px;color:var(--muted);margin:22px 0 6px}
-.gate input[type=email]{width:100%;font:inherit;font-size:16px;padding:10px 12px;min-height:44px;border:1px solid var(--line);border-radius:8px}
-.gate input[aria-invalid=true]{border-color:var(--bad)}
-.gate .primary{width:100%;margin-top:14px}
-.ferr{color:var(--bad);font-size:13px;margin:6px 0 0;min-height:18px}
-.gate h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;margin:36px 0 4px}
-.ubtn{display:flex;justify-content:space-between;gap:12px;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:11px 0;font-size:14px;color:var(--text)}
-.ubtn span{color:var(--muted);font-size:13px;text-align:right}
-.ubtn:hover b{color:var(--accent)}
-.foot{font-size:12px;color:var(--muted);margin:40px 0 0}
+.because b{font-weight:600}
+.tag{color:var(--warn)}
+.acts{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.st{font-size:13px;font-weight:600}.st.Approved,.st.Received,.st.Dispatched{color:var(--ok)}.st.Skipped{color:var(--bad)}.st.Picking{color:var(--warn)}
 .rq{font-size:13px;color:var(--muted);cursor:help}
-dialog{border:0;border-radius:12px;width:min(400px,calc(100vw - 32px));padding:24px;box-shadow:0 10px 40px rgba(0,0,0,.2);color:var(--text)}
-dialog::backdrop{background:rgba(0,0,0,.35)}
-dialog h2{font-size:22px;margin:0 0 6px}
-dialog label{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
-dialog select{width:100%}
-dialog .primary{width:100%;margin-top:18px}
-dialog .tb{display:block;margin:8px auto 0}
+.qedit{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:6px}
+.qedit input{width:84px;font:inherit;padding:6px 8px;border:1.5px solid var(--sand);border-radius:8px}
+.row.Skipped .actl{color:var(--muted);text-decoration:line-through}
+/* sheet */
+dialog.sheet{border:0;padding:0;background:var(--cream-1);color:var(--ink);box-shadow:-8px 0 40px rgba(81,29,0,.18);max-width:none;max-height:none;margin:0;position:fixed;display:flex;flex-direction:column}
+dialog.sheet:not([open]){display:none}
+dialog.sheet::backdrop{background:rgba(81,29,0,.35)}
+@media(min-width:700px){dialog.sheet{top:0;right:0;left:auto;bottom:auto;width:min(560px,100vw);height:100vh;border-radius:22px 0 0 22px}}
+@media(max-width:699px){dialog.sheet{left:0;right:0;bottom:0;top:auto;width:100%;height:88vh;border-radius:22px 22px 0 0;box-shadow:0 -8px 40px rgba(81,29,0,.2)}}
+.shh{display:flex;align-items:center;gap:10px;padding:16px 18px;border-bottom:1px solid var(--sand);background:var(--cream-1) var(--lotus)}
+.shh h2{font-size:22px;flex:1}
+.shx{background:#fff;border:1px solid var(--sand);border-radius:50%;width:40px;height:40px;font-size:20px;color:var(--brown)}
+.shb{overflow:auto;padding:6px 18px 40px;flex:1}
+.more{padding:10px 0}
+.menu{display:grid;gap:10px;margin-top:12px}
+.mcard{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fff;border:1px solid var(--sand);border-radius:16px;padding:14px 16px;width:100%;text-align:left;color:var(--ink);min-height:56px}
+.mcard:hover{border-color:var(--orange)}
+.mcard b{display:block;font-weight:600}.mcard small{color:var(--muted)}
+.mcard em{font:700 20px var(--serif);color:var(--brown);font-style:normal}
+.find{padding:14px 0;border-bottom:1px solid var(--cream-3)}
+.find p{margin:4px 0 0;font-size:14px;color:var(--muted)}
+.line{padding:10px 0;border-bottom:1px solid var(--cream-3);font-size:14px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+td{padding:7px 10px 7px 0;border-top:1px solid var(--cream-3);vertical-align:top}
+details{border-bottom:1px solid var(--cream-3)}
+summary{cursor:pointer;padding:12px 0;font-weight:600}
+.empty{color:var(--muted);text-align:center;padding:26px 12px;background:var(--cream-1) var(--lotus);border:1px dashed var(--sand);border-radius:18px;margin-top:14px}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--sand);z-index:5}
+.sticky div{max-width:1080px;margin:0 auto;padding:10px var(--gutter);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.chipf{display:inline-flex;gap:6px;align-items:center;background:var(--cream-3);border-radius:999px;padding:4px 6px 4px 12px;font-size:13px;color:var(--brown-3)}
+.chipf button{border:0;background:none;color:var(--brown);font-size:16px;min-width:28px;min-height:28px}
+h2.sec{font-size:22px;margin:24px 0 0}
+.foot{font-size:12px;color:var(--muted);margin:34px 0 0;text-align:center}
+.load{text-align:center;color:var(--muted);padding:80px 0}
+dialog.skip{border:0;border-radius:20px;width:min(400px,calc(100vw - 32px));padding:22px;background:#fff;color:var(--ink);box-shadow:0 10px 40px rgba(81,29,0,.25)}
+dialog.skip::backdrop{background:rgba(81,29,0,.4)}
+dialog.skip h2{font-size:22px}
+dialog.skip label{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
+dialog.skip select{width:100%}
+dialog.skip .btn{width:100%;margin-top:16px}
+dialog.skip .tb{display:block;margin:6px auto 0}
 </style>
 <script>
-/* Data loader: out/moves.js, else demo/moves.js, else demo/sample.js (dev fixture). No fetch(). */
+/* Demo data loader: out/moves.js, else demo/moves.js, else demo/sample.js. No fetch(). */
 var FALLBACKS=['demo/moves.js','demo/sample.js'];
+function movesDone(){ window.dispatchEvent(new Event('movesloaded')); }
 function nextSrc(){
   var s=FALLBACKS.shift();
-  if(!s){ window.__noData=true; if(window.boot) boot(); return; }
-  var el=document.createElement('script'); el.src=s;
-  el.onload=function(){ if(window.boot) boot(); };
-  el.onerror=nextSrc;
-  document.head.appendChild(el);
+  if(!s){ window.__noData=true; window.dispatchEvent(new Event('nodata')); return; }
+  var el=document.createElement('script'); el.src=s; el.onload=movesDone; el.onerror=nextSrc; document.head.appendChild(el);
 }
 </script>
 </head>
 <body>
-<div class="wrap" id="app"><p class="empty">Loading...</p></div>
-<dialog id="skipDlg" aria-labelledby="skipTitle">
+<div id="root"></div>
+<dialog class="sheet" id="sheet" aria-labelledby="shTitle"><div class="shh"><h2 id="shTitle"></h2><button class="shx" data-act="closeSheet" aria-label="Close">&times;</button></div><div class="shb" id="shBody"></div></dialog>
+<dialog class="skip" id="skipDlg" aria-labelledby="skipTitle">
   <form method="dialog" id="skipForm">
-    <h2 id="skipTitle">Skip this move?</h2>
-    <p class="sub" id="skipWhat"></p>
+    <h2 id="skipTitle">Skip this?</h2>
+    <p class="muted" id="skipWhat"></p>
     <label for="skipReason">Reason</label>
-    <select id="skipReason">
-      <option>Stock already on its way</option><option>Store asked to hold</option>
-      <option>Count mismatch on shelf</option><option>Festival display plan</option><option>Other</option>
-    </select>
-    <button class="primary" type="submit" value="ok">Skip move</button>
+    <select id="skipReason"><option>Stock already on its way</option><option>Store asked to hold</option><option>Count mismatch on shelf</option><option>Festival display plan</option><option>Other</option></select>
+    <button class="btn" type="submit" value="ok">Skip</button>
     <button class="tb mute" type="submit" value="cancel" formnovalidate>Not now</button>
   </form>
 </dialog>
 <script src="config/users.js"></script>
-<script src="out/moves.js" onerror="nextSrc()"></script>
+<script src="out/moves.js" onload="movesDone()" onerror="nextSrc()"></script>
+
+<!-- Firebase (public web config; analytics not loaded). Defines window.FB unless a test stub already did. -->
+<script type="module">
+if(window.FB){ window.dispatchEvent(new Event('fbready')); }
+else { try{
+  const {initializeApp} = await import('https://www.gstatic.com/firebasejs/13.4.0/firebase-app.js');
+  const A = await import('https://www.gstatic.com/firebasejs/13.4.0/firebase-auth.js');
+  const F = await import('https://www.gstatic.com/firebasejs/13.4.0/firebase-firestore.js');
+  const app = initializeApp({apiKey:'AIzaSyA2wwmi5gFPO9bdN2udyKghC3XTKPpwdq4',authDomain:'prompt-pirates.firebaseapp.com',projectId:'prompt-pirates',storageBucket:'prompt-pirates.firebasestorage.app',messagingSenderId:'509044834403',appId:'1:509044834403:web:479482288ced8419813856'});
+  const auth = A.getAuth(app), db = F.getFirestore(app);
+  const col = (...p)=>F.collection(db,...p);
+  // Firestore rules are not filters: scoped roles must query with a constraint.
+  const mconstraint = (u)=> u.role==='area_manager' ? F.where('stores','array-contains-any',u.stores.slice(0,30))
+    : (u.role==='warehouse'||u.role==='store_manager') ? F.where('stores','array-contains', u.role==='warehouse' ? (u.location_id||'WH-KOL') : u.store_id) : null;
+  const scoped = (c,u)=>{ const k=mconstraint(u); return k?F.query(c,k):c; };
+  window.FB = {
+    onAuth(cb){ return A.onAuthStateChanged(auth,u=>cb(u?{email:String(u.email||'').toLowerCase(),name:u.displayName||''}:null)); },
+    signIn(){ return A.signInWithPopup(auth,new A.GoogleAuthProvider()); },
+    signOut(){ return A.signOut(auth); },
+    async getUserDoc(email){ const s=await F.getDoc(F.doc(db,'users',email)); return s.exists()?s.data():null; },
+    async loadRun(u,runParam){
+      let runId=runParam;
+      if(!runId){ const s=await F.getDocs(F.query(col('runs'),F.orderBy(F.documentId(),'desc'),F.limit(1))); if(s.empty) throw new Error('no-run'); runId=s.docs[0].id; }
+      const rs=await F.getDoc(F.doc(db,'runs',runId)); if(!rs.exists()) throw new Error('no-run');
+      const data=rs.data(); const global=(u.role==='merchandiser'||u.role==='head');
+      const moves=(await F.getDocs(scoped(col('runs',runId,'moves'),u))).docs.map(d=>d.data());
+      let actions=[];
+      if(global) actions=(await F.getDocs(col('runs',runId,'actions'))).docs.map(d=>d.data());
+      else if(u.role==='area_manager'){ actions=(await F.getDocs(F.query(col('runs',runId,'actions'),F.where('store','in',u.stores.slice(0,30))))).docs.map(d=>d.data());
+        // scoped Sarvam text: a user may read only their own scope key
+        await Promise.all(actions.map(async a=>{ try{ const sd=await F.getDoc(F.doc(db,'runs',runId,'actions',a.action_id,'scoped',u.area_manager_id)); if(sd.exists()) a.scoped={[u.area_manager_id]:sd.data()}; }catch(e){} })); }
+      let blocked=[]; if(global){ try{ (await F.getDocs(col('runs',runId,'blocked'))).docs.forEach(d=>blocked=blocked.concat(d.data().rows||[])); }catch(e){} }
+      return {runId, data:Object.assign({},data,{moves,actions,blocked})};
+    },
+    onDecisions(runId,u,cb){ return F.onSnapshot(scoped(col('runs',runId,'decisions'),u),snap=>{const m={};snap.forEach(d=>m[d.id]=d.data());cb(m);},err=>cb(null,err)); },
+    saveDecision(runId,move,rec){ return F.setDoc(F.doc(db,'runs',runId,'decisions',move.move_id),Object.assign({},rec,{stores:[move.from,move.to],action_id:move.action_id||null})); }
+  };
+  window.dispatchEvent(new Event('fbready'));
+}catch(e){ window.__fbfail=true; window.dispatchEvent(new Event('fbfail')); } }
+</script>
+
 <script>
 (function(){
-var D, KEY, S = {}, storeOK = true, filt = {store:'', finding:''}, skipId = null, started = false;
-var tab = 'queue', briefStore = '';
-var TABS = [['queue','Queue'],['rescue','Rescue'],['ghost','Ghost stock'],['ageing','Ageing'],['brief','Morning brief'],['details','Details']];
-var lim = {ops:40, exc:40, rou:40, rescue:40, sus:40, ns:40, age:40, bo:40, bi:40, bw:40}, routineOpen = false, editing = {}, PAGE = 40;
-var $ = function(s){return document.querySelector(s)};
-var esc = function(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
-var rs = function(n){return 'Rs '+Number(n||0).toLocaleString('en-IN')};
-var shortDate = function(iso){ var d=new Date(iso+'T00:00:00'); return isNaN(d)?esc(iso):d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}); };
-var longDate = function(iso){ var d=new Date(iso+'T00:00:00'); return isNaN(d)?esc(iso):d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'long',year:'numeric'}); };
+/* ================= state ================= */
+var MODE=null, user=null, D=null, runId='', S={}, TICK={}, MIDX={}, MV=[], storeOK=true, screen='gate', gateErr='', waitEmail='', unsub=null;
+var view={seg:'all',store:'',briefStore:'',tab:'home'}, filt={finding:''}, findSet=null, sheet=null, lang='en', lim={acts:12}, editing={}, viewCache={}, actSet=null, skipId=null, skipAct=null, PAGE=10;
+var $=function(s){return document.querySelector(s)};
+var esc=function(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+var rs=function(n){return 'Rs '+Number(n||0).toLocaleString('en-IN')};
+var shortDate=function(iso){var d=new Date(iso+'T00:00:00');return isNaN(d)?esc(iso):d.toLocaleDateString('en-GB',{day:'numeric',month:'short'})};
+var shortWhen=function(iso){var d=new Date(iso);return isNaN(d)?'':d.toLocaleDateString('en-GB',{day:'numeric',month:'short'})};
+var longDate=function(iso){var d=new Date(iso+'T00:00:00');return isNaN(d)?esc(iso):d.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'})};
+function WHN(x){return x==='WH-KOL'?'the warehouse':x}
 
-
-/* ---- Demo access control. ONE place: scope() and deny()/can(). Client-side only, not security. ---- */
-var SESSKEY='stockmover:session', user=null, menuOpen=false, signErr='', signVal='', sessMem='', MV=[];
-var APPROVED = ['Approved','Picking','Dispatched','Received'];
-function isApproved(x){ return APPROVED.indexOf(x)>=0; }
-function getSess(){ try{ return localStorage.getItem(SESSKEY)||''; }catch(e){ return sessMem; } }
-function setSess(v){ sessMem=v; try{ if(v) localStorage.setItem(SESSKEY,v); else localStorage.removeItem(SESSKEY); }catch(e){} }
-function findUser(em){ em=String(em||'').trim().toLowerCase(); return (window.USERS||[]).filter(function(u){return u.email.toLowerCase()===em})[0]||null; }
-function roleOf(u){ return (window.ROLES||{})[u.role]||{label:u.role,can:[],tabs:['queue']}; }
-function roleCan(u,a){ return roleOf(u).can.indexOf(a)>=0; }
-function isGlobal(u){ return u.scope==='all'; }
+/* ================= roles (single source of truth with scope() and deny()) ================= */
+var ROLES={
+  merchandiser:{label:'Merchandiser',can:['decide','export_csv','export_pick','export_json'],tabs:['home','brief'],more:true},
+  head:{label:'Head of supply chain',can:['export_csv','export_pick','export_json'],tabs:['home','brief'],more:true},
+  area_manager:{label:'Area manager',can:['decide_scoped','export_csv'],tabs:['home','brief'],more:true},
+  warehouse:{label:'Warehouse lead',can:['pick','dispatch','export_pick'],tabs:['home'],more:true},
+  store_manager:{label:'Store manager',can:['receive'],tabs:['home'],more:false}
+};
+var TABNAME={home:'Actions',brief:'Morning brief'};
+function roleOf(u){return ROLES[u.role]||{label:u.role,can:[],tabs:['home'],more:false}}
+function roleCan(u,a){return roleOf(u).can.indexOf(a)>=0}
+function isGlobal(u){return u.scope==='all'}
 function scope(u,m){
   var c=u.scope; if(c==='all') return true;
-  if(c.stores) return c.stores.indexOf(m.from)>=0 || c.stores.indexOf(m.to)>=0;
-  if(c.source) return m.from===c.source || m.to===c.source;
+  if(c.stores) return c.stores.indexOf(m.from)>=0||c.stores.indexOf(m.to)>=0;
+  if(c.source) return m.from===c.source||m.to===c.source;
   return false;
 }
-// Returns '' when allowed, otherwise the plain-English reason (used for title text).
+// '' when allowed, else a plain-English reason.
 function deny(u,action,m){
   if(!scope(u,m)) return 'Outside your scope';
-  var L=roleOf(u).label;
   if(action==='decide'){
     if(roleCan(u,'decide')) return '';
     if(roleCan(u,'decide_scoped')){
       var ss=u.scope.stores||[];
-      if(ss.indexOf(m.from)<0 || ss.indexOf(m.to)<0) return 'Needs merchandiser: this move leaves your stores';
+      if(ss.indexOf(m.from)<0||ss.indexOf(m.to)<0) return 'Needs merchandiser: this move leaves your stores';
       if(m.needs_approval) return 'Needs merchandiser: over Rs 1,00,000';
+      if(typeof u.limit==='number' && u.limit>0 && m.value_mrp>u.limit) return 'Needs merchandiser: over your approval limit';
       return '';
     }
-    return 'Read only for '+L;
+    return 'Read only for '+roleOf(u).label;
   }
-  if(action==='pick'||action==='dispatch') return roleCan(u,action) && m.from===u.scope.source ? '' : 'Only the warehouse lead handles dispatch';
-  if(action==='receive') return roleCan(u,'receive') && (u.scope.stores||[]).indexOf(m.to)>=0 ? '' : 'Only the receiving store marks received';
+  if(action==='pick'||action==='dispatch') return roleCan(u,action)&&m.from===u.scope.source?'':'Only the warehouse lead handles dispatch';
+  if(action==='receive') return roleCan(u,'receive')&&(u.scope.stores||[]).indexOf(m.to)>=0?'':'Only the receiving store marks received';
   return 'Not allowed';
 }
-function can(u,action,m){ return deny(u,action,m)===''; }
-function userStoreList(u){ return u.scope==='all' ? null : (u.scope.stores || (u.scope.source?[u.scope.source]:[])); }
-function tabList(){ return roleOf(user).tabs.map(function(k){return TABS.filter(function(t){return t[0]===k})[0]}).filter(Boolean); }
-function firstName(em){ var u=findUser(em); return u? u.name.split(' ')[0] : String(em||''); }
-function initials(n){ return n.split(' ').filter(Boolean).slice(0,2).map(function(w){return w[0]}).join('').toUpperCase(); }
-function resetForUser(){
-  tab=tabList()[0][0]; filt={store:'',finding:''}; findSet=null; briefStore=''; routineOpen=false; editing={}; menuOpen=false; window.__vopen=false; resetLim();
-}
-function signIn(u){ setSess(u.email); user=u; signErr=''; signVal=''; resetForUser(); render(); }
-function signOut(){ setSess(''); user=null; menuOpen=false; render(); }
-function act(m,patch){ set(m,Object.assign({by:user.email,at:new Date().toISOString()},patch)); }
-var shortWhen = function(iso){ var d=new Date(iso); return isNaN(d)?'':d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}); };
-
-function gateHtml(){
-  var users = window.USERS||[], groups = {};
-  users.forEach(function(u){(groups[u.role]=groups[u.role]||[]).push(u)});
-  var h = '<div class="gate"><div class="brand">Stock Desk</div><h1>Sign in</h1><p class="muted" style="margin:0">Demo sign-in: no password, emails are made up.</p>'
-    + '<form id="signinForm" novalidate><label for="em">Work email</label><input id="em" name="email" type="email" autocomplete="off" inputmode="email" placeholder="name@manyavar.example" value="'+esc(signVal)+'"'+(signErr?' aria-invalid="true" aria-describedby="emerr"':'')+'>'
-    + '<p class="ferr" id="emerr" role="alert">'+esc(signErr)+'</p><button class="primary" type="submit">Continue</button></form>'
-    + '<h2>Demo users</h2>';
-  Object.keys(window.ROLES||{}).forEach(function(r){ (groups[r]||[]).forEach(function(u){
-    h += '<button class="ubtn" data-act="demoUser" data-email="'+esc(u.email)+'"><b style="font-weight:500">'+esc(u.name)+'</b><span>'+esc(roleOf(u).label)+(u.scope==='all'?'':' &middot; '+esc(userStoreList(u).length>2?userStoreList(u)[0]+' +'+(userStoreList(u).length-1):userStoreList(u).join(', ')))+'</span></button>'; }); });
-  return h+'<p class="foot">Client-side demo only. Anyone can read this page\'s source; real access control needs a server.</p></div>';
-}
-function menuHtml(){
-  var users = window.USERS||[], h = '<div class="menu" role="menu">';
-  Object.keys(window.ROLES||{}).forEach(function(r){
-    var g = users.filter(function(u){return u.role===r}); if(!g.length) return;
-    h += '<h3>'+esc(window.ROLES[r].label)+'</h3>'+g.map(function(u){return '<button class="mi" role="menuitem" data-act="switch" data-email="'+esc(u.email)+'"'+(u.email===user.email?' aria-current="true"':'')+'>'+esc(u.name)+'</button>'}).join('');
-  });
-  return h+'<h3>Account</h3><button class="mi" role="menuitem" data-act="signout">Sign out</button></div>';
+function can(u,a,m){return deny(u,a,m)===''}
+function userStoreList(u){return u.scope==='all'?null:(u.scope.stores||(u.scope.source?[u.scope.source]:[]))}
+function firstName(em){var n=(window.USERS||[]).filter(function(u){return u.email===em})[0];return n?n.name.split(' ')[0]:String(em||'').split('@')[0]}
+function initials(n){return String(n||'?').split(' ').filter(Boolean).slice(0,2).map(function(w){return w[0]}).join('').toUpperCase()}
+// Firestore users/{email} doc -> internal user
+function fromDoc(d,email,gName){
+  var u={email:email,name:d.displayName||gName||email,role:d.role,limit:d.approval_limit_rs,language:d.language};
+  if(d.role==='merchandiser'||d.role==='head') u.scope='all';
+  else if(d.role==='area_manager'){u.scope={stores:d.stores||[]};u.stores=d.stores||[];u.area_manager_id=d.area_manager_id||'';}
+  else if(d.role==='warehouse'){u.scope={source:d.location_id||'WH-KOL'};u.location_id=d.location_id||'WH-KOL';}
+  else if(d.role==='store_manager'){u.scope={stores:[d.store_id]};u.store_id=d.store_id;}
+  else u.scope={stores:[]};
+  return u;
 }
 
-window.boot = function(){
-  if(started) return; started = true;
-  if(window.__noData || !window.MOVES){ $('#app').innerHTML='<div class="err"><h2>No data found</h2><p class="muted">Run <code>python engine/run.py --date YYYY-MM-DD</code> to create <code>out/moves.js</code>, then reload.</p></div>'; return; }
-  D = window.MOVES; KEY = 'stockmover:' + D.run.date;
-  try{ S = JSON.parse(localStorage.getItem(KEY)||'{}') || {}; }catch(e){ S = {}; storeOK = false; }
-  if(!window.USERS||!window.ROLES){ $('#app').innerHTML='<div class="err"><h2>Users file missing</h2><p class="muted">config/users.js did not load.</p></div>'; return; }
-  user = findUser(getSess()); if(user) resetForUser();
-  render();
+/* ================= data-access adapters (same interface: Firebase = window.FB, demo = LOCAL) ================= */
+function whenMoves(){return new Promise(function(res,rej){
+  if(window.MOVES) return res(); if(window.__noData) return rej(new Error('nodata'));
+  window.addEventListener('movesloaded',function(){window.MOVES?res():rej(new Error('nodata'))},{once:true});
+  window.addEventListener('nodata',function(){rej(new Error('nodata'))},{once:true});
+});}
+var LS={}, lsKey='';
+var LOCAL={
+  onAuth:function(){return function(){}},
+  async loadRun(u){await whenMoves();lsKey='stockmover:'+window.MOVES.run.date;try{LS=JSON.parse(localStorage.getItem(lsKey)||'{}')||{}}catch(e){LS={};storeOK=false}return {runId:window.MOVES.run.date,data:window.MOVES}},
+  onDecisions:function(rid,u,cb){setTimeout(function(){cb(LS)},0);return function(){}},
+  saveDecision:function(rid,m,rec){LS[m.move_id]=rec;try{localStorage.setItem(lsKey,JSON.stringify(LS))}catch(e){storeOK=false}return Promise.resolve()}
 };
-if(window.MOVES) window.boot();
-else document.addEventListener('DOMContentLoaded', function(){ if(window.MOVES) window.boot(); });
+function DA(){return MODE==='demo'?LOCAL:window.FB}
+function whenFB(ms){return new Promise(function(res){
+  if(window.FB) return res(true); if(window.__fbfail) return res(false);
+  var done=false, f=function(v){if(!done){done=true;res(v)}};
+  window.addEventListener('fbready',function(){f(true)},{once:true}); window.addEventListener('fbfail',function(){f(false)},{once:true});
+  setTimeout(function(){f(!!window.FB)},ms||10000);
+});}
 
-function persist(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){ storeOK=false; } }
-// Routine default ticked, exceptions never. Qty default = proposed.
-function st(m){ var s=S[m.move_id]||{}; return {
-  status: s.status||'Proposed',
-  qty: clamp(s.qty!=null?s.qty:m.qty, m),
-  skip_reason: s.skip_reason||'', by: s.by||'', at: s.at||'',
-  ticked: s.ticked!=null ? !!s.ticked : (m.routine===true) }; }
-function set(m,patch){ S[m.move_id]=Object.assign({},S[m.move_id]||{},patch); persist(); }
-function clamp(q,m){ q=Math.floor(Number(q)); if(!isFinite(q)) q=m.qty; return Math.max(1,Math.min(m.qty,q)); }
+/* ================= decisions ================= */
+function st(m){var s=S[m.move_id]||{};return {status:s.status||'Proposed',qty:clamp(s.qty!=null?s.qty:m.qty,m),skip_reason:s.skip_reason||'',by:s.by||'',at:s.at||'',ticked:TICK[m.move_id]!=null?!!TICK[m.move_id]:(m.routine===true)}}
+function clamp(q,m){q=Math.floor(Number(q));if(!isFinite(q))q=m.qty;return Math.max(1,Math.min(m.qty,q))}
+var APPROVED=['Approved','Picking','Dispatched','Received'];
+function isApproved(x){return APPROVED.indexOf(x)>=0}
+function byId(id){return MIDX[id]}
+function act(m,patch){
+  var cur=S[m.move_id]||{};
+  var rec={status:cur.status||'Proposed',qty:cur.qty!=null?cur.qty:m.qty,skip_reason:cur.skip_reason||'',by:user.email,at:new Date().toISOString()};
+  Object.keys(patch).forEach(function(k){if(k==='ticked')TICK[m.move_id]=patch[k];else rec[k]=patch[k]});
+  S[m.move_id]=rec;
+  var p=DA().saveDecision(runId,m,rec); if(p&&p.catch) p.catch(function(){gateErr='Could not save. Check your connection.';});
+}
 
-var findSet = null;
+/* ================= visibility ================= */
 function visible(m){
-  if(filt.store && m.from!==filt.store && m.to!==filt.store) return false;
-  if(filt.finding){
-    if((m.finding_ids||[]).indexOf(filt.finding)>=0) return true;
-    return !!(findSet && findSet[m.move_id]);
-  }
+  if(view.store&&m.from!==view.store&&m.to!==view.store) return false;
+  if(filt.finding){ if((m.finding_ids||[]).indexOf(filt.finding)>=0) return true; return !!(findSet&&findSet[m.move_id]); }
   return true;
 }
-function setFinding(id){
-  filt.finding = id; findSet = null;
-  if(id){ var f=(D.findings||[]).filter(function(x){return x.id===id})[0]; findSet={}; ((f&&f.move_ids)||[]).forEach(function(k){findSet[k]=1}); }
-  resetLim();
-}
-
-function resetLim(){ Object.keys(lim).forEach(function(k){lim[k]=PAGE}); }
+function setFinding(id){filt.finding=id;findSet=null;if(id){var f=(D.findings||[]).filter(function(x){return x.id===id})[0];findSet={};((f&&f.move_ids)||[]).forEach(function(k){findSet[k]=1})}lim.acts=12}
 function evText(e){
-  if(e==null) return '';
-  if(typeof e==='string') return e;
-  var one=function(o){return typeof o==='object'&&o ? Object.keys(o).map(function(k){return k.replace(/_/g,' ')+' '+o[k]}).join(', ') : String(o)};
+  if(e==null) return ''; if(typeof e==='string') return e;
+  var one=function(o){return typeof o==='object'&&o?Object.keys(o).map(function(k){return k.replace(/_/g,' ')+' '+o[k]}).join(', '):String(o)};
   if(Array.isArray(e)) return e.slice(0,2).map(one).join(' | ')+(e.length>2?' (+'+(e.length-2)+' more)':'');
   return one(e);
 }
 
-function more(n,key,total){ return total>n ? '<div class="more"><button class="tb" data-act="more" data-g="'+key+'">Show '+Math.min(PAGE,total-n)+' more ('+(total-n)+' left)</button></div>' : ''; }
-function storeFilter(stores){
-  return '<div class="filters"><label>Store <select id="storeSel"><option value="">All stores</option>'+stores.map(function(x){return '<option'+(filt.store===x?' selected':'')+'>'+esc(x)+'</option>'}).join('')+'</select></label>'
-    + (filt.finding?'<button class="tb" data-act="clearFind">Showing '+esc(filt.finding)+' only. Clear</button>':'')+'</div>';
-}
-function render(){
-  if(!user){ $('#app').innerHTML = gateHtml(); return; }
-  var v = D.validator, moves = D.moves.filter(function(m){return scope(user,m)}); MV = moves;
-  var vis = moves.filter(visible);
-  var exc = vis.filter(function(m){return !m.routine}), rou = vis.filter(function(m){return m.routine});
-  var nApproved = moves.filter(function(m){return isApproved(st(m).status)}).length;
-  var storeSet = {}; moves.forEach(function(m){storeSet[m.from]=1;storeSet[m.to]=1});
-  var stores = Object.keys(storeSet).sort();
-  var ul = userStoreList(user), bstores = ul||stores;
-  var glob = isGlobal(user), decider = roleCan(user,'decide')||roleCan(user,'decide_scoped');
-  var nExc = moves.filter(function(m){return !m.routine}).length, nRou = moves.length-nExc;
-  var units = moves.reduce(function(t,m){return t+m.qty},0), value = moves.reduce(function(t,m){return t+m.value_mrp},0);
-  var pendingExc = moves.filter(function(m){return !m.routine && st(m).status==='Proposed'}).length;
-  var pendingAll = moves.filter(function(m){return st(m).status==='Proposed'}).length;
-  var tl = tabList(); if(!tl.some(function(t){return t[0]===tab})) tab = tl[0][0];
-  var h = '<header><span class="brand">Stock Desk</span><div class="who"><button class="whobtn" data-act="menu" aria-expanded="'+menuOpen+'" aria-haspopup="true" aria-label="Account menu for '+esc(user.name)+', '+esc(roleOf(user).label)+'"><span class="av" aria-hidden="true">'+esc(initials(user.name))+'</span><span class="wn"><b style="font-weight:500">'+esc(user.name)+'</b><span>'+esc(roleOf(user).label)+'</span></span></button>'+(menuOpen?menuHtml():'')+'</div></header>';
-  h += '<section class="summary"><p class="muted" style="font-size:13px;margin:0 0 8px">'+longDate(D.run.date)+'</p><h1>'
-    + (decider ? esc(pendingExc)+' of '+esc(nExc)+' exceptions need '+(glob?'you':'a decision')+'. The other '+esc(nRou)+' are routine.' : esc(moves.length.toLocaleString('en-IN'))+' moves in your view, '+esc(pendingAll.toLocaleString('en-IN'))+' awaiting approval.')+'</h1>'
-    + '<div class="nums"><div class="hl"><b>'+esc(moves.length.toLocaleString('en-IN'))+'</b>moves</div><div><b>'+esc(units.toLocaleString('en-IN'))+'</b>units</div><div><b>'+rs(value)+'</b>at MRP</div></div>'
-    + '<p class="muted" style="font-size:13px;margin:14px 0 0">'+nApproved+' approved so far.'+(storeOK?'':' Browser storage is unavailable: decisions last until you close this page. Export approvals.json to keep them.')+'</p></section>';
-  if(glob) h += validatorHtml(v, moves.length);
-  else { var vok = v && v.violations===0; h += '<div class="val"><span class="dot '+(vok?'':(v&&v.violations!=null?'bad':'na'))+'" aria-hidden="true"></span>'+(vok?'Independent rule check passed':(v&&v.violations!=null?'Rule check found violations. Ask the merchandiser.':'Rule check did not run. Ask the merchandiser.'))+'</div>'; }
-  var rescue = vis.filter(function(m){return m.type!=='PULL_BACK'}), age = vis.filter(function(m){return m.type==='PULL_BACK'});
-  var cnt = {queue:exc.length+rou.length, rescue:rescue.length, ghost:glob?(D.not_slow||[]).length:null, ageing:age.length};
-  h += '<div class="tabs" role="tablist" aria-label="Sections">'+tl.map(function(t){return '<button role="tab" id="tab-'+t[0]+'" aria-selected="'+(tab===t[0])+'" aria-controls="panel" tabindex="'+(tab===t[0]?0:-1)+'" data-act="tab" data-t="'+t[0]+'">'+t[1]+(cnt[t[0]]!=null?' ('+cnt[t[0]].toLocaleString('en-IN')+')':'')+'</button>'}).join('')+'</div>';
-  h += '<div id="panel" role="tabpanel" aria-labelledby="tab-'+tab+'">';
-  var bar = '';
-  if(tab==='queue'){
-    var opsRole = user.role==='warehouse'||user.role==='store_manager';
-    var ops = [];
-    if(opsRole){
-      ops = vis.filter(function(m){ return isApproved(st(m).status) && (user.role==='warehouse' ? m.from===user.scope.source : user.scope.stores.indexOf(m.to)>=0); });
-      var inOps = {}; ops.forEach(function(m){inOps[m.move_id]=1});
-      exc = exc.filter(function(m){return !inOps[m.move_id]}); rou = rou.filter(function(m){return !inOps[m.move_id]});
-      var rk = user.role==='warehouse' ? {Picking:0,Approved:1,Dispatched:2,Received:3} : {Dispatched:0,Picking:1,Approved:2,Received:3}; ops.sort(function(a,b){return rk[st(a).status]-rk[st(b).status]||a.to.localeCompare(b.to)});
-    }
-    h += storeFilter(stores);
-    if(opsRole) h += '<section class="sec"><div class="sech"><h2>'+(user.role==='warehouse'?'Approved, ready to pick':'Approved, on the way to you')+' ('+ops.length+')</h2></div>'
-      + (ops.length? ops.slice(0,lim.ops).map(rowHtml).join('') : '<p class="empty">Nothing approved yet. Approved moves appear here.</p>') + more(lim.ops,'ops',ops.length)+'</section>';
-    h += '<section class="sec"><div class="sech"><h2>'+(decider?'Needs your decision':'Awaiting approval')+' ('+exc.length+')</h2></div><p class="lead">Each item below is a stock move. Approve sends it to the warehouse / store teams; Skip removes it for today.</p>'
-      + (exc.length? exc.slice(0,lim.exc).map(rowHtml).join('') : '<p class="empty">Nothing here.</p>') + more(lim.exc,'exc',exc.length)+'</section>';
-    var okR = rou.filter(function(m){return can(user,'decide',m)});
-    var pend = okR.filter(function(m){var s=st(m);return s.status==='Proposed'&&s.ticked}).length;
-    var done = okR.filter(function(m){return st(m).status==='Approved'}).length;
-    h += '<section class="sec"><div class="sech"><h2>Routine ('+rou.length+')</h2><button class="tb" data-act="toggleRoutine" aria-expanded="'+routineOpen+'">'+(routineOpen?'Hide list':'Review list')+'</button></div><p class="lead">Routine moves: low value, within all rules, no warnings.</p>';
-    if(routineOpen) h += (rou.length? rou.slice(0,lim.rou).map(rowHtml).join('') : '<p class="empty">Nothing here.</p>') + more(lim.rou,'rou',rou.length);
-    h += '</section>';
-    if(!tl.some(function(t){return t[0]==='details'}) && exportsHtml()) h += '<section class="sec"><div class="sech"><h2>Export</h2></div>'+exportsHtml()+'</section>';
-    if(decider) bar = '<div class="sticky"><div>'+(pend||!done?'<button class="primary" data-act="approveRoutine"'+(pend?'':' disabled')+(pend?'':' title="No routine moves left that you may approve"')+'>Approve all routine ('+pend+')</button>':'<span class="st Approved">'+done+' routine approved</span>')
-      + (done?'<button class="tb" data-act="reopenRoutine">Undo / reopen ('+done+')</button>':'')+'</div></div>';
-  } else if(tab==='rescue'){
-    // Urgency = lowest cover before the move (evidence), then nearest event. Contract has no explicit urgency field.
-    var u = function(m){var e=m.evidence||{};return e.to_cover_before==null?9999:e.to_cover_before};
-    rescue = rescue.slice().sort(function(a,b){return u(a)-u(b)||((a.evidence&&a.evidence.event?a.evidence.event.days_away:999)-(b.evidence&&b.evidence.event?b.evidence.event.days_away:999))||b.value_mrp-a.value_mrp});
-    h += storeFilter(stores)+'<p class="lead">Stores about to run out, lowest cover first. Warehouse and store-to-store moves.</p>'
-      + (rescue.length? rescue.slice(0,lim.rescue).map(rowHtml).join('') : '<p class="empty">Nothing here.</p>') + more(lim.rescue,'rescue',rescue.length);
-  } else if(tab==='ghost'){
-    var ns = D.not_slow||[], de = (D.findings||[]).filter(function(x){return x.kind==='DATA_ERROR'}), sus = (D.blocked||[]).filter(function(x){return x.rule==='DATA_SUSPECT'});
-    h += '<p class="lead">Stock that looks wrong or slow but is not. Recount these before anyone moves them.</p>';
-    h += '<section class="sec"><div class="sech"><h2>Recount this ('+de.length+' findings, '+sus.length+' rows held)</h2></div>'
-      + de.map(function(x){return '<div class="find"><b>'+esc(x.title)+'</b>'+(x.value_rs?' <span class="muted">&middot; '+rs(x.value_rs)+' at MRP</span>':'')+'<p>'+esc(evText(x.evidence))+'</p>'+(x.action?'<p>'+esc(x.action)+'</p>':'')+'</div>'}).join('')
-      + sus.slice(0,lim.sus).map(function(x){return '<div class="line"><b>Recount '+esc(x.from)+' '+esc(x.sku_id)+'</b><span class="sub">'+esc(x.detail)+'</span></div>'}).join('')+more(lim.sus,'sus',sus.length)
-      + (de.length||sus.length?'':'<p class="empty">Nothing to recount.</p>')+'</section>';
-    h += '<section class="sec"><div class="sech"><h2>Looks slow, is not ('+ns.length.toLocaleString('en-IN')+')</h2></div>'
-      + ns.slice(0,lim.ns).map(function(x){return '<div class="line"><b>'+esc(x.store_id)+' '+esc(x.sku_id)+'</b> <span class="muted">&middot; '+esc(x.on_hand)+' on hand, '+esc(x.in_stock_days_28)+' in-stock days</span><span class="sub">'+esc(x.note)+'</span></div>'}).join('')
-      + (ns.length?'':'<p class="empty">Nothing here.</p>')+more(lim.ns,'ns',ns.length)+'</section>';
-  } else if(tab==='ageing'){
-    var g = {}; age.forEach(function(m){var k=m.from;(g[k]=g[k]||{store:k,units:0,val:0,list:[]});g[k].units+=m.qty;g[k].val+=m.value_mrp;g[k].list.push(m)});
-    var groups = Object.keys(g).map(function(k){return g[k]}).sort(function(a,b){return b.val-a.val});
-    var total = age.reduce(function(t,m){return t+m.value_mrp},0), flat = [];
-    groups.forEach(function(x){x.list.sort(function(a,b){return b.value_mrp-a.value_mrp}); flat.push({head:x}); x.list.forEach(function(m){flat.push({m:m})})});
-    h += storeFilter(stores)+'<p class="lead">Ageing stock to bring back to the warehouse: '+rs(total)+' tied up across '+groups.length+' stores.</p>';
-    var shown = 0, out = '';
-    flat.forEach(function(it){ if(it.head){ if(shown<lim.age) out += '<div class="gh"><div>'+esc(it.head.store)+'</div><span>'+it.head.units+' units &middot; '+rs(it.head.val)+' tied up</span></div>'; } else if(shown<lim.age){ out += rowHtml(it.m); shown++; } });
-    h += (age.length? out : '<p class="empty">Nothing here.</p>') + more(lim.age,'age',age.length);
-  } else if(tab==='brief'){
-    if(!briefStore || bstores.indexOf(briefStore)<0) briefStore = bstores.filter(function(x){return x!=='WH-KOL'})[0]||bstores[0]||'';
-    var bs = briefStore, sendOut = moves.filter(function(m){return m.from===bs}), exp = moves.filter(function(m){return m.to===bs});
-    var watchM = moves.filter(function(m){return (m.from===bs||m.to===bs) && ((m.warnings||[]).length||m.needs_approval)});
-    var rel = !glob ? [] : (D.findings||[]).filter(function(x){return (x.move_ids||[]).some(function(id){var m=byId(id);return m&&(m.from===bs||m.to===bs)}) || evText(x.evidence).indexOf(bs)>=0});
-    h += '<div class="filters"><label>Store <select id="briefSel">'+bstores.map(function(x){return '<option'+(bs===x?' selected':'')+'>'+esc(x)+'</option>'}).join('')+'</select></label></div>';
-    var ln = function(m,who){var q=st(m).qty;return '<div class="line"><span class="actl" style="font-size:15px">'+esc(actionText(m,q))+'</span><span class="sub">'+subLine(m,q)+' &middot; '+st(m).status.toLowerCase()+'</span><span class="sub" style="color:var(--text)">'+esc(m.reason)+'</span></div>'};
-    h += '<h3 class="bh">Send out ('+sendOut.length+')</h3>'+(sendOut.slice(0,lim.bo).map(function(m){return ln(m,'to '+m.to)}).join('')||'<p class="empty">Nothing leaving this store.</p>')+more(lim.bo,'bo',sendOut.length);
-    h += '<h3 class="bh">Expect in ('+exp.length+')</h3>'+(exp.slice(0,lim.bi).map(function(m){return ln(m,'from '+m.from)}).join('')||'<p class="empty">Nothing arriving.</p>')+more(lim.bi,'bi',exp.length);
-    h += '<h3 class="bh">Watch ('+(watchM.length+rel.length)+')</h3>'+rel.map(function(x){return '<div class="line"><b>'+esc(x.title)+'</b><span class="sub">'+esc(evText(x.evidence))+'</span></div>'}).join('')
-      + watchM.slice(0,lim.bw).map(function(m){return '<div class="line">'+esc(m.from)+' &rarr; '+esc(m.to)+' &middot; '+esc(m.style_name)+' '+esc(m.size)+'<span class="sub">'+(m.warnings||[]).map(function(x){return esc(x.replace(/_/g,' ').toLowerCase())}).concat(m.needs_approval?['over Rs 1,00,000']:[]).join(', ')+'</span></div>'}).join('')
-      + (watchM.length+rel.length?'':'<p class="empty">Nothing to watch.</p>')+more(lim.bw,'bw',watchM.length);
-  } else {
-    h += findingsHtml();
-    h += '<section class="sec"><div class="sech"><h2>Details</h2></div>'+blockedHtml()+auditHtml()
-      + '<details id="assume"><summary>Assumptions and ambiguities</summary>'+((D.assumptions||[]).length?'<ul class="as">'+D.assumptions.map(function(a){return '<li>'+esc(a)+'</li>'}).join('')+'</ul>':'<p class="note">None recorded.</p>')+'</details>'
-      + '<details id="exports" open><summary>Exports</summary>'+exportsHtml()+'</details></section>';
-  }
-  h += '</div><p class="foot">Client-side demo only. Anyone can read this page\'s source; real access control needs a server.</p>'+bar;
-  var open = {}; document.querySelectorAll('details[id]').forEach(function(d){open[d.id]=d.open});
-  var fid = document.activeElement && document.activeElement.id;
-  $('#app').innerHTML = h;
-  Object.keys(open).forEach(function(k){var d=document.getElementById(k); if(d) d.open=open[k]});
-  if(fid){ var e=document.getElementById(fid); if(e) e.focus(); }
-}
-
-function validatorHtml(v, n){
-  var na = v==null || v.violations==null, bad = !na && v.violations>0;
-  var text = na ? 'Validator did not run. These moves are unchecked: do not approve until it runs.'
-    : bad ? v.violations+' rule violation'+(v.violations===1?'':'s')+' found. Review before approving.'
-    : (v.badge || ('0 of '+(v.checked!=null?v.checked:n)+' moves break 8 rules'));
-  var h = '<div class="val"><button data-act="vtoggle" aria-expanded="'+(!!window.__vopen)+'" aria-controls="vdetail"><span class="dot '+(na?'na':bad?'bad':'')+'" aria-hidden="true"></span>'+esc(text)+' <span class="muted">'+(window.__vopen?'Hide':'Details')+'</span></button>';
-  h += '<div id="vdetail" class="vd"'+(window.__vopen?'':' hidden')+'>';
-  if(!na){
-    var cnt = {}; (v.details||[]).forEach(function(d){cnt[d.rule]=(cnt[d.rule]||0)+1});
-    var names = {R1:'Min display',R2:'Capacity',R3:'Flagship',R4:'In transit',R5:'Donor cover',R6:'Approval',R7:'Lead time',R8:'Conservation'};
-    h += (v.rules||[]).map(function(r){return '<span style="color:'+(cnt[r]?'var(--bad)':'var(--ok)')+'">'+(cnt[r]?'&#10007; ':'&#10003; ')+esc(r)+' '+esc(names[r]||'')+(cnt[r]?' ('+cnt[r]+')':'')+'</span>'}).join('');
-    if((v.details||[]).length) h += '<table>'+v.details.slice(0,50).map(function(d){return '<tr><td>'+esc(d.move_id)+'</td><td>'+esc(d.rule)+'</td><td>'+esc(d.detail)+'</td></tr>'}).join('')+'</table>';
-  }
-  return h+'<p style="margin:6px 0 0">How checked: a separate program that never imports the engine re-reads the raw CSVs and re-tests the whole list in combination.</p></div></div>';
-}
-
-function findingsHtml(){
-  var f = D.findings||[]; if(!f.length) return '';
-  var lbl = {REAL_PROBLEM:'Real problem',DATA_ERROR:'Data error',CONTEXT:'Context'};
-  return '<section class="sec"><div class="sech"><h2>What the data is telling us</h2></div>'+f.map(function(x){
-    var n=(x.move_ids||[]).length;
-    return '<div class="find"><span class="kind">'+esc(lbl[x.kind]||x.kind)+'</span><div><b>'+esc(x.title)+'</b>'+(x.value_rs?' <span class="muted">&middot; '+rs(x.value_rs)+'</span>':'')+'</div><p>'+esc(evText(x.evidence))+'</p>'
-      +(x.action?'<p>'+esc(x.action)+'</p>':'')
-      +(n?'<button class="tb" data-act="findMoves" data-id="'+esc(x.id)+'" aria-pressed="'+(filt.finding===x.id)+'">See '+n+' move'+(n===1?'':'s')+'</button>':'')+'</div>';
-  }).join('')+'</section>';
-}
-
-function WHN(x){return x==='WH-KOL'?'the warehouse':x}
+/* ================= wording ================= */
 function actionText(m,q){
-  var item = q+' x '+m.style_name+' ('+m.size+')';
+  var item=q+' x '+m.style_name+' ('+m.size+')';
   if(m.type==='PULL_BACK') return 'Bring '+item+' back from '+WHN(m.from)+' to '+WHN(m.to);
   if(m.type==='WH_TO_STORE') return 'Send '+item+' from '+WHN(m.from)+' to '+WHN(m.to);
   return 'Move '+item+' from '+WHN(m.from)+' to '+WHN(m.to);
 }
 function becauseText(m){
-  var BECAUSE_ = {THIN_DATA:'there is little sales history, so the demand estimate is shaky', CROSS_ZONE:'it ships across zones, which takes 7 days', BELOW_MIN_DISPLAY_RECEIVER:'the receiving store is below its minimum display'};
-  var r = [];
-  if(m.needs_approval) r.push('the move is worth over Rs 1,00,000');
-  (m.warnings||[]).forEach(function(w){ r.push(w==='NEW_STORE' ? (m.type==='PULL_BACK'?m.from:m.to)+' is a new store with almost no history' : (BECAUSE_[w]||String(w).toLowerCase().replace(/_/g,' '))); });
-  return r.length ? r.join('; ') : 'it is flagged for review';
+  var B={THIN_DATA:'there is little sales history, so the demand estimate is shaky',CROSS_ZONE:'it ships across zones, which takes 7 days',BELOW_MIN_DISPLAY_RECEIVER:'the receiving store is below its minimum display'};
+  var r=[]; if(m.needs_approval) r.push('the move is worth over Rs 1,00,000');
+  (m.warnings||[]).forEach(function(w){r.push(w==='NEW_STORE'?(m.type==='PULL_BACK'?m.from:m.to)+' is a new store with almost no history':(B[w]||String(w).toLowerCase().replace(/_/g,' ')))});
+  return r.length?r.join('; '):'it is flagged for review';
 }
-function subLine(m,q){
-  return 'Arrives '+shortDate(m.arrives_on)+' (in '+esc(m.lead_days)+' days) &middot; '+rs(q*m.mrp)+' at MRP &middot; SKU '+esc(m.sku_id)+(q!==m.qty?' &middot; proposed '+m.qty:'');
+function subLine(m,q){return 'Arrives '+shortDate(m.arrives_on)+' (in '+esc(m.lead_days)+' days) &middot; '+rs(q*m.mrp)+' at MRP &middot; SKU '+esc(m.sku_id)+(q!==m.qty?' &middot; proposed '+m.qty:'')}
+
+/* ================= actions (cards) ================= */
+function sourceActions(){
+  if(D.actions&&D.actions.length) return D.actions;
+  var g={},out=[];  // no engine actions: group moves the same way (UI grouping only)
+  (D.moves||[]).forEach(function(m){var k=m.action_id||(m.type==='PULL_BACK'?'CLEAR:'+m.from:'RESTOCK:'+m.to);(g[k]=g[k]||{action_id:k,kind:k.split(':')[0],store:k.split(':')[1],move_ids:[]}).move_ids.push(m.move_id)});
+  Object.keys(g).forEach(function(k){out.push(g[k])});
+  return out;
 }
-function exportsHtml(){
-  var b = [];
-  if(roleCan(user,'export_csv')) b.push('<button class="primary" data-act="csv">Export approved CSV</button>');
-  if(roleCan(user,'export_pick')) b.push('<button class="tb" data-act="pick">Pick list CSV</button>');
-  if(roleCan(user,'export_json')) b.push('<button class="tb" data-act="json">Approvals JSON</button>');
-  return b.length ? '<div class="acts" style="padding:4px 0 14px">'+b.join('')+'</div>' : '';
+function buildViews(skip){
+  var out=[];
+  sourceActions().forEach(function(a){
+    var all=(a.move_ids||[]).map(byId).filter(Boolean);
+    var perm=all.filter(function(m){return scope(user,m)});
+    if(!perm.length) return;
+    var shown=perm.filter(function(m){return !(skip&&skip[m.move_id])&&visible(m)});
+    if(!shown.length) return;
+    if(view.seg==='restock'&&a.kind!=='RESTOCK') return; if(view.seg==='clear'&&a.kind!=='CLEAR') return;
+    shown.sort(function(x,y){return (x.routine-y.routine)||y.value_mrp-x.value_mrp});
+    out.push(decorate({a:a,shown:shown,total:(a.move_ids||[]).length,full:perm.length===(a.move_ids||[]).length&&shown.length===perm.length,perm:perm.length}));
+  });
+  return out;
 }
-function rowHtml(m){
-  var s = st(m), w = m.warnings||[], id = esc(m.move_id), locked = s.status!=='Proposed';
-  var why = deny(user,'decide',m), canD = why==='';
-  var h = '<article class="row '+s.status+'" data-id="'+id+'"><div class="rt">'
-    + (m.routine&&canD?'<input type="checkbox" data-act="tick" data-id="'+id+'"'+(s.ticked?' checked':'')+(locked?' disabled':'')+' aria-label="Select for bulk approval: '+esc(actionText(m,s.qty))+'">':'')
-    + '<div><div class="actl">'+esc(actionText(m,s.qty))+'</div><div class="sub">'+subLine(m,s.qty)+'</div><div class="why">'+esc(m.reason)+'</div>'
-    + (m.routine?'':'<div class="because"><b>'+(roleCan(user,'decide')||roleCan(user,'decide_scoped')?'Needs your decision because:':'Needs a decision because:')+'</b> '+esc(becauseText(m))+'</div>')+'</div></div>';
-  var a = '';
-  if(locked){
-    a += '<span class="st '+s.status+'">'+esc(s.status)+(s.skip_reason?': '+esc(s.skip_reason):'')+'</span>'+(s.by?'<span class="sub">by '+esc(firstName(s.by))+' on '+shortWhen(s.at)+'</span>':'');
-    if(canD && (s.status==='Approved'||s.status==='Skipped')) a += '<button class="tb" data-act="undo" data-id="'+id+'">Undo</button>';
-    if(s.status==='Approved' && can(user,'pick',m)) a += '<button class="tb" data-act="setStatus" data-to="Picking" data-id="'+id+'">Mark picking</button>';
-    if(s.status==='Picking' && can(user,'dispatch',m)) a += '<button class="tb" data-act="setStatus" data-to="Dispatched" data-id="'+id+'">Mark dispatched</button>';
-    if(isApproved(s.status) && s.status!=='Received' && can(user,'receive',m)) a += '<button class="tb" data-act="setStatus" data-to="Received" data-id="'+id+'">Mark received</button>';
-  } else if(canD){
-    a += '<button class="tb" data-act="approve" data-id="'+id+'">Approve</button><button class="tb mute" data-act="skip" data-id="'+id+'">Skip</button><button class="tb mute" data-act="editq" data-id="'+id+'" aria-expanded="'+!!editing[m.move_id]+'">Edit qty</button>';
-  } else {
-    a += '<span class="rq" tabindex="0" title="'+esc(why)+'" aria-label="'+esc(why)+'">'+(roleCan(user,'decide_scoped')?'Needs merchandiser':'Read only')+'</span>';
+function decorate(v){
+  var a=v.a,ms=v.shown;
+  v.n=ms.length; v.units=ms.reduce(function(t,m){return t+st(m).qty},0); v.value=ms.reduce(function(t,m){return t+st(m).qty*m.mrp},0);
+  v.pendExc=ms.filter(function(m){return !m.routine&&st(m).status==='Proposed'}).length;
+  var okR=ms.filter(function(m){return m.routine&&can(user,'decide',m)});
+  v.pend=okR.filter(function(m){var s=st(m);return s.status==='Proposed'&&s.ticked}).length;
+  v.done=okR.filter(function(m){return st(m).status==='Approved'}).length;
+  v.open=ms.filter(function(m){return st(m).status==='Proposed'&&can(user,'decide',m)}).length;
+  v.decided=ms.filter(function(m){return st(m).status!=='Proposed'}).length;
+  var cov=ms.filter(function(m){return m.type!=='PULL_BACK'}).map(function(m){return m.evidence&&m.evidence.to_cover_before}).filter(function(x){return x!=null}).sort(function(x,y){return x-y});
+  v.cover=a.kind==='CLEAR'?null:(cov.length?cov[0]:(a.urgency!=null?a.urgency:null));
+  var hs=lang==='hi'&&a.summary_hi;
+  v.hi=!!hs;
+  var dd=ms.map(function(m){return m.dispatch_on}).sort()[0], aa=ms.map(function(m){return m.arrives_on}).sort().pop();
+  v.dates='leaves '+shortDate(dd)+' &middot; arrives '+shortDate(aa);
+  if(v.full){v.head=a.headline||((a.kind==='CLEAR'?'Clear ageing stock from ':'Restock ')+a.store);v.summ=hs?a.summary_hi:(a.summary||'');v.src=a.narration&&a.narration.source==='sarvam'?'Written by Sarvam AI':'Template text'}
+  else{
+    var key=scopeKey(user),sc=key&&a.scoped&&a.scoped[key];
+    if(sc&&v.shown.length===v.perm){var h2=lang==='hi'&&sc.summary_hi;v.hi=!!h2;v.head=sc.headline||((a.kind==='CLEAR'?'Clear ageing stock from ':'Restock ')+a.store);v.summ=h2?sc.summary_hi:(sc.summary||'');v.src=sc.narration&&sc.narration.source==='sarvam'?'Written by Sarvam AI':'Template text'}
+    else{v.hi=false;v.head=(a.kind==='CLEAR'?'Clear ageing stock from ':'Restock ')+a.store;v.summ=(a.kind==='CLEAR'?'Bring back ':'Send ')+v.units+' units across '+v.n+' item'+(v.n===1?'':'s')+'.';v.src='Template text'}
   }
-  h += '<div class="acts">'+a+'</div>';
-  if(!locked && canD && editing[m.move_id]) h += '<label class="qedit">Quantity (1 to '+m.qty+') <input type="number" min="1" max="'+m.qty+'" step="1" value="'+s.qty+'" data-act="qty" data-id="'+id+'"></label>';
+  return v;
+}
+function scopeKey(u){if(u.role==='area_manager')return u.area_manager_id;if(u.role==='store_manager')return 'STORE:'+u.scope.stores[0];if(u.role==='warehouse')return u.scope.source;return null}
+function pillHtml(v){return '<span class="pill">'+v.decided+' of '+v.n+' decided</span>'}
+function lvlHtml(v){
+  if(v.a.kind==='CLEAR'){var p=v.n?Math.round(v.decided*100/v.n):0;return '<div class="lvl" role="img" aria-label="'+p+' percent decided"><i style="width:'+p+'%"></i></div><div class="urg"><span class="dot"></span>Ageing stock to bring back</div>'}
+  var c=v.cover,cls=c==null?'':(c<=3?'r':(c<=14?'a':'')),w=c==null?100:Math.max(6,Math.min(100,Math.round(c*100/30)));
+  var txt=c==null?'Stock level not available':(c<=0?'Out of stock at the lowest item':'Lowest item has about '+Math.round(c)+' days of stock');
+  return '<div class="lvl '+cls+'" role="img" aria-label="'+esc(txt)+'"><i style="width:'+w+'%"></i></div><div class="urg"><span class="dot '+cls+'"></span>'+esc(txt)+'</div>';
+}
+function cardHtml(v){
+  var a=v.a,id=esc(a.action_id),decider=roleCan(user,'decide')||roleCan(user,'decide_scoped');
+  var h='<article class="card'+(v.pendExc?' alert':'')+'" data-aid="'+id+'"><div class="ct"><button class="cname" data-act="openAction" data-aid="'+id+'">'+esc(a.store)+'</button><span class="chip'+(a.kind==='CLEAR'?' clear':'')+'">'+(a.kind==='CLEAR'?'Clear ageing stock':'Restock')+'</span></div>';
+  h+='<p class="chead">'+esc(v.head)+'</p>'+(v.summ?'<p class="csum"'+(v.hi?' lang="hi"':'')+'>'+esc(v.summ)+'</p>':'');
+  h+='<div class="facts"><div class="fact"><b>'+v.n+'</b><span>items</span></div><div class="fact"><b>'+v.units.toLocaleString('en-IN')+'</b><span>units</span></div><div class="fact"><b>'+rs(v.value)+'</b><span>at MRP</span></div></div>'+'<div class="src">'+v.dates+'</div>'+lvlHtml(v);
+  if(v.pendExc) h+='<div class="need">'+v.pendExc+' of '+v.n+' '+(decider?'need your decision':'waiting for a decision')+'</div>';
+  h+='<div class="srow"><span class="src">'+v.src+'</span>'+pillHtml(v)+'</div><div class="cf">';
+  if(decider&&v.pend>0) h+='<button class="btn" data-act="actApprove" data-aid="'+id+'">Approve routine ('+v.pend+')</button><button class="tb" data-act="openAction" data-aid="'+id+'">Details</button>';
+  else h+='<button class="btn'+(decider&&v.open===0?'':'')+'" data-act="openAction" data-aid="'+id+'">'+(decider&&v.open?'Review '+v.open+' item'+(v.open===1?'':'s'):'View items')+'</button>';
+  return h+'</div></article>';
+}
+
+/* ================= rows (inside sheets) ================= */
+function rowHtml(m){
+  var s=st(m),id=esc(m.move_id),locked=s.status!=='Proposed',why=deny(user,'decide',m),canD=why==='';
+  var h='<article class="row '+s.status+'" data-id="'+id+'"><div class="rt">'
+    +(m.routine&&canD?'<input type="checkbox" data-act="tick" data-id="'+id+'"'+(s.ticked?' checked':'')+(locked?' disabled':'')+' aria-label="Select for bulk approval: '+esc(actionText(m,s.qty))+'">':'')
+    +'<div><div class="actl">'+esc(actionText(m,s.qty))+'</div><div class="sub">'+subLine(m,s.qty)+'</div><div class="why">'+esc(m.reason)+'</div>'
+    +(m.routine?'':'<div class="because"><b>'+(roleCan(user,'decide')||roleCan(user,'decide_scoped')?'Needs your decision because:':'Needs a decision because:')+'</b> '+esc(becauseText(m))+'</div>')+'</div></div>';
+  var a='';
+  if(locked){
+    a+='<span class="st '+s.status+'">'+esc(s.status)+(s.skip_reason?': '+esc(s.skip_reason):'')+'</span>'+(s.by?'<span class="sub">by '+esc(firstName(s.by))+' on '+shortWhen(s.at)+'</span>':'');
+    if(canD&&(s.status==='Approved'||s.status==='Skipped')) a+='<button class="tb" data-act="undo" data-id="'+id+'">Undo</button>';
+    if(s.status==='Approved'&&can(user,'pick',m)) a+='<button class="btn sm" data-act="setStatus" data-to="Picking" data-id="'+id+'">Mark as picking</button>';
+    if(s.status==='Picking'&&can(user,'dispatch',m)) a+='<button class="btn sm" data-act="setStatus" data-to="Dispatched" data-id="'+id+'">Mark as dispatched</button>';
+    if(isApproved(s.status)&&s.status!=='Received'&&can(user,'receive',m)) a+='<button class="btn sm" data-act="setStatus" data-to="Received" data-id="'+id+'">Mark as received</button>';
+  } else if(canD){
+    a+='<button class="btn sm" data-act="approve" data-id="'+id+'">Approve</button><button class="tb mute" data-act="skip" data-id="'+id+'">Skip</button><button class="tb mute" data-act="editq" data-id="'+id+'" aria-expanded="'+!!editing[m.move_id]+'">Edit qty</button>';
+  } else if(roleCan(user,'decide_scoped')){
+    a+='<span class="rq" tabindex="0" title="'+esc(why)+'" aria-label="'+esc(why)+'">Needs merchandiser</span>';
+  }
+  h+='<div class="acts">'+a+'</div>';
+  if(!locked&&canD&&editing[m.move_id]) h+='<label class="qedit">Quantity (1 to '+m.qty+') <input type="number" min="1" max="'+m.qty+'" step="1" value="'+s.qty+'" data-act="qty" data-id="'+id+'"></label>';
   return h+'</article>';
 }
+function moreBtn(n,key,total,step){step=step||PAGE;return total>n?'<div class="more"><button class="tb" data-act="more" data-g="'+key+'">Show '+Math.min(step,total-n)+' more ('+(total-n)+' left)</button></div>':''}
+function rowsList(ms,key){var k='r_'+key;if(!lim[k])lim[k]=PAGE;return (ms.length?ms.slice(0,lim[k]).map(rowHtml).join(''):'<p class="empty">Nothing here.</p>')+moreBtn(lim[k],k,ms.length)}
+function lineHtml(m){var q=st(m).qty;return '<div class="line"><div class="actl" style="font-size:15px">'+esc(actionText(m,q))+'</div><div class="sub">'+subLine(m,q)+' &middot; '+st(m).status.toLowerCase()+'</div></div>'}
 
-function blockedHtml(){
-  var b = D.blocked||[]; var by = {}; b.forEach(function(x){(by[x.rule]=by[x.rule]||[]).push(x)});
-  if(!b.length) return '<p class="note">Nothing blocked.</p>';
-  return '<details id="blocked"><summary>Considered but blocked ('+b.length.toLocaleString('en-IN')+')</summary>'+Object.keys(by).map(function(r){
-    return '<details id="bl-'+esc(r)+'"><summary>'+esc(r.replace(/_/g,' ').toLowerCase())+' ('+by[r].length.toLocaleString('en-IN')+')</summary>'+by[r].slice(0,50).map(function(x){
-      return '<div class="brow">'+esc(x.from)+' &rarr; '+esc(x.to)+' &middot; '+esc(x.sku_id)+' &middot; wanted '+esc(x.qty_wanted)+'<br><span class="muted">'+esc(x.detail)+'</span></div>'}).join('')
-      +(by[r].length>50?'<div class="brow muted">and '+(by[r].length-50).toLocaleString('en-IN')+' more (full list in out/moves.json)</div>':'')+'</details>';
-  }).join('')+'</details>';
-}
-function notSlowHtml(){
-  var n = D.not_slow||[]; if(!n.length) return '';
-  return '<details id="notslow"><summary>Would have been flagged slow, correctly not touched ('+n.length+')</summary>'+n.slice(0,50).map(function(x){return '<div class="brow">'+esc(x.store_id)+' '+esc(x.sku_id)+': '+esc(x.note)+'</div>'}).join('')+(n.length>50?'<div class="brow muted">and '+(n.length-50)+' more</div>':'')+'</details>';
-}
-function auditHtml(){
-  var a = D.self_audit||[]; if(!a.length) return '';
-  return '<details id="audit"><summary>Self-audit ('+a.length+' checks)</summary><table>'+a.map(function(x){return '<tr><td>'+esc(x.label)+'</td><td><b>'+esc(x.value)+'</b></td><td class="muted">'+esc(x.formula)+'</td></tr>'}).join('')+'</table></details>';
-}
-
-function byId(id){ return (D.moves||[]).filter(function(m){return m.move_id===id})[0]; }
-
-document.addEventListener('click', function(e){
-  if(menuOpen && !e.target.closest('.who')){ menuOpen=false; render(); }
-  var t = e.target.closest('[data-act]'); if(!t || !D) return;
-  var a = t.dataset.act, m = t.dataset.id && byId(t.dataset.id);
-  if(a==='demoUser'){ var du=findUser(t.dataset.email); if(du) signIn(du); return; }
-  if(!user) return;
-  if(a==='menu'){ menuOpen=!menuOpen; render(); return; }
-  if(a==='switch'){ var su=findUser(t.dataset.email); if(su) signIn(su); return; }
-  if(a==='signout'){ signOut(); return; }
-  if(a==='tick' || a==='qty') return;
-  if(m && ['approve','undo','editq','skip'].indexOf(a)>=0 && !can(user,'decide',m)) return;
-  if(a==='tab'){ tab=t.dataset.t; render(); var tb=document.getElementById('tab-'+tab); if(tb) tb.focus(); return; }
-  if(a==='reopenRoutine'){ MV.forEach(function(x){ if(x.routine && visible(x) && can(user,'decide',x) && st(x).status==='Approved') act(x,{status:'Proposed',by:'',at:''}); }); render(); return; }
-  if(a==='vtoggle'){ window.__vopen=!window.__vopen; render(); }
-  else if(a==='toggleRoutine'){ routineOpen=!routineOpen; render(); }
-  else if(a==='more'){ lim[t.dataset.g]+=PAGE; render(); }
-  else if(a==='findMoves'){ setFinding(filt.finding===t.dataset.id ? '' : t.dataset.id); render(); }
-  else if(a==='clearFind'){ setFinding(''); render(); }
-  else if(a==='approve'){ act(m,{status:'Approved',ticked:true}); render(); }
-  else if(a==='undo'){ if(st(m).status==='Approved'||st(m).status==='Skipped'){ act(m,{status:'Proposed',skip_reason:'',by:'',at:''}); render(); } }
-  else if(a==='setStatus'){ var to=t.dataset.to, cur=st(m).status, okS = (to==='Picking'&&cur==='Approved'&&can(user,'pick',m)) || (to==='Dispatched'&&cur==='Picking'&&can(user,'dispatch',m)) || (to==='Received'&&isApproved(cur)&&cur!=='Received'&&can(user,'receive',m)); if(okS){ act(m,{status:to}); render(); } }
-  else if(a==='editq'){ editing[m.move_id]=!editing[m.move_id]; render(); }
-  else if(a==='skip'){ skipId=m.move_id; $('#skipWhat').textContent=m.from+' to '+m.to+', '+m.style_name+' '+m.size+', qty '+st(m).qty; $('#skipDlg').showModal(); $('#skipReason').focus(); }
-  else if(a==='approveRoutine'){
-    MV.forEach(function(x){ if(x.routine && visible(x) && can(user,'decide',x)){ var s=st(x); if(s.status==='Proposed' && s.ticked) act(x,{status:'Approved'}); } });
-    render();
+/* ================= screens ================= */
+function crestHtml(){return '<span class="crest" aria-hidden="true">M</span>'}
+function gateHtml(){
+  var host=location.protocol==='file:'||location.hostname==='127.0.0.1';
+  var h='<div class="band"><div class="in">'+crestHtml()+'<div class="word">Manyavar<span>Stock Desk</span></div></div></div><div class="wrap">';
+  if(screen==='demopick'){
+    h+='<div class="hero"><div class="crest" style="margin:0 auto">M</div><h1>Try demo data</h1><p>Pick a person to see the page as they would. Sample data on this device only.</p></div><div class="ulist">';
+    var users=window.USERS||[];
+    Object.keys(ROLES).forEach(function(r){users.filter(function(u){return u.role===r}).forEach(function(u){var sl=u.scope==='all'?[]:(u.scope.stores||[u.scope.source]);h+='<button class="ucard" data-act="demoUser" data-email="'+esc(u.email)+'"><b>'+esc(u.name)+'</b><small>'+esc(ROLES[r].label)+(sl.length?' &middot; '+esc(sl.length>2?sl[0]+' +'+(sl.length-1):sl.join(', ')):'')+'</small></button>'})});
+    return h+'<button class="tb" data-act="gateBack" style="margin-top:6px">Back to sign in</button></div><p class="foot">Demo mode. Nothing is secure here.</p></div>';
   }
-  else if(a==='csv' && roleCan(user,'export_csv')) exportCsv(false);
-  else if(a==='pick' && roleCan(user,'export_pick')) exportCsv(true);
-  else if(a==='json' && roleCan(user,'export_json')) exportJson();
-});
-document.addEventListener('change', function(e){
-  var t = e.target; if(t.id==='briefSel'){ briefStore=t.value; lim.bo=lim.bi=lim.bw=PAGE; render(); return; }
-  if(t.id==='storeSel'){ filt.store=t.value; resetLim(); render(); return; }
-  var m = t.dataset && t.dataset.id && byId(t.dataset.id); if(!m || !user || !can(user,'decide',m)) return;
-  if(t.dataset.act==='tick'){ set(m,{ticked:t.checked}); render(); }
-  if(t.dataset.act==='qty'){ act(m,{qty:clamp(t.value,m)}); render(); }
-});
-document.addEventListener('keydown', function(e){
-  if(e.key==='Escape' && menuOpen){ menuOpen=false; render(); var wb=document.querySelector('.whobtn'); if(wb) wb.focus(); return; }
+  h+='<div class="hero"><div class="crest" style="margin:0 auto">M</div><h1>Welcome to Stock Desk</h1><p>See what stock needs to move today, and approve it in a few taps.</p>'
+    +'<button class="gbtn" data-act="google"><svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.5l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.6 5.9c4.4-4.1 7-10.1 7-17.6z"/><path fill="#FBBC05" d="M10.5 28.7a14.5 14.5 0 0 1 0-9.4l-7.9-6.1a24 24 0 0 0 0 21.6l7.9-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.6-5.9c-2.1 1.4-4.9 2.3-8.3 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48z"/></svg>Continue with Google</button>'
+    +(gateErr?'<p class="err" role="alert">'+esc(gateErr)+'</p>':'')
+    +(host?'<div class="note">For Google sign-in, open this page at http://localhost:8000 (127.0.0.1 and files are not allowed domains). Demo data works anywhere.</div>':'')
+    +'<div class="orn" aria-hidden="true">&#10048;</div><button class="tb" data-act="demo">Try demo data</button></div></div>';
+  return h;
+}
+function msgScreen(title,text,btn){
+  return '<div class="band"><div class="in">'+crestHtml()+'<div class="word">Manyavar<span>Stock Desk</span></div></div></div><div class="wrap"><div class="hero"><div class="crest" style="margin:0 auto">M</div><h1>'+title+'</h1><p>'+text+'</p>'+(btn||'<button class="btn" data-act="signout">Sign out</button>')+'</div></div>';
+}
+function headerHtml(){
+  var u=user;
+  return (MODE==='demo'?'<div class="demo">Demo mode: sample data saved only on this device. <button class="tb" style="min-height:0;padding:0 4px" data-act="signout">Exit demo</button></div>':'')
+    +'<div class="band"><div class="in">'+crestHtml()+'<div class="word">Manyavar<span>Stock Desk</span></div><div class="me"><div class="who"><b style="font-weight:600">'+esc(u.name)+'</b><small>'+esc(roleOf(u).label)+'</small></div><span class="av" aria-hidden="true">'+esc(initials(u.name))+'</span><button class="tb" data-act="signout">Sign out</button></div></div></div>';
+}
+function statsHtml(items){return '<div class="stats">'+items.map(function(i){return '<div class="stat'+(i[2]?' hot':'')+'"><b>'+esc(i[1])+'</b><span>'+esc(i[0])+'</span></div>'}).join('')+'</div>'}
+function ornament(){return '<div class="orn" aria-hidden="true">&#10048;</div>'}
+
+function render(){
+  if(screen==='gate'||screen==='demopick'){$('#root').innerHTML=gateHtml();return}
+  if(screen==='loading'){$('#root').innerHTML='<div class="band"><div class="in">'+crestHtml()+'<div class="word">Manyavar<span>Stock Desk</span></div></div></div><p class="load">Loading today\'s stock moves...</p>';return}
+  if(screen==='wait'){$('#root').innerHTML=msgScreen('Your account is waiting for access','Tell your admin to enable <b>'+esc(waitEmail)+'</b>, then sign in again.');return}
+  if(screen==='error'){$('#root').innerHTML=msgScreen('We could not load the data',esc(gateErr||'Please try again.'),'<button class="btn" data-act="signout">Sign out</button>');return}
+  MV=D.moves.filter(function(m){return scope(user,m)});
+  var tabs=roleOf(user).tabs; if(tabs.indexOf(view.tab)<0) view.tab=tabs[0];
+  var h=headerHtml()+'<div class="wrap">';
+  var greet=user.role==='warehouse'?'Pick list':user.role==='store_manager'?'Your store today':'Good morning';
+  h+='<p class="muted" style="margin:18px 0 0;font-size:13px">'+longDate(D.run.date)+'</p><h1 style="font-size:30px;margin:2px 0 0">'+greet+', '+esc(user.name.split(' ')[0])+'</h1>';
+  if(!storeOK) h+='<p class="muted" style="font-size:13px">Browser storage is unavailable: decisions last until you close this page.</p>';
+  var bar='';
+  if(user.role==='warehouse') h+=warehouseHome();
+  else if(user.role==='store_manager') h+=briefHome(user.scope.stores[0]);
+  else{
+    if(tabs.length>1||roleOf(user).more) h+='<div class="bar2"><div class="seg" role="tablist" aria-label="Sections">'+tabs.map(function(t){return '<button role="tab" id="tab-'+t+'" aria-selected="'+(view.tab===t)+'" tabindex="'+(view.tab===t?0:-1)+'" data-act="tab" data-t="'+t+'">'+TABNAME[t]+'</button>'}).join('')+'</div>'+(roleOf(user).more?'<button class="tb push" data-act="openMore">More</button>':'')+'</div>';
+    if(view.tab==='brief'){var bst=userStoreList(user)||storesOf(MV);h+=briefHome(bst.indexOf(view.briefStore)>=0?view.briefStore:(bst.filter(function(x){return x!=='WH-KOL'})[0]||bst[0]),bst)}
+    else{var r=homeActions();h+=r.html;bar=r.bar}
+  }
+  h+='<p class="foot">'+(MODE==='demo'?'Demo mode: rules are applied in this page only, so this is not secure.':'Your view follows your account. Access is enforced by the database.')+'</p></div>'+bar;
+  var keep=document.scrollingElement.scrollTop;
+  $('#root').innerHTML=h; document.scrollingElement.scrollTop=keep;
+  renderSheet();
+}
+function storesOf(ms){var o={};ms.forEach(function(m){o[m.from]=1;o[m.to]=1});return Object.keys(o).sort()}
+
+function homeActions(){
+  var decider=roleCan(user,'decide')||roleCan(user,'decide_scoped'),glob=isGlobal(user),moves=MV;
+  var views=buildViews(null);
+  actSet={};viewCache={};var okR=[];
+  views.forEach(function(v){viewCache[v.a.action_id]=v.shown;v.shown.forEach(function(m){actSet[m.move_id]=1;if(m.routine&&can(user,'decide',m))okR.push(m)})});
+  var pend=okR.filter(function(m){var s=st(m);return s.status==='Proposed'&&s.ticked}).length, done=okR.filter(function(m){return st(m).status==='Approved'}).length;
+  var units=moves.reduce(function(t,m){return t+m.qty},0),value=moves.reduce(function(t,m){return t+m.value_mrp},0);
+  var pendExc=moves.filter(function(m){return !m.routine&&st(m).status==='Proposed'}).length;
+  var h=statsHtml(decider?[['Need your decision',pendExc,true],['Stock moves',moves.length],['Units',units.toLocaleString('en-IN')],['Worth at MRP',rs(value)]]:[['Stock moves',moves.length],['Units',units.toLocaleString('en-IN')],['Worth at MRP',rs(value)],['Waiting for approval',moves.filter(function(m){return st(m).status==='Proposed'}).length,true]]);
+  if(glob&&(D.findings||[]).length) h+='<button class="mcard" data-act="openSheet" data-t="findings" style="margin-bottom:6px"><span><b>What the data is telling us</b><small>'+esc((D.findings||[]).slice(0,2).map(function(f){return f.title}).join(' / '))+'</small></span><em>'+D.findings.length+'</em></button>';
+  var stores=storesOf(moves);
+  h+='<div class="bar2"><div class="seg" role="group" aria-label="Show">'+[['all','All'],['restock','Restock'],['clear','Clear ageing']].map(function(s){return '<button data-act="seg" data-s="'+s[0]+'" aria-pressed="'+(view.seg===s[0])+'">'+s[1]+'</button>'}).join('')+'</div>'
+    +'<label class="muted" style="font-size:13px">Store <select id="storeSel"><option value="">All stores</option>'+stores.map(function(x){return '<option'+(view.store===x?' selected':'')+'>'+esc(x)+'</option>'}).join('')+'</select></label>'
+    +'<span class="seg push" role="group" aria-label="Summary language"><button data-act="lang" data-l="en" aria-pressed="'+(lang==='en')+'">English</button><button data-act="lang" data-l="hi" lang="hi" aria-pressed="'+(lang==='hi')+'">हिन्दी</button></span>'
+    +(filt.finding?'<span class="chipf">Showing '+esc(filt.finding)+' only<button data-act="clearFind" aria-label="Clear filter">&times;</button></span>':'')+'</div>';
+  h+=ornament();
+  h+=views.length?'<div class="grid">'+views.slice(0,lim.acts).map(cardHtml).join('')+'</div>'+moreBtn(lim.acts,'acts',views.length,12):'<p class="empty">Nothing to do here. All clear.</p>';
+  var bar=decider?'<div class="sticky"><div>'+((pend||!done)?'<button class="btn" data-act="approveRoutine"'+(pend?'':' disabled')+'>Approve all routine ('+pend+')</button>':'<span class="st Approved">'+done+' routine approved</span>')+(done?'<button class="tb" data-act="reopenRoutine">Undo / reopen ('+done+')</button>':'')+'</div></div>':'';
+  return {html:h,bar:bar};
+}
+
+/* warehouse: pick-list cards by destination store, approved first */
+function warehouseHome(){
+  var src=user.scope.source,ms=MV.filter(function(m){return m.from===src&&m.to!==src}),g={};
+  ms.forEach(function(m){(g[m.to]=g[m.to]||[]).push(m)});
+  var cards=Object.keys(g).map(function(k){var l=g[k],c={A:0,P:0,D:0,W:0};l.forEach(function(m){var s=st(m).status;if(s==='Approved')c.A++;else if(s==='Picking')c.P++;else if(s==='Dispatched'||s==='Received')c.D++;else if(s==='Proposed')c.W++});return {store:k,list:l,c:c,units:l.reduce(function(t,m){return t+st(m).qty},0)}});
+  cards.sort(function(a,b){return (b.c.A+b.c.P)-(a.c.A+a.c.P)||a.store.localeCompare(b.store)});
+  var ready=cards.reduce(function(t,c){return t+c.c.A+c.c.P},0);
+  var h=statsHtml([['Ready to pick',ms.filter(function(m){return st(m).status==='Approved'}).length,true],['Being picked',ms.filter(function(m){return st(m).status==='Picking'}).length],['Dispatched',ms.filter(function(m){var s=st(m).status;return s==='Dispatched'||s==='Received'}).length],['Waiting for approval',ms.filter(function(m){return st(m).status==='Proposed'}).length]]);
+  h+='<div class="bar2"><button class="tb push" data-act="openMore">More</button></div>'+ornament();
+  h+=cards.length?'<div class="grid">'+cards.slice(0,lim.acts).map(function(c){var any=c.c.A+c.c.P;return '<article class="card'+(c.c.A?' alert':'')+'"><div class="ct"><button class="cname" data-act="openPick" data-store="'+esc(c.store)+'">'+esc(c.store)+'</button><span class="chip">Pick list</span></div><div class="facts"><div class="fact"><b>'+c.c.A+'</b><span>to pick</span></div><div class="fact"><b>'+c.c.P+'</b><span>picking</span></div><div class="fact"><b>'+c.c.D+'</b><span>dispatched</span></div></div><div class="src">'+c.units.toLocaleString('en-IN')+' units in total'+(c.c.W?' &middot; '+c.c.W+' waiting for approval':'')+'</div><div class="cf"><button class="btn" data-act="openPick" data-store="'+esc(c.store)+'">'+(any?'Open pick list ('+any+')':'View items')+'</button></div></article>'}).join('')+'</div>'+moreBtn(lim.acts,'acts',cards.length,12):'<p class="empty">No moves leave the warehouse today.</p>';
+  return h;
+}
+
+/* morning brief / store manager home: three cards */
+function briefHome(bs,list){
+  var send=MV.filter(function(m){return m.from===bs}),exp=MV.filter(function(m){return m.to===bs});
+  var fx=isGlobal(user)||user.role==='area_manager';
+  var watchM=MV.filter(function(m){return (m.from===bs||m.to===bs)&&((m.warnings||[]).length||m.needs_approval)});
+  var rec=recountList(bs);
+  var third=user.role==='store_manager'?{t:'recount',title:'Needs a recount',n:rec.length,sub:'Stock the system doubts'}:{t:'watch',title:'Watch',n:watchM.length+rec.length,sub:'Warnings and data doubts'};
+  var h='';
+  if(list) h+='<div class="bar2"><label class="muted" style="font-size:13px">Store <select id="briefSel">'+list.map(function(x){return '<option'+(bs===x?' selected':'')+'>'+esc(x)+'</option>'}).join('')+'</select></label>'+(roleOf(user).more?'<button class="tb push" data-act="openMore">More</button>':'')+'</div>';
+  h+=ornament()+'<div class="grid">'
+    +[{t:'send',title:'Send out',n:send.length,sub:send.reduce(function(t,m){return t+st(m).qty},0)+' units leaving '+bs},{t:'expect',title:'Expect in',n:exp.length,sub:exp.reduce(function(t,m){return t+st(m).qty},0)+' units arriving at '+bs},third].map(function(c){return '<article class="card"><div class="ct"><button class="cname" data-act="openBrief" data-t="'+c.t+'" data-store="'+esc(bs)+'">'+esc(c.title)+'</button><span class="chip">'+esc(bs)+'</span></div><div class="facts"><div class="fact"><b>'+c.n+'</b><span>'+(c.t==='recount'||c.t==='watch'?'to look at':'items')+'</span></div></div><div class="src">'+esc(c.sub)+'</div><div class="cf"><button class="btn" data-act="openBrief" data-t="'+c.t+'" data-store="'+esc(bs)+'">Open</button></div></article>'}).join('')+'</div>';
+  return h;
+}
+function recountList(bs){
+  var out=[],tag=function(s){return String(s).indexOf(bs)>=0};
+  (D.findings||[]).forEach(function(f){if(f.kind==='DATA_ERROR'&&tag(evText(f.evidence)+f.title)) out.push({title:f.title,text:evText(f.evidence),extra:f.action||''})});
+  (D.blocked||[]).forEach(function(b){if(b.rule==='DATA_SUSPECT'&&(b.from===bs||b.to===bs)) out.push({title:'Recount '+b.from+' '+b.sku_id,text:b.detail,extra:''})});
+  (D.not_slow||[]).forEach(function(n){if(n.store_id===bs) out.push({title:n.store_id+' '+n.sku_id+': looks slow, is not',text:n.note,extra:''})});
+  return out;
+}
+
+/* ================= sheets ================= */
+function openSheet(s){sheet=s;if(!sheet.lim)sheet.lim={};var d=$('#sheet');if(!d.open)d.showModal();renderSheet()}
+function closeSheet(){sheet=null;var d=$('#sheet');if(d.open)d.close()}
+function renderSheet(){
+  if(!sheet) return; var d=$('#sheet'),body=$('#shBody'),keep=body.scrollTop;
+  var t=sheetContent(); if(!t){closeSheet();return}
+  $('#shTitle').textContent=t.title; body.innerHTML=t.html; body.scrollTop=keep;
+}
+function sheetContent(){
+  var s=sheet,h='';
+  if(s.type==='action'){
+    var v=buildViews(null).filter(function(x){return x.a.action_id===s.id})[0]; if(!v){return {title:'Nothing here',html:'<p class="empty">No items to show.</p>'}}
+    viewCache[s.id]=v.shown;
+    var decider=roleCan(user,'decide')||roleCan(user,'decide_scoped'),id=esc(s.id);
+    h+='<p class="chead" style="margin-top:12px">'+esc(v.head)+'</p>'+(v.summ?'<p class="muted"'+(v.hi?' lang="hi"':'')+'>'+esc(v.summ)+'</p>':'')+'<p class="src">'+v.n+' item'+(v.n===1?'':'s')+' &middot; '+rs(v.value)+' &middot; '+v.dates+'</p><div class="srow"><span class="src">'+v.src+'</span>'+pillHtml(v)+'</div>';
+    if(decider){h+='<div class="acts">'+(v.pend?'<button class="btn" data-act="actApprove" data-aid="'+id+'">Approve routine ('+v.pend+')</button>':'')+(v.done?'<button class="tb" data-act="actUndo" data-aid="'+id+'">Undo routine ('+v.done+')</button>':'')+(v.open?'<button class="tb mute" data-act="actSkip" data-aid="'+id+'">Skip all</button>':'')+'</div>'}
+    h+=rowsList(v.shown,'act_'+s.id);
+    return {title:v.a.store,html:h};
+  }
+  if(s.type==='pick'){
+    var src=user.scope.source,ms=MV.filter(function(m){return m.from===src&&m.to===s.store});
+    var rk={Picking:0,Approved:1,Dispatched:2,Received:3,Proposed:4,Skipped:5};ms.sort(function(a,b){return rk[st(a).status]-rk[st(b).status]});
+    return {title:'Pick list: '+s.store,html:'<p class="muted">Approved items first. Mark each as picking, then dispatched.</p>'+rowsList(ms,'pick_'+s.store)};
+  }
+  if(s.type==='brief'){
+    var bs=s.store,L={send:{title:'Send out',list:MV.filter(function(m){return m.from===bs})},expect:{title:'Expect in',list:MV.filter(function(m){return m.to===bs})}}[s.t];
+    if(L) return {title:L.title+': '+bs,html:rowsList(L.list,'b_'+s.t+bs)};
+    var rec=recountList(bs),w=s.t==='watch'?MV.filter(function(m){return (m.from===bs||m.to===bs)&&((m.warnings||[]).length||m.needs_approval)}):[];
+    h+=(w.length?'<h3 style="margin:16px 0 0">Moves to watch</h3>'+rowsList(w,'w_'+bs):'');
+    h+='<h3 style="margin:18px 0 0">Needs a recount</h3>'+(rec.length?rec.map(function(r){return '<div class="find"><b>'+esc(r.title)+'</b><p>'+esc(r.text)+'</p>'+(r.extra?'<p>'+esc(r.extra)+'</p>':'')+'</div>'}).join(''):'<p class="empty">Nothing to recount.</p>');
+    return {title:(s.t==='watch'?'Watch: ':'Needs a recount: ')+bs,html:h};
+  }
+  if(s.type==='more'){
+    var glob=isGlobal(user),items=[];
+    if(glob){items.push(['findings','What the data is telling us',(D.findings||[]).length],['ghost','Stock to recount or double-check',(D.not_slow||[]).length],['blocked','Moves we ruled out',(D.blocked||[]).length],['audit','Self-checks',(D.self_audit||[]).length],['assume','Assumptions',(D.assumptions||[]).length])}
+    items.push(['exports','Download files','']);
+    return {title:'More',html:'<div class="menu">'+items.map(function(i){return '<button class="mcard" data-act="openSheet" data-t="'+i[0]+'"><b>'+i[1]+'</b><em>'+i[2]+'</em></button>'}).join('')+'</div>'};
+  }
+  if(s.type==='findings'){
+    var lbl={REAL_PROBLEM:'Real problem',DATA_ERROR:'Data error',CONTEXT:'Good to know'};
+    return {title:'What the data is telling us',html:(D.findings||[]).map(function(x){var n=(x.move_ids||[]).length;return '<div class="find"><span class="chip">'+esc(lbl[x.kind]||x.kind)+'</span><div style="margin-top:6px"><b>'+esc(x.title)+'</b>'+(x.value_rs?' <span class="muted">&middot; '+rs(x.value_rs)+'</span>':'')+'</div><p>'+esc(evText(x.evidence))+'</p>'+(x.action?'<p>'+esc(x.action)+'</p>':'')+(n?'<button class="tb" data-act="findMoves" data-id="'+esc(x.id)+'">See '+n+' move'+(n===1?'':'s')+'</button>':'')+'</div>'}).join('')||'<p class="empty">No findings.</p>'};
+  }
+  if(s.type==='ghost'){var ns=D.not_slow||[],k='g';if(!sheet.lim[k])sheet.lim[k]=PAGE;return {title:'Stock to recount or double-check',html:'<p class="muted">Looks slow but is not (it was simply out of stock), or the numbers disagree. Recount before moving.</p>'+(ns.slice(0,sheet.lim[k]).map(function(x){return '<div class="line"><b>'+esc(x.store_id)+' '+esc(x.sku_id)+'</b> <span class="muted">&middot; '+esc(x.on_hand)+' on hand</span><div class="sub">'+esc(x.note)+'</div></div>'}).join('')||'<p class="empty">Nothing here.</p>')+(ns.length>sheet.lim[k]?'<div class="more"><button class="tb" data-act="sheetMore" data-k="g">Show 10 more ('+(ns.length-sheet.lim[k])+' left)</button></div>':'')};
+  }
+  if(s.type==='blocked'){
+    var b=D.blocked||[],by={};b.forEach(function(x){(by[x.rule]=by[x.rule]||[]).push(x)});
+    return {title:'Moves we ruled out',html:'<p class="muted">Stock we considered moving but a rule said no.</p>'+(Object.keys(by).map(function(r){return '<details><summary>'+esc(r.replace(/_/g,' ').toLowerCase())+' ('+by[r].length.toLocaleString('en-IN')+')</summary>'+by[r].slice(0,25).map(function(x){return '<div class="line">'+esc(x.from)+' &rarr; '+esc(x.to)+' &middot; '+esc(x.sku_id)+' &middot; wanted '+esc(x.qty_wanted)+'<div class="sub">'+esc(x.detail)+'</div></div>'}).join('')+(by[r].length>25?'<div class="line muted">and '+(by[r].length-25).toLocaleString('en-IN')+' more</div>':'')+'</details>'}).join('')||'<p class="empty">Nothing blocked.</p>')};
+  }
+  if(s.type==='audit') return {title:'Self-checks',html:'<table>'+(D.self_audit||[]).map(function(x){return '<tr><td>'+esc(x.label)+'</td><td><b>'+esc(x.value)+'</b></td><td class="muted">'+esc(x.formula)+'</td></tr>'}).join('')+'</table>'+validatorLine()};
+  if(s.type==='assume') return {title:'Assumptions',html:'<ul>'+(D.assumptions||[]).map(function(a){return '<li style="margin:8px 0">'+esc(a)+'</li>'}).join('')+'</ul>'};
+  if(s.type==='exports'){
+    var b2=[];if(roleCan(user,'export_csv'))b2.push('<button class="btn" data-act="csv">Download approved moves (CSV)</button>');
+    if(roleCan(user,'export_pick'))b2.push('<button class="btn" data-act="pick">Download warehouse pick list (CSV)</button>');
+    if(roleCan(user,'export_json'))b2.push('<button class="btn" data-act="json">Download approvals (JSON)</button>');
+    return {title:'Download files',html:'<div class="menu" style="margin-top:16px">'+(b2.join('')||'<p class="empty">No downloads for your role.</p>')+'</div><p class="muted" style="font-size:13px">Only moves you can see are included.</p>'};
+  }
+  return null;
+}
+function validatorLine(){
+  var v=D.validator;if(!v||v.violations==null) return '<p class="note" style="color:var(--warn)">The independent rule check did not run. Treat these moves as unchecked.</p>';
+  return '<p class="muted" style="margin-top:14px"><span class="dot'+(v.violations?' r':'')+'" style="display:inline-block;margin-right:8px"></span>'+esc(v.badge||(v.violations===0?'All moves pass the 8 rule checks':v.violations+' rule violations'))+'</p>';
+}
+
+/* ================= events ================= */
+document.addEventListener('click',function(e){
+  var t=e.target.closest('[data-act]'); if(!t) return;
+  var a=t.dataset.act,m=t.dataset.id&&byId(t.dataset.id);
+  if(a==='tick'||a==='qty') return;
+  if(a==='google'){signInGoogle();return}
+  if(a==='demo'){MODE='demo';screen='demopick';render();return}
+  if(a==='gateBack'){MODE=null;screen='gate';render();return}
+  if(a==='demoUser'){demoLogin(t.dataset.email);return}
+  if(a==='signout'){signOutAll();return}
   if(!user) return;
-  var t = e.target; if(!t.matches || !t.matches('[role=tab]') || (e.key!=='ArrowRight'&&e.key!=='ArrowLeft')) return;
-  var T=tabList(); var i = T.map(function(x){return x[0]}).indexOf(tab); i = (i+(e.key==='ArrowRight'?1:T.length-1))%T.length; tab=T[i][0]; render(); document.getElementById('tab-'+tab).focus();
+  if(a==='closeSheet'){closeSheet();return}
+  if(a==='openAction'){openSheet({type:'action',id:t.dataset.aid});return}
+  if(a==='openPick'){openSheet({type:'pick',store:t.dataset.store});return}
+  if(a==='openBrief'){openSheet({type:'brief',t:t.dataset.t,store:t.dataset.store});return}
+  if(a==='openMore'){openSheet({type:'more'});return}
+  if(a==='openSheet'){openSheet({type:t.dataset.t});return}
+  if(a==='sheetMore'){sheet.lim[t.dataset.k]+=PAGE;renderSheet();return}
+  if(a==='tab'){view.tab=t.dataset.t;render();var tb=document.getElementById('tab-'+view.tab);if(tb)tb.focus();return}
+  if(a==='seg'){view.seg=t.dataset.s;lim.acts=12;render();return}
+  if(a==='lang'){lang=t.dataset.l;render();return}
+  if(a==='more'){lim[t.dataset.g]=(lim[t.dataset.g]||PAGE)+(t.dataset.g==='acts'?12:PAGE);render();return}
+  if(a==='findMoves'){setFinding(t.dataset.id);closeSheet();view.tab='home';render();return}
+  if(a==='clearFind'){setFinding('');render();return}
+  if(m&&['approve','undo','editq','skip'].indexOf(a)>=0&&!can(user,'decide',m)) return;
+  if(a==='approve'){act(m,{status:'Approved',ticked:true});render();return}
+  if(a==='undo'){var c=st(m).status;if(c==='Approved'||c==='Skipped'){act(m,{status:'Proposed',skip_reason:'',by:'',at:''});render()}return}
+  if(a==='editq'){editing[m.move_id]=!editing[m.move_id];render();return}
+  if(a==='skip'){skipAct=null;skipId=m.move_id;$('#skipWhat').textContent=actionText(m,st(m).qty);$('#skipDlg').showModal();$('#skipReason').focus();return}
+  if(a==='setStatus'){var to=t.dataset.to,cur=st(m).status,ok=(to==='Picking'&&cur==='Approved'&&can(user,'pick',m))||(to==='Dispatched'&&cur==='Picking'&&can(user,'dispatch',m))||(to==='Received'&&isApproved(cur)&&cur!=='Received'&&can(user,'receive',m));if(ok){act(m,{status:to});render()}return}
+  if(a==='actApprove'){(viewCache[t.dataset.aid]||[]).forEach(function(x){if(x.routine&&can(user,'decide',x)){var s=st(x);if(s.status==='Proposed'&&s.ticked)act(x,{status:'Approved'})}});render();return}
+  if(a==='actUndo'){(viewCache[t.dataset.aid]||[]).forEach(function(x){if(x.routine&&can(user,'decide',x)&&st(x).status==='Approved')act(x,{status:'Proposed',skip_reason:'',by:'',at:''})});render();return}
+  if(a==='actSkip'){var ms=(viewCache[t.dataset.aid]||[]).filter(function(x){return st(x).status==='Proposed'&&can(user,'decide',x)});if(!ms.length)return;skipId=null;skipAct=t.dataset.aid;$('#skipWhat').textContent='All '+ms.length+' open items in this action, including those that need a decision.';$('#skipDlg').showModal();$('#skipReason').focus();return}
+  if(a==='approveRoutine'){MV.forEach(function(x){if(x.routine&&visible(x)&&(!actSet||actSet[x.move_id])&&can(user,'decide',x)){var s=st(x);if(s.status==='Proposed'&&s.ticked)act(x,{status:'Approved'})}});render();return}
+  if(a==='reopenRoutine'){MV.forEach(function(x){if(x.routine&&visible(x)&&(!actSet||actSet[x.move_id])&&can(user,'decide',x)&&st(x).status==='Approved')act(x,{status:'Proposed',skip_reason:'',by:'',at:''})});render();return}
+  if(a==='csv'&&roleCan(user,'export_csv')) exportCsv(false);
+  else if(a==='pick'&&roleCan(user,'export_pick')) exportCsv(true);
+  else if(a==='json'&&roleCan(user,'export_json')) exportJson();
 });
-document.addEventListener('submit', function(e){
-  if(e.target.id!=='signinForm') return; e.preventDefault();
-  var val = e.target.email.value; signVal = val;
-  if(!/^\S+@\S+\.\S+$/.test(val.trim())){ signErr='Enter a valid email address'; render(); var i1=$('#em'); if(i1) i1.focus(); return; }
-  var u = findUser(val);
-  if(!u){ signErr='No account for that email'; render(); var i2=$('#em'); if(i2) i2.focus(); return; }
-  signIn(u);
+document.addEventListener('change',function(e){
+  var t=e.target;
+  if(t.id==='storeSel'){view.store=t.value;lim.acts=12;render();return}
+  if(t.id==='briefSel'){view.briefStore=t.value;render();return}
+  var m=t.dataset&&t.dataset.id&&byId(t.dataset.id);if(!m||!user||!can(user,'decide',m)) return;
+  if(t.dataset.act==='tick'){TICK[m.move_id]=t.checked;render()}
+  if(t.dataset.act==='qty'){act(m,{qty:clamp(t.value,m)});render()}
 });
-$('#skipForm').addEventListener('submit', function(e){
-  var ok = e.submitter && e.submitter.value==='ok', m = byId(skipId);
-  if(ok && m && user && can(user,'decide',m)){ act(m,{status:'Skipped',skip_reason:$('#skipReason').value,ticked:false}); }
-  skipId=null; setTimeout(render,0);
+document.addEventListener('keydown',function(e){
+  var t=e.target;if(!user||!t.matches||!t.matches('[role=tab]')||(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')) return;
+  var T=roleOf(user).tabs,i=T.indexOf(view.tab);i=(i+(e.key==='ArrowRight'?1:T.length-1))%T.length;view.tab=T[i];render();document.getElementById('tab-'+view.tab).focus();
+});
+$('#sheet').addEventListener('close',function(){sheet=null});
+$('#skipForm').addEventListener('submit',function(e){
+  var ok=e.submitter&&e.submitter.value==='ok',m=byId(skipId);
+  if(skipAct){if(ok&&user){(viewCache[skipAct]||[]).forEach(function(x){if(st(x).status==='Proposed'&&can(user,'decide',x))act(x,{status:'Skipped',skip_reason:$('#skipReason').value,ticked:false})})}skipAct=null;setTimeout(render,0);return}
+  if(ok&&m&&user&&can(user,'decide',m)) act(m,{status:'Skipped',skip_reason:$('#skipReason').value,ticked:false});
+  skipId=null;setTimeout(render,0);
 });
 
-function csvCell(x){ x=String(x==null?'':x); if(/^[=+\-@\t\r]/.test(x)) x="'"+x; return /[",\n\r]/.test(x)?'"'+x.replace(/"/g,'""')+'"':x; }
-function download(name, text, type){
-  var a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type:type})); a.download=name;
-  document.body.appendChild(a); a.click(); a.remove(); setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
-}
-function approved(){ return MV.filter(function(m){return isApproved(st(m).status)}); }
+/* ================= exports (only moves the user can see) ================= */
+function csvCell(x){x=String(x==null?'':x);if(/^[=+\-@\t\r]/.test(x))x="'"+x;return /[",\n\r]/.test(x)?'"'+x.replace(/"/g,'""')+'"':x}
+function download(name,text,type){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:type}));a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
+function approvedList(){return MV.filter(function(m){return isApproved(st(m).status)})}
 function exportCsv(pick){
-  var ms = approved(), head, rows;
-  if(pick){
-    ms = ms.filter(function(m){return m.type==='WH_TO_STORE'}).sort(function(a,b){return a.to.localeCompare(b.to)||a.sku_id.localeCompare(b.sku_id)});
-    head = ['to','sku_id','style_name','size','qty','dispatch_on']; rows = ms.map(function(m){return [m.to,m.sku_id,m.style_name,m.size,st(m).qty,m.dispatch_on]});
-  } else {
-    head = ['move_id','type','from','to','sku_id','style_name','size','qty','mrp','value_mrp','dispatch_on','arrives_on','reason'];
-    rows = ms.map(function(m){var q=st(m).qty;return [m.move_id,m.type,m.from,m.to,m.sku_id,m.style_name,m.size,q,m.mrp,q*m.mrp,m.dispatch_on,m.arrives_on,m.reason]});
-  }
+  var ms=approvedList(),head,rows;
+  if(pick){ms=ms.filter(function(m){return m.type==='WH_TO_STORE'}).sort(function(a,b){return a.to.localeCompare(b.to)||a.sku_id.localeCompare(b.sku_id)});head=['to','sku_id','style_name','size','qty','dispatch_on'];rows=ms.map(function(m){return [m.to,m.sku_id,m.style_name,m.size,st(m).qty,m.dispatch_on]})}
+  else{head=['move_id','type','from','to','sku_id','style_name','size','qty','mrp','value_mrp','dispatch_on','arrives_on','reason'];rows=ms.map(function(m){var q=st(m).qty;return [m.move_id,m.type,m.from,m.to,m.sku_id,m.style_name,m.size,q,m.mrp,q*m.mrp,m.dispatch_on,m.arrives_on,m.reason]})}
   download((pick?'pick-list-':'approved-moves-')+D.run.date+'.csv',[head].concat(rows).map(function(r){return r.map(csvCell).join(',')}).join('\r\n')+'\r\n','text/csv');
 }
-function exportJson(){
-  var o = {}; MV.forEach(function(m){ var s=st(m); if(s.status!=='Proposed') o[m.move_id]={status:s.status,qty:s.qty,skip_reason:s.skip_reason,by:s.by,at:s.at}; });
-  download('approvals.json', JSON.stringify(o,null,2), 'application/json');
+function exportJson(){var o={};MV.forEach(function(m){var s=st(m);if(s.status!=='Proposed')o[m.move_id]={status:s.status,qty:s.qty,skip_reason:s.skip_reason,by:s.by,at:s.at}});download('approvals.json',JSON.stringify(o,null,2),'application/json')}
+
+/* ================= sign-in / session flow ================= */
+function startSession(u){
+  user=u; screen='loading'; render();
+  if(u.language==='hi') lang='hi';
+  DA().loadRun(u,new URLSearchParams(location.search).get('run')||'').then(function(r){
+    runId=r.runId;D=r.data;D.moves=D.moves||[];MIDX={};D.moves.forEach(function(m){MIDX[m.move_id]=m});
+    S={};TICK={};view={seg:'all',store:'',briefStore:'',tab:roleOf(u).tabs[0]};filt={finding:''};findSet=null;sheet=null;lim={acts:12};editing={};
+    if(unsub&&unsub.call) unsub();
+    var first=true;
+    unsub=DA().onDecisions(runId,u,function(map,err){
+      if(err){gateErr=(err.code==='permission-denied'?'You do not have access to the decisions for this run.':'Could not read decisions.');if(first){first=false;screen='app';render()}return}
+      S=Object.assign({},map||{}); if(first){first=false;screen='app'}
+      if(screen==='app'&&!document.activeElement.matches('input,select')) render();
+    });
+  }).catch(function(err){
+    gateErr=(err&&err.code==='permission-denied')?'Your account is not allowed to read this data yet. Tell your admin.':(err&&err.message==='no-run'?'No stock run has been published yet.':(err&&err.message==='nodata'?'No data found. Run the engine to create out/moves.js.':'Could not load the data. Check your connection and try again.'));
+    screen='error';render();
+  });
 }
+function demoLogin(email){
+  var u=(window.USERS||[]).filter(function(x){return x.email.toLowerCase()===String(email).toLowerCase()})[0]; if(!u) return;
+  try{localStorage.setItem('stockmover:session',u.email);localStorage.setItem('stockmover:mode','demo')}catch(e){}
+  MODE='demo';startSession({email:u.email,name:u.name,role:u.role,scope:u.scope,stores:u.scope&&u.scope.stores,area_manager_id:u.area_manager_id});
+}
+async function signInGoogle(){
+  gateErr='';
+  var ok=await whenFB(10000);
+  if(!ok){gateErr='Google sign-in is not available right now (offline or blocked). You can still try demo data.';render();return}
+  MODE='firebase';
+  try{await window.FB.signIn()}catch(e){gateErr=(e&&e.code==='auth/popup-closed-by-user')?'Sign-in was closed. Try again when you are ready.':(e&&e.code==='auth/unauthorized-domain'?'This address is not an approved sign-in domain. Open http://localhost:8000.':'Sign-in did not work. Please try again.');MODE=null;render()}
+}
+function signOutAll(){
+  if(unsub&&unsub.call) unsub(); unsub=null;
+  try{localStorage.removeItem('stockmover:session');localStorage.removeItem('stockmover:mode')}catch(e){}
+  var was=MODE; user=null;D=null;sheet=null;MODE=null;screen='gate';gateErr='';closeDialogs();render();
+  if(was==='firebase'&&window.FB) window.FB.signOut();
+}
+function closeDialogs(){var d=$('#sheet');if(d.open)d.close()}
+async function onFbUser(u){
+  if(!u){ if(MODE==='firebase'){user=null;screen='gate';render()} return; }
+  MODE='firebase';screen='loading';render();
+  try{
+    var d=await window.FB.getUserDoc(u.email);
+    if(!d||d.active===false||!ROLES[d.role]){waitEmail=u.email;user=null;screen='wait';render();return}
+    startSession(fromDoc(d,u.email,u.name));
+  }catch(e){gateErr=(e&&e.code==='permission-denied')?'Your account is not allowed to read this data yet. Tell your admin.':'Could not check your account. Check your connection.';screen='error';render()}
+}
+function init(){
+  render();
+  var sess='',mode='';try{sess=localStorage.getItem('stockmover:session')||'';mode=localStorage.getItem('stockmover:mode')||''}catch(e){}
+  if(mode==='demo'&&sess){demoLogin(sess)}
+  whenFB(15000).then(function(ok){ if(ok&&MODE!=='demo') window.FB.onAuth(onFbUser) });
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
 })();
 </script>
 </body>

@@ -1,0 +1,104 @@
+rules_version = '2';
+// Stock Mover. Default deny. Not emulator-tested: try RULES_TEST_CASES.md in the console Rules Playground.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- helpers ----------
+    function signedIn() {
+      return request.auth != null && request.auth.token.email_verified == true;
+    }
+    // One get() on users/{email}; Firestore caches repeat reads of the same doc in a request.
+    // A missing user doc makes get() error, which denies.
+    function me() {
+      return get(/databases/$(database)/documents/users/$(request.auth.token.email.lower())).data;
+    }
+    function active() { return signedIn() && me().active == true; }
+    function role() { return me().role; }
+    function isMH() { return active() && role() in ['merchandiser', 'head']; }
+    function isMerch() { return active() && role() == 'merchandiser'; }
+    function scoped() { return role() in ['area_manager', 'warehouse', 'store_manager']; }
+    // Scope check against a doc's `stores` array. Rules are NOT filters: queries must constrain `stores`.
+    function inScope(stores) {
+      return isMH() || (active() && scoped() && stores.hasAny(me().get('stores', [])));
+    }
+
+    // ---------- users: own doc readable, never writable from a client ----------
+    match /users/{email} {
+      allow get: if signedIn() && email == request.auth.token.email.lower();
+      allow list, write: if false;
+    }
+
+    // ---------- reference tables: any active user reads ----------
+    match /{col}/{id} {
+      allow read: if col in ['stores', 'items', 'area_managers', 'calendar', 'rules', 'min_display',
+                             'lead_times', 'flagship_protected', 'data_dictionary'] && active();
+      // ---------- big raw tables: merchandiser / head only ----------
+      allow read: if col in ['bills', 'bill_lines', 'roster_daily', 'footfall_daily', 'stock_weekly',
+                             'salespeople', 'stock_snapshot', 'warehouse_inbound'] && isMH();
+      // no client writes anywhere (default deny)
+    }
+
+    // ---------- engine runs ----------
+    match /runs/{date} {
+      allow read: if active();   // run, summary, validator, assumptions
+
+      match /audit/{part}   { allow read: if isMH(); }   // findings, not_slow, self_audit, diff, narration
+      match /blocked/{id}   { allow read: if isMH(); }
+
+      match /actions/{id} {
+        allow read: if inScope(resource.data.stores);
+        // doc id IS the scope key: AM-0n | STORE:<store_id> | WH-KOL. Fetch by id; no client writes.
+        match /scoped/{key} {
+          allow read: if isMH() || (active() && (
+            (role() == 'area_manager' && key == me().area_manager_id)
+            || (role() == 'store_manager' && key == 'STORE:' + me().store_id)
+            || (role() == 'warehouse' && key == 'WH-KOL')));
+        }
+      }
+      match /moves/{id}     { allow read: if inScope(resource.data.stores); }
+
+      match /decisions/{mid} {
+        function mv() { return get(/databases/$(database)/documents/runs/$(date)/moves/$(mid)).data; }
+        function d() { return request.resource.data; }
+        function shapeOk() {
+          return d().keys().hasOnly(['status', 'qty', 'skip_reason', 'by', 'at'])
+            && d().keys().hasAll(['status', 'qty', 'skip_reason', 'by', 'at'])
+            && d().status in ['Proposed', 'Approved', 'Skipped', 'Picking', 'Dispatched', 'Received']
+            && d().qty is int && d().qty >= 1 && d().qty <= mv().qty
+            && (d().skip_reason == null || (d().skip_reason is string && d().skip_reason.size() <= 200))
+            && d().by == request.auth.token.email
+            && d().at is string && d().at.size() <= 40;
+        }
+        // previous status; null when the decision doc does not exist yet
+        function prevIn(list) { return resource != null && resource.data.status in list; }
+        function prevOkForAm() { return resource == null || resource.data.status in ['Proposed', 'Approved', 'Skipped']; }
+
+        function merchOk() { return isMerch(); }
+        function amOk() {
+          return active() && role() == 'area_manager'
+            && mv().needs_approval == false
+            && mv()['from'] in me().stores && mv()['to'] in me().stores
+            && mv().value_mrp <= me().approval_limit_rs
+            && d().status in ['Approved', 'Skipped', 'Proposed']
+            && prevOkForAm();
+        }
+        function whOk() {
+          return active() && role() == 'warehouse'
+            && mv()['from'] == 'WH-KOL' && resource != null && d().qty == resource.data.qty
+            && ((d().status == 'Picking' && prevIn(['Approved']))
+                || (d().status == 'Dispatched' && prevIn(['Approved', 'Picking'])));
+        }
+        function smOk() {
+          return active() && role() == 'store_manager'
+            && mv()['to'] == me().store_id && resource != null && d().qty == resource.data.qty
+            && d().status == 'Received' && prevIn(['Approved', 'Dispatched']);
+        }
+
+        allow read: if inScope(mv().stores);
+        allow create: if shapeOk() && (merchOk() || amOk());
+        allow update: if shapeOk() && (merchOk() || amOk() || whOk() || smOk());
+        allow delete: if false;
+      }
+    }
+  }
+}

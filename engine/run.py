@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from collections import Counter
@@ -13,6 +14,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from engine import report  # noqa: E402
+from engine.consolidate import consolidate  # noqa: E402
+from engine.narrate import narrate_all  # noqa: E402
 from engine.load import load_all  # noqa: E402
 from engine.metrics import build_position  # noqa: E402
 from engine.plan import plan  # noqa: E402
@@ -55,6 +58,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--date", required=True)
     ap.add_argument("--data", default="data")
     ap.add_argument("--out", default="out")
+    ap.add_argument("--no-llm", action="store_true", help="template narration only")
+    ap.add_argument("--no-demo-copy", action="store_true")
     a = ap.parse_args(argv)
     try:
         run_date = date.fromisoformat(a.date)
@@ -80,6 +85,8 @@ def main(argv: list[str] | None = None) -> int:
     moves, blocked = plan(inp, pos, cfg, skipped)
     for m in moves:
         m["reason"] = report.reason(m)
+    actions = consolidate(moves)
+    nstats = narrate_all(actions, out, use_llm=not a.no_llm)
     finds = report.findings(inp, pos, moves, blocked)
     prev = sorted(p for p in out.glob("moves-*.json") if p.stem < f"moves-{run_date.isoformat()}") if out.exists() else []
     summary = {"moves": len(moves), "units": sum(m["qty"] for m in moves), "value_mrp": sum(m["value_mrp"] for m in moves),
@@ -92,6 +99,7 @@ def main(argv: list[str] | None = None) -> int:
                 "git_sha": _git_sha(), "inputs": inp.row_counts},
         "summary": summary,
         "validator": {"checked": None, "violations": None, "rules": RULES, "details": [], "badge": "validator did not run"},
+        "actions": actions, "narration": nstats,
         "moves": moves, "blocked": blocked, "findings": finds,
         "not_slow": report.not_slow(pos), "self_audit": report.self_audit(inp, pos, moves),
         "assumptions": report.ASSUMPTIONS,
@@ -102,6 +110,14 @@ def main(argv: list[str] | None = None) -> int:
     report.write_all(out, run_date, payload)
     print(f"{summary['moves']} moves ({summary['routine']} routine, {summary['exceptions']} exceptions), "
           f"{summary['blocked']} blocked, validator violations: {payload['validator']['violations']}")
+    print(f"{len(actions)} actions: {nstats['sarvam']} by sarvam ({nstats['cached']} cached), {nstats['template']} template; "
+          f"tokens in/out {nstats['tokens_in']}/{nstats['tokens_out']}, ~Rs {nstats['credits_rs']} [{nstats['mode']}]")
+    if code == 0 and not a.no_demo_copy:
+        demo = ROOT / "demo"
+        demo.mkdir(exist_ok=True)
+        tmp = demo / "moves.js.tmp"
+        tmp.write_bytes((out / "moves.js").read_bytes())
+        os.replace(tmp, demo / "moves.js")
     return code
 
 

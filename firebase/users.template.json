@@ -1,0 +1,10 @@
+[
+  { "email": "merch@example.com", "displayName": "Example Merchandiser", "role": "merchandiser", "active": true, "language": "en" },
+  { "email": "head@example.com", "displayName": "Example Head", "role": "head", "active": true, "language": "en", "approval_limit_rs": 0 },
+  { "email": "am03@example.com", "displayName": "Example Area Manager", "role": "area_manager", "active": true, "language": "hi",
+    "area_manager_id": "AM-03", "stores": ["PAT-01", "PAT-02", "PAT-03", "PAT-04"] },
+  { "email": "wh@example.com", "displayName": "Example Warehouse", "role": "warehouse", "active": true, "language": "en",
+    "location_id": "WH-KOL", "stores": ["WH-KOL"] },
+  { "email": "sm.lko01@example.com", "displayName": "Example Store Manager", "role": "store_manager", "active": true, "language": "hi",
+    "store_id": "LKO-01", "stores": ["LKO-01"], "notes": "optional free text" }
+]

@@ -3,8 +3,8 @@ window.MOVES = {
  "run": {
   "date": "2026-10-31",
   "as_of": "2026-10-31",
-  "generated_at": "2026-11-21T08:10:59+00:00",
-  "git_sha": "aa3e6cf",
+  "generated_at": "2026-11-21T08:36:58+00:00",
+  "git_sha": "7c32212",
   "inputs": {
    "stores.csv": 20,
    "items.csv": 385,
@@ -46,6 +46,2999 @@ window.MOVES = {
   ],
   "details": [],
   "badge": "0 of 960 moves break 8 rules"
+ },
+ "actions": [
+  {
+   "action_id": "RESTOCK:LKO-04",
+   "kind": "RESTOCK",
+   "store": "LKO-04",
+   "move_ids": [
+    "LKO-03>LKO-04>IW-01-L",
+    "WH-KOL>LKO-04>IW-01-L",
+    "KNP-02>LKO-04>IW-01-S",
+    "KNP-03>LKO-04>IW-01-S",
+    "BLR-03>LKO-04>IW-01-S",
+    "BLR-04>LKO-04>IW-01-S",
+    "MYS-01>LKO-04>IW-01-S",
+    "LKO-02>LKO-04>IW-01-XL",
+    "WH-KOL>LKO-04>IW-01-XL",
+    "KNP-01>LKO-04>IW-09-XL",
+    "PAT-02>LKO-04>IW-09-XL",
+    "BLR-02>LKO-04>IW-09-XXL",
+    "BLR-03>LKO-04>IW-09-XXL",
+    "WH-KOL>LKO-04>JKT-01-S",
+    "WH-KOL>LKO-04>JKT-01-XXXL",
+    "WH-KOL>LKO-04>JKT-03-M",
+    "LKO-02>LKO-04>KUR-05-XL",
+    "WH-KOL>LKO-04>KUR-05-XL",
+    "LKO-02>LKO-04>KUR-06-S",
+    "WH-KOL>LKO-04>KUR-06-S",
+    "BLR-03>LKO-04>KUR-07-L",
+    "LKO-01>LKO-04>KUR-17-M",
+    "LKO-02>LKO-04>KUR-17-M",
+    "KNP-01>LKO-04>KUR-17-M",
+    "LKO-01>LKO-04>KUR-21-XXXL",
+    "KNP-02>LKO-04>KUR-21-XXXL",
+    "KNP-01>LKO-04>SHW-03-S",
+    "MZF-02>LKO-04>SHW-03-S",
+    "WH-KOL>LKO-04>JKT-01-M",
+    "WH-KOL>LKO-04>KUR-06-XL",
+    "PAT-01>LKO-04>JKT-07-XL",
+    "PAT-02>LKO-04>JKT-07-XL",
+    "WH-KOL>LKO-04>KUR-06-M",
+    "WH-KOL>LKO-04>KUR-04-L",
+    "LKO-02>LKO-04>MOJ-02-10",
+    "WH-KOL>LKO-04>MOJ-02-10",
+    "LKO-03>LKO-04>KUR-09-XL",
+    "WH-KOL>LKO-04>KUR-09-XL",
+    "WH-KOL>LKO-04>JKT-01-XL"
+   ],
+   "counts": {
+    "moves": 39,
+    "units": 159,
+    "from_warehouse": 117,
+    "from_stores": 42,
+    "donors": [
+     "BLR-02",
+     "BLR-03",
+     "BLR-04",
+     "KNP-01",
+     "KNP-02",
+     "KNP-03",
+     "LKO-01",
+     "LKO-02",
+     "LKO-03",
+     "MYS-01",
+     "MZF-02",
+     "PAT-01",
+     "PAT-02"
+    ]
+   },
+   "value_mrp": 1314141,
+   "n_exceptions": 19,
+   "n_routine": 20,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "L",
+     "qty": 33
+    },
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "XL",
+     "qty": 14
+    },
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "XL",
+     "qty": 13
+    }
+   ],
+   "headline": "Restock LKO-04 with 159 units worth Rs 13,14,141",
+   "summary": "Restock LKO-04 with 159 units valued at Rs 13,14,141 from 117 warehouse and 42 from other stores. 19 moves need a person to decide and arrive by 2026-11-07.",
+   "summary_hi": "LKO-04 \u092e\u0947\u0902 159 units \u0915\u0940 restock \u0915\u0930\u0928\u0940 \u0939\u0948 \u091c\u093f\u0938\u0915\u0940 value Rs 13,14,141 \u0939\u0948\u0964 117 warehouse \u0938\u0947 \u0914\u0930 42 BLR-02 \u0914\u0930 BLR-03 \u091c\u0948\u0938\u0947 stores \u0938\u0947 \u0906\u090f \u0939\u0948\u0902\u0964 19 moves \u092e\u0947\u0902 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0902\u091a\u0947\u0902\u0917\u0947\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:BLR-01",
+   "kind": "RESTOCK",
+   "store": "BLR-01",
+   "move_ids": [
+    "WH-KOL>BLR-01>IW-02-L",
+    "LKO-02>BLR-01>IW-02-XXL",
+    "LKO-04>BLR-01>IW-02-XXL",
+    "BLR-02>BLR-01>IW-04-XL",
+    "BLR-03>BLR-01>IW-04-XL",
+    "BLR-04>BLR-01>IW-04-XL",
+    "MYS-01>BLR-01>IW-04-XL",
+    "LKO-02>BLR-01>IW-04-XL",
+    "BLR-02>BLR-01>IW-06-M",
+    "LKO-01>BLR-01>IW-06-M",
+    "BLR-04>BLR-01>JKT-02-S",
+    "MYS-01>BLR-01>JKT-02-S",
+    "WH-KOL>BLR-01>JKT-02-S",
+    "BLR-05>BLR-01>JKT-03-XXXL",
+    "PAT-03>BLR-01>JKT-03-XXXL",
+    "BLR-04>BLR-01>JKT-07-XL",
+    "LKO-01>BLR-01>JKT-07-XL",
+    "LKO-02>BLR-01>JKT-07-XL",
+    "WH-KOL>BLR-01>KUR-01-L",
+    "WH-KOL>BLR-01>KUR-01-M",
+    "WH-KOL>BLR-01>KUR-01-XL",
+    "WH-KOL>BLR-01>KUR-01-XXL",
+    "WH-KOL>BLR-01>KUR-01-XXXL",
+    "BLR-03>BLR-01>KUR-07-L",
+    "BLR-03>BLR-01>KUR-07-XL",
+    "BLR-03>BLR-01>KUR-07-XXL",
+    "BLR-03>BLR-01>KUR-17-M",
+    "KNP-01>BLR-01>KUR-17-M",
+    "WH-KOL>BLR-01>MOJ-05-10",
+    "MYS-01>BLR-01>SHW-01-XL",
+    "MYS-02>BLR-01>SHW-01-XL",
+    "KNP-03>BLR-01>SHW-01-XL",
+    "MYS-02>BLR-01>SHW-01-XXXL",
+    "BLR-03>BLR-01>SHW-02-M",
+    "BLR-04>BLR-01>SHW-02-M",
+    "KNP-01>BLR-01>SHW-02-M",
+    "LKO-02>BLR-01>SHW-02-M",
+    "LKO-04>BLR-01>SHW-02-M",
+    "MYS-02>BLR-01>SHW-05-L",
+    "MYS-01>BLR-01>SHW-08-M",
+    "KNP-01>BLR-01>SHW-08-M",
+    "BLR-04>BLR-01>SHW-09-XL",
+    "KNP-01>BLR-01>SHW-09-XL",
+    "BLR-05>BLR-01>KUR-02-S",
+    "MYS-01>BLR-01>KUR-02-S",
+    "MYS-02>BLR-01>KUR-02-S",
+    "WH-KOL>BLR-01>KUR-02-S",
+    "MYS-02>BLR-01>JKT-04-L",
+    "WH-KOL>BLR-01>JKT-04-L",
+    "BLR-05>BLR-01>KUR-05-S",
+    "BLR-05>BLR-01>KUR-09-S",
+    "MYS-01>BLR-01>KUR-09-S",
+    "MYS-02>BLR-01>KUR-09-S",
+    "BLR-03>BLR-01>MOJ-05-8",
+    "BLR-04>BLR-01>KUR-22-XL",
+    "WH-KOL>BLR-01>JKT-02-M",
+    "BLR-04>BLR-01>KUR-09-XXXL",
+    "BLR-05>BLR-01>KUR-09-XXXL",
+    "WH-KOL>BLR-01>KUR-04-M"
+   ],
+   "counts": {
+    "moves": 59,
+    "units": 170,
+    "from_warehouse": 86,
+    "from_stores": 84,
+    "donors": [
+     "BLR-02",
+     "BLR-03",
+     "BLR-04",
+     "BLR-05",
+     "KNP-01",
+     "KNP-03",
+     "LKO-01",
+     "LKO-02",
+     "LKO-04",
+     "MYS-01",
+     "MYS-02",
+     "PAT-03"
+    ]
+   },
+   "value_mrp": 1302280,
+   "n_exceptions": 30,
+   "n_routine": 29,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "NEW_STORE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Teal Embroidered Yoke Kurta Set",
+     "size": "L",
+     "qty": 16
+    },
+    {
+     "style_name": "Teal Embroidered Yoke Kurta Set",
+     "size": "XL",
+     "qty": 15
+    },
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "S",
+     "qty": 13
+    }
+   ],
+   "headline": "BLR-01 restock from 12 stores: 170 units, Rs 13,02,280",
+   "summary": "Restock BLR-01 with 170 units worth Rs 13,02,280 from 12 stores including BLR-02 and BLR-03. 30 moves need a person to decide and arrive by 2026-11-07.",
+   "summary_hi": "BLR-01 \u092e\u0947\u0902 12 stores \u0938\u0947 170 units \u0914\u0930 Rs 13,02,280 \u0915\u0940 restocking \u0939\u094b \u0930\u0939\u0940 \u0939\u0948, \u091c\u093f\u0938\u092e\u0947\u0902 BLR-02 \u0914\u0930 BLR-03 \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964 30 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u0906\u090f\u0902\u0917\u0947\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:LKO-01",
+   "kind": "RESTOCK",
+   "store": "LKO-01",
+   "move_ids": [
+    "LKO-04>LKO-01>IW-08-L",
+    "KNP-02>LKO-01>IW-08-L",
+    "KNP-03>LKO-01>IW-08-L",
+    "LKO-02>LKO-01>JKT-05-S",
+    "LKO-03>LKO-01>JKT-05-S",
+    "BLR-04>LKO-01>JKT-05-S",
+    "KNP-01>LKO-01>JKT-10-XXL",
+    "BLR-03>LKO-01>JKT-10-XXL",
+    "WH-KOL>LKO-01>KUR-04-L",
+    "WH-KOL>LKO-01>KUR-04-M",
+    "WH-KOL>LKO-01>KUR-04-XL",
+    "WH-KOL>LKO-01>KUR-04-XXL",
+    "WH-KOL>LKO-01>KUR-05-M",
+    "MYS-01>LKO-01>SHW-01-S",
+    "MYS-02>LKO-01>SHW-01-S",
+    "PAT-04>LKO-01>SHW-04-XXXL",
+    "KNP-01>LKO-01>SHW-05-M",
+    "BLR-03>LKO-01>SHW-05-M",
+    "BLR-04>LKO-01>SHW-05-M",
+    "MYS-01>LKO-01>SHW-05-M",
+    "MYS-02>LKO-01>SHW-05-M",
+    "LKO-03>LKO-01>MOJ-02-6",
+    "WH-KOL>LKO-01>MOJ-02-6",
+    "LKO-02>LKO-01>KUR-09-S",
+    "LKO-03>LKO-01>KUR-09-S",
+    "WH-KOL>LKO-01>KUR-09-S",
+    "LKO-02>LKO-01>IW-02-M",
+    "LKO-04>LKO-01>IW-02-M",
+    "KNP-01>LKO-01>SHW-04-M",
+    "WH-KOL>LKO-01>IW-02-L",
+    "WH-KOL>LKO-01>JKT-01-XXXL",
+    "LKO-02>LKO-01>KUR-08-M",
+    "WH-KOL>LKO-01>KUR-08-M",
+    "LKO-04>LKO-01>SHW-03-L",
+    "LKO-03>LKO-01>IW-01-XXL",
+    "WH-KOL>LKO-01>IW-01-XXL",
+    "WH-KOL>LKO-01>JKT-02-S",
+    "LKO-02>LKO-01>MOJ-05-7",
+    "LKO-03>LKO-01>MOJ-05-7",
+    "LKO-02>LKO-01>KUR-08-XXL",
+    "WH-KOL>LKO-01>KUR-08-XXL",
+    "WH-KOL>LKO-01>KUR-03-S",
+    "LKO-04>LKO-01>MOJ-04-7",
+    "WH-KOL>LKO-01>MOJ-04-7"
+   ],
+   "counts": {
+    "moves": 44,
+    "units": 142,
+    "from_warehouse": 107,
+    "from_stores": 35,
+    "donors": [
+     "BLR-03",
+     "BLR-04",
+     "KNP-01",
+     "KNP-02",
+     "KNP-03",
+     "LKO-02",
+     "LKO-03",
+     "LKO-04",
+     "MYS-01",
+     "MYS-02",
+     "PAT-04"
+    ]
+   },
+   "value_mrp": 1248458,
+   "n_exceptions": 22,
+   "n_routine": 22,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "L",
+     "qty": 15
+    },
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "M",
+     "qty": 15
+    },
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "XL",
+     "qty": 15
+    }
+   ],
+   "headline": "Restock LKO-01 with 142 units worth Rs 12,48,458",
+   "summary": "Restock LKO-01 with 142 units worth Rs 12,48,458 from 107 warehouse and 35 from 11 other stores including BLR-03. 22 moves need a person and arrive by 2026-11-07.",
+   "summary_hi": "LKO-01 \u092e\u0947\u0902 142 units \u0915\u0940 restocking \u0939\u094b\u0917\u0940, \u091c\u093f\u0938\u0915\u0940 value Rs 12,48,458 \u0939\u0948\u0964 107 units warehouse \u0938\u0947 \u0914\u0930 35 units 11 \u0926\u0942\u0938\u0930\u0947 stores \u091c\u0948\u0938\u0947 BLR-03 \u0938\u0947 \u0906\u090f\u0902\u0917\u0947\u0964 22 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u0906\u090f\u0902\u0917\u0947\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:PAT-01",
+   "kind": "RESTOCK",
+   "store": "PAT-01",
+   "move_ids": [
+    "PAT-02>PAT-01>IW-05-M",
+    "PAT-04>PAT-01>IW-05-M",
+    "LKO-01>PAT-01>IW-09-M",
+    "PAT-02>PAT-01>JKT-04-M",
+    "PAT-03>PAT-01>JKT-04-M",
+    "MZF-01>PAT-01>JKT-05-S",
+    "KNP-03>PAT-01>JKT-09-L",
+    "PAT-02>PAT-01>JKT-10-L",
+    "KNP-01>PAT-01>JKT-10-L",
+    "PAT-04>PAT-01>KUR-02-S",
+    "WH-KOL>PAT-01>KUR-02-S",
+    "PAT-04>PAT-01>KUR-02-XXXL",
+    "WH-KOL>PAT-01>KUR-02-XXXL",
+    "PAT-04>PAT-01>KUR-07-XXL",
+    "MZF-02>PAT-01>KUR-07-XXL",
+    "BLR-03>PAT-01>KUR-07-XXL",
+    "PAT-04>PAT-01>KUR-07-XXXL",
+    "MZF-02>PAT-01>KUR-07-XXXL",
+    "KNP-02>PAT-01>KUR-07-XXXL",
+    "LKO-01>PAT-01>KUR-07-XXXL",
+    "LKO-03>PAT-01>KUR-07-XXXL",
+    "BLR-01>PAT-01>KUR-16-M",
+    "BLR-03>PAT-01>KUR-16-M",
+    "MZF-02>PAT-01>MOJ-05-11",
+    "BLR-01>PAT-01>MOJ-05-11",
+    "KNP-03>PAT-01>SHW-01-XXL",
+    "MYS-02>PAT-01>SHW-01-XXL",
+    "MZF-02>PAT-01>SHW-02-XXXL",
+    "KNP-02>PAT-01>SHW-02-XXXL",
+    "KNP-03>PAT-01>SHW-02-XXXL",
+    "PAT-03>PAT-01>SHW-09-L",
+    "KNP-01>PAT-01>SHW-09-L",
+    "PAT-03>PAT-01>KUR-02-M",
+    "PAT-04>PAT-01>KUR-02-M",
+    "WH-KOL>PAT-01>KUR-02-M",
+    "WH-KOL>PAT-01>KUR-03-S",
+    "MYS-01>PAT-01>SHW-02-XL",
+    "MYS-02>PAT-01>SHW-02-XL",
+    "PAT-03>PAT-01>KUR-02-XXL",
+    "PAT-04>PAT-01>KUR-02-XXL",
+    "WH-KOL>PAT-01>KUR-02-XXL",
+    "PAT-02>PAT-01>KUR-02-L",
+    "PAT-03>PAT-01>KUR-02-L",
+    "PAT-04>PAT-01>KUR-02-L",
+    "WH-KOL>PAT-01>KUR-02-L",
+    "WH-KOL>PAT-01>IW-01-XL",
+    "WH-KOL>PAT-01>JKT-03-M",
+    "WH-KOL>PAT-01>MOJ-01-11",
+    "PAT-03>PAT-01>MOJ-04-9",
+    "WH-KOL>PAT-01>MOJ-04-9",
+    "PAT-02>PAT-01>KUR-20-XL",
+    "PAT-03>PAT-01>KUR-20-XL",
+    "PAT-03>PAT-01>JKT-02-XXL",
+    "PAT-02>PAT-01>JKT-02-XXL",
+    "WH-KOL>PAT-01>JKT-02-XXL",
+    "PAT-02>PAT-01>KUR-02-XL",
+    "PAT-03>PAT-01>KUR-02-XL",
+    "WH-KOL>PAT-01>KUR-02-XL",
+    "WH-KOL>PAT-01>JKT-03-XL",
+    "PAT-02>PAT-01>MOJ-02-10",
+    "WH-KOL>PAT-01>MOJ-02-10",
+    "WH-KOL>PAT-01>MOJ-01-10",
+    "WH-KOL>PAT-01>KUR-10-XL",
+    "WH-KOL>PAT-01>MOJ-01-7"
+   ],
+   "counts": {
+    "moves": 64,
+    "units": 179,
+    "from_warehouse": 104,
+    "from_stores": 75,
+    "donors": [
+     "BLR-01",
+     "BLR-03",
+     "KNP-01",
+     "KNP-02",
+     "KNP-03",
+     "LKO-01",
+     "LKO-03",
+     "MYS-01",
+     "MYS-02",
+     "MZF-01",
+     "MZF-02",
+     "PAT-02",
+     "PAT-03",
+     "PAT-04"
+    ]
+   },
+   "value_mrp": 1167321,
+   "n_exceptions": 24,
+   "n_routine": 40,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "M",
+     "qty": 20
+    },
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "L",
+     "qty": 16
+    },
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "7",
+     "qty": 11
+    }
+   ],
+   "headline": "Restock PAT-01 with 179 units worth Rs 11,67,321",
+   "summary": "Restock PAT-01 with 179 units worth Rs 11,67,321. 24 moves need a person to decide and BLR-01 sends 104 units from the warehouse.",
+   "summary_hi": "PAT-01 \u092e\u0947\u0902 179 units \u0915\u0940 restock \u0915\u0930\u0928\u0940 \u0939\u0948, \u091c\u093f\u0928\u0915\u0940 value Rs 11,67,321 \u0939\u0948\u0964 24 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 BLR-01 \u0938\u0947 warehouse \u0938\u0947 104 units \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:BLR-02",
+   "kind": "RESTOCK",
+   "store": "BLR-02",
+   "move_ids": [
+    "BLR-04>BLR-02>IW-02-XL",
+    "WH-KOL>BLR-02>IW-02-XL",
+    "BLR-04>BLR-02>IW-03-XL",
+    "KNP-01>BLR-02>IW-03-XL",
+    "LKO-03>BLR-02>IW-03-XL",
+    "LKO-01>BLR-02>IW-07-XL",
+    "MZF-02>BLR-02>IW-07-XL",
+    "KNP-01>BLR-02>JKT-09-XXXL",
+    "BLR-03>BLR-02>KUR-07-S",
+    "BLR-03>BLR-02>KUR-07-XXL",
+    "MYS-02>BLR-02>KUR-08-S",
+    "WH-KOL>BLR-02>KUR-08-S",
+    "KNP-01>BLR-02>KUR-08-S",
+    "BLR-01>BLR-02>KUR-21-XL",
+    "MYS-01>BLR-02>SHW-01-L",
+    "MYS-02>BLR-02>SHW-01-L",
+    "MYS-01>BLR-02>SHW-01-M",
+    "BLR-01>BLR-02>SHW-08-XXL",
+    "BLR-03>BLR-02>SHW-08-XXL",
+    "MYS-02>BLR-02>JKT-02-M",
+    "WH-KOL>BLR-02>JKT-02-M",
+    "BLR-05>BLR-02>JKT-01-M",
+    "BLR-03>BLR-02>JKT-01-M",
+    "WH-KOL>BLR-02>JKT-01-M",
+    "WH-KOL>BLR-02>KUR-03-XXL",
+    "MYS-01>BLR-02>MOJ-02-10",
+    "MYS-02>BLR-02>MOJ-02-10",
+    "WH-KOL>BLR-02>MOJ-02-10",
+    "BLR-05>BLR-02>JKT-05-L",
+    "MYS-02>BLR-02>JKT-05-L",
+    "BLR-03>BLR-02>KUR-14-M",
+    "BLR-04>BLR-02>KUR-14-M",
+    "MYS-02>BLR-02>KUR-08-XXXL",
+    "WH-KOL>BLR-02>KUR-08-XXXL",
+    "BLR-03>BLR-02>KUR-02-L",
+    "MYS-02>BLR-02>KUR-02-L",
+    "WH-KOL>BLR-02>KUR-02-L",
+    "BLR-03>BLR-02>KUR-20-XL",
+    "BLR-03>BLR-02>KUR-23-L",
+    "WH-KOL>BLR-02>KUR-04-L",
+    "PAT-04>BLR-02>KUR-04-L",
+    "WH-KOL>BLR-02>KUR-05-L",
+    "BLR-01>BLR-02>KUR-17-L",
+    "BLR-03>BLR-02>KUR-17-L"
+   ],
+   "counts": {
+    "moves": 44,
+    "units": 157,
+    "from_warehouse": 96,
+    "from_stores": 61,
+    "donors": [
+     "BLR-01",
+     "BLR-03",
+     "BLR-04",
+     "BLR-05",
+     "KNP-01",
+     "LKO-01",
+     "LKO-03",
+     "MYS-01",
+     "MYS-02",
+     "MZF-02",
+     "PAT-04"
+    ]
+   },
+   "value_mrp": 1155143,
+   "n_exceptions": 13,
+   "n_routine": 31,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "NEW_STORE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "L",
+     "qty": 24
+    },
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "M",
+     "qty": 19
+    },
+    {
+     "style_name": "Teal Printed Nehru Jacket",
+     "size": "M",
+     "qty": 17
+    }
+   ],
+   "headline": "Restock BLR-02 with 157 units and Rs 11,55,143 value",
+   "summary": "Restock BLR-02 with 157 units worth Rs 11,55,143. 61 units came from 11 other stores including BLR-01. 13 moves need a person to decide and arrival is by 2026-11-07.",
+   "summary_hi": "BLR-02 \u092e\u0947\u0902 157 units \u0914\u0930 11,55,143 \u0930\u0941\u092a\u092f\u0947 \u0915\u0940 value \u0915\u0947 \u0938\u093e\u0925 restock \u0939\u094b \u0930\u0939\u093e \u0939\u0948\u0964 11 \u0926\u0942\u0938\u0930\u0947 stores, \u091c\u0948\u0938\u0947 BLR-01, \u0938\u0947 61 units \u0906\u090f \u0939\u0948\u0902\u0964 13 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u094b \u092b\u0948\u0938\u0932\u093e \u0932\u0947\u0928\u093e \u0939\u0948 \u0914\u0930 arrival 2026-11-07 \u0924\u0915 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:MZF-01",
+   "kind": "RESTOCK",
+   "store": "MZF-01",
+   "move_ids": [
+    "WH-KOL>MZF-01>JKT-02-XL",
+    "WH-KOL>MZF-01>JKT-03-XL",
+    "WH-KOL>MZF-01>KUR-02-S",
+    "MZF-02>MZF-01>KUR-06-L",
+    "WH-KOL>MZF-01>KUR-06-L",
+    "WH-KOL>MZF-01>KUR-06-M",
+    "MZF-02>MZF-01>KUR-07-M",
+    "PAT-04>MZF-01>KUR-07-M",
+    "MZF-02>MZF-01>KUR-09-S",
+    "WH-KOL>MZF-01>KUR-09-S",
+    "MZF-02>MZF-01>KUR-10-L",
+    "WH-KOL>MZF-01>KUR-10-L",
+    "MZF-02>MZF-01>KUR-10-M",
+    "WH-KOL>MZF-01>KUR-10-M",
+    "LKO-01>MZF-01>KUR-16-M",
+    "KNP-01>MZF-01>KUR-16-M",
+    "LKO-02>MZF-01>KUR-16-M",
+    "WH-KOL>MZF-01>KUR-20-L",
+    "WH-KOL>MZF-01>MOJ-01-10",
+    "WH-KOL>MZF-01>MOJ-01-7",
+    "MZF-02>MZF-01>MOJ-01-8",
+    "WH-KOL>MZF-01>MOJ-01-8",
+    "MZF-02>MZF-01>SHW-02-XL",
+    "KNP-01>MZF-01>SHW-02-XL",
+    "KNP-02>MZF-01>SHW-02-XL",
+    "WH-KOL>MZF-01>KUR-02-XL",
+    "WH-KOL>MZF-01>KUR-09-XL",
+    "WH-KOL>MZF-01>KUR-05-XL",
+    "WH-KOL>MZF-01>JKT-02-L",
+    "WH-KOL>MZF-01>KUR-02-XXL",
+    "WH-KOL>MZF-01>JKT-02-M",
+    "WH-KOL>MZF-01>STL-01-FS",
+    "WH-KOL>MZF-01>KUR-05-M",
+    "MZF-02>MZF-01>MAL-02-FS",
+    "WH-KOL>MZF-01>MAL-02-FS",
+    "MZF-02>MZF-01>KUR-09-XXL",
+    "WH-KOL>MZF-01>KUR-09-XXL",
+    "WH-KOL>MZF-01>JKT-01-XXL",
+    "MZF-02>MZF-01>MOJ-01-11",
+    "WH-KOL>MZF-01>MOJ-01-11",
+    "MZF-02>MZF-01>KUR-09-M",
+    "WH-KOL>MZF-01>KUR-09-M"
+   ],
+   "counts": {
+    "moves": 42,
+    "units": 175,
+    "from_warehouse": 148,
+    "from_stores": 27,
+    "donors": [
+     "KNP-01",
+     "KNP-02",
+     "LKO-01",
+     "LKO-02",
+     "MZF-02",
+     "PAT-04"
+    ]
+   },
+   "value_mrp": 838425,
+   "n_exceptions": 13,
+   "n_routine": 29,
+   "needs_decision": true,
+   "warnings": [
+    "BELOW_MIN_DISPLAY_RECEIVER",
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "XL",
+     "qty": 21
+    },
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "XL",
+     "qty": 13
+    },
+    {
+     "style_name": "Maroon Cotton Silk Kurta Set",
+     "size": "L",
+     "qty": 10
+    }
+   ],
+   "headline": "Restock MZF-01 with 175 units worth Rs 8,38,425",
+   "summary": "42 moves bring 175 units to MZF-01 by 2026-11-07 from KNP-01 and LKO-01. Value is Rs 8,38,425. 13 moves need a person and 29 are routine.",
+   "summary_hi": "MZF-01 \u0915\u0947 \u0932\u093f\u090f 42 moves \u0938\u0947 175 units \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902 2026-11-07 \u0924\u0915, KNP-01 \u0914\u0930 LKO-01 \u0938\u0947\u0964 \u0915\u0941\u0932 value Rs 8,38,425 \u0939\u0948\u0964 13 moves \u092e\u0947\u0902 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 29 routine \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:BLR-03",
+   "kind": "RESTOCK",
+   "store": "BLR-03",
+   "move_ids": [
+    "BLR-01>BLR-03>KUR-10-XXL",
+    "BLR-02>BLR-03>KUR-10-XXL",
+    "BLR-04>BLR-03>KUR-10-XXL",
+    "MYS-01>BLR-03>KUR-12-XXXL",
+    "KNP-03>BLR-03>KUR-12-XXXL",
+    "BLR-02>BLR-03>SHW-03-XXL",
+    "BLR-04>BLR-03>SHW-04-XL",
+    "KNP-01>BLR-03>SHW-04-XL",
+    "BLR-02>BLR-03>SHW-05-XL",
+    "BLR-04>BLR-03>SHW-05-XL",
+    "MYS-02>BLR-03>SHW-09-L",
+    "KNP-01>BLR-03>SHW-09-L",
+    "LKO-03>BLR-03>SHW-09-L",
+    "BLR-04>BLR-03>KUR-04-XXXL",
+    "WH-KOL>BLR-03>KUR-04-XXXL",
+    "WH-KOL>BLR-03>KUR-02-S",
+    "BLR-04>BLR-03>JKT-04-M",
+    "MYS-02>BLR-03>JKT-04-M",
+    "WH-KOL>BLR-03>JKT-04-M",
+    "BLR-05>BLR-03>IW-01-M",
+    "MYS-01>BLR-03>JKT-10-XL",
+    "KNP-01>BLR-03>JKT-10-XL",
+    "WH-KOL>BLR-03>KUR-09-S",
+    "WH-KOL>BLR-03>IW-02-L"
+   ],
+   "counts": {
+    "moves": 24,
+    "units": 45,
+    "from_warehouse": 16,
+    "from_stores": 29,
+    "donors": [
+     "BLR-01",
+     "BLR-02",
+     "BLR-04",
+     "BLR-05",
+     "KNP-01",
+     "KNP-03",
+     "LKO-03",
+     "MYS-01",
+     "MYS-02"
+    ]
+   },
+   "value_mrp": 495155,
+   "n_exceptions": 7,
+   "n_routine": 17,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "NEW_STORE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "XXXL",
+     "qty": 9
+    },
+    {
+     "style_name": "Mustard Brocade Nehru Jacket",
+     "size": "M",
+     "qty": 6
+    },
+    {
+     "style_name": "Teal Self-Design Kurta Set",
+     "size": "XXL",
+     "qty": 5
+    }
+   ],
+   "headline": "Restock BLR-03 with 24 moves worth Rs 495155",
+   "summary": "Restock BLR-03 with 24 moves totaling Rs 4,95,155. 7 moves need a person to decide. 16 units come from warehouse and 29 from 9 other stores including BLR-01. Arrives by 2026-11-07.",
+   "summary_hi": "BLR-03 \u092e\u0947\u0902 24 moves \u0915\u0947 \u0938\u093e\u0925 Rs 4,95,155 \u0915\u093e restock \u0915\u0930\u0947\u0902\u0964 7 moves \u092e\u0947\u0902 person \u0915\u093e \u092b\u0948\u0938\u0932\u093e \u091a\u093e\u0939\u093f\u090f\u0964 16 units warehouse \u0938\u0947 \u0914\u0930 29 units 9 \u0926\u0942\u0938\u0930\u0947 stores \u0938\u0947 \u0906\u090f\u0902\u0917\u0947, \u091c\u093f\u0928\u092e\u0947\u0902 BLR-01 \u092d\u0940 \u0939\u0948\u0964 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0902\u091a \u091c\u093e\u090f\u0917\u093e\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:LKO-02",
+   "kind": "RESTOCK",
+   "store": "LKO-02",
+   "move_ids": [
+    "LKO-03>LKO-02>IW-05-XL",
+    "LKO-04>LKO-02>IW-05-XL",
+    "PAT-02>LKO-02>IW-08-M",
+    "BLR-02>LKO-02>JKT-05-XXL",
+    "MZF-01>LKO-02>JKT-05-XXL",
+    "BLR-02>LKO-02>JKT-07-XXL",
+    "MZF-02>LKO-02>JKT-07-XXL",
+    "LKO-01>LKO-02>KUR-07-M",
+    "LKO-03>LKO-02>KUR-07-M",
+    "BLR-03>LKO-02>KUR-07-M",
+    "LKO-01>LKO-02>KUR-13-XL",
+    "LKO-01>LKO-02>KUR-16-XXL",
+    "LKO-01>LKO-02>KUR-19-XXL",
+    "LKO-04>LKO-02>KUR-19-XXL",
+    "LKO-03>LKO-02>KUR-19-XXL",
+    "MZF-02>LKO-02>KUR-21-L",
+    "KNP-02>LKO-02>KUR-21-XL",
+    "BLR-01>LKO-02>KUR-21-XL",
+    "LKO-03>LKO-02>SHW-02-L",
+    "KNP-02>LKO-02>SHW-02-L",
+    "WH-KOL>LKO-02>IW-01-L",
+    "LKO-03>LKO-02>MOJ-01-6",
+    "LKO-04>LKO-02>MOJ-01-6",
+    "WH-KOL>LKO-02>MOJ-01-6",
+    "WH-KOL>LKO-02>MOJ-02-6",
+    "WH-KOL>LKO-02>KUR-06-M"
+   ],
+   "counts": {
+    "moves": 26,
+    "units": 50,
+    "from_warehouse": 16,
+    "from_stores": 34,
+    "donors": [
+     "BLR-01",
+     "BLR-02",
+     "BLR-03",
+     "KNP-02",
+     "LKO-01",
+     "LKO-03",
+     "LKO-04",
+     "MZF-01",
+     "MZF-02",
+     "PAT-02"
+    ]
+   },
+   "value_mrp": 488350,
+   "n_exceptions": 15,
+   "n_routine": 11,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Lilac Asymmetric Indo-Western",
+     "size": "L",
+     "qty": 6
+    },
+    {
+     "style_name": "Lilac Cotton Silk Kurta Set",
+     "size": "XXL",
+     "qty": 5
+    },
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "6",
+     "qty": 5
+    }
+   ],
+   "headline": "Restock LKO-02 from 10 stores and warehouse",
+   "summary": "26 moves totaling 50 units worth Rs 4,88,350 arrive at LKO-02 by 2026-11-07. 15 moves need a person to decide and 11 are routine. Items include sizes L, XXL and 6 from BLR-01.",
+   "summary_hi": "LKO-02 \u092e\u0947\u0902 2026-11-07 \u0924\u0915 10 \u0938\u094d\u091f\u094b\u0930 \u0914\u0930 \u0935\u0947\u092f\u0930\u0939\u093e\u0909\u0938 \u0938\u0947 50 \u092f\u0942\u0928\u093f\u091f \u0915\u0940 26 \u092e\u0942\u0935\u094d\u0938 \u0906 \u0930\u0939\u0940 \u0939\u0948\u0902, \u091c\u093f\u0928\u0915\u0940 \u0935\u0948\u0932\u094d\u092f\u0942 Rs 4,88,350 \u0939\u0948\u0964 15 \u092e\u0942\u0935\u094d\u0938 \u092e\u0947\u0902 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u093e \u092b\u0948\u0938\u0932\u093e \u091a\u093e\u0939\u093f\u090f \u0914\u0930 11 \u0930\u0942\u091f\u0940\u0928 \u0939\u0948\u0902\u0964 \u0907\u0928\u092e\u0947\u0902 BLR-01 \u0938\u0947 \u0938\u093e\u0907\u091c L, XXL \u0914\u0930 6 \u0915\u0947 \u0906\u0907\u091f\u092e \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:BLR-04",
+   "kind": "RESTOCK",
+   "store": "BLR-04",
+   "move_ids": [
+    "BLR-05>BLR-04>JKT-03-XXL",
+    "BLR-03>BLR-04>JKT-03-XXL",
+    "WH-KOL>BLR-04>JKT-03-XXL",
+    "MYS-02>BLR-04>KUR-06-S",
+    "WH-KOL>BLR-04>KUR-06-S",
+    "BLR-03>BLR-04>KUR-07-M",
+    "BLR-03>BLR-04>KUR-07-XXL",
+    "MYS-02>BLR-04>KUR-07-XXL",
+    "BLR-01>BLR-04>KUR-14-XXL",
+    "BLR-02>BLR-04>KUR-14-XXL",
+    "BLR-02>BLR-04>KUR-19-M",
+    "MYS-02>BLR-04>KUR-24-XXL",
+    "LKO-04>BLR-04>KUR-24-XXL",
+    "BLR-02>BLR-04>KUR-19-XL",
+    "LKO-04>BLR-04>KUR-19-XL",
+    "PAT-01>BLR-04>KUR-19-XL",
+    "KNP-02>BLR-04>KUR-19-XL",
+    "BLR-03>BLR-04>KUR-05-M",
+    "WH-KOL>BLR-04>KUR-05-M",
+    "WH-KOL>BLR-04>JKT-03-M",
+    "WH-KOL>BLR-04>KUR-02-S",
+    "WH-KOL>BLR-04>JKT-03-L",
+    "BLR-05>BLR-04>MOJ-01-10",
+    "WH-KOL>BLR-04>MOJ-01-10",
+    "BLR-05>BLR-04>MOJ-02-6",
+    "WH-KOL>BLR-04>KUR-08-M",
+    "MYS-02>BLR-04>KUR-08-XXL",
+    "WH-KOL>BLR-04>KUR-08-XXL",
+    "WH-KOL>BLR-04>KUR-11-L",
+    "KNP-02>BLR-04>KUR-08-S",
+    "LKO-02>BLR-04>KUR-08-S",
+    "BLR-05>BLR-04>MOJ-01-8",
+    "WH-KOL>BLR-04>MOJ-01-8",
+    "WH-KOL>BLR-04>JKT-01-M",
+    "BLR-03>BLR-04>KUR-06-XXXL",
+    "WH-KOL>BLR-04>JKT-05-L"
+   ],
+   "counts": {
+    "moves": 36,
+    "units": 105,
+    "from_warehouse": 62,
+    "from_stores": 43,
+    "donors": [
+     "BLR-01",
+     "BLR-02",
+     "BLR-03",
+     "BLR-05",
+     "KNP-02",
+     "LKO-02",
+     "LKO-04",
+     "MYS-02",
+     "PAT-01"
+    ]
+   },
+   "value_mrp": 469995,
+   "n_exceptions": 16,
+   "n_routine": 20,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "NEW_STORE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "8",
+     "qty": 14
+    },
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "10",
+     "qty": 10
+    },
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "M",
+     "qty": 8
+    }
+   ],
+   "headline": "Restock BLR-04 with 105 units worth Rs 4,69,995",
+   "summary": "Restock BLR-04 with 105 units valued at Rs 4,69,995 from warehouse and other stores. 16 moves need a person to decide and it arrives by 2026-11-07.",
+   "summary_hi": "BLR-04 \u092e\u0947\u0902 105 units \u0914\u0930 Rs 4,69,995 \u0915\u0940 value \u0915\u093e stock \u0906 \u0930\u0939\u093e \u0939\u0948, \u091c\u093f\u0938\u092e\u0947\u0902 warehouse \u0914\u0930 \u0926\u0942\u0938\u0930\u0947 stores \u0938\u0947 \u0938\u093e\u092e\u093e\u0928 \u0939\u0948\u0964 16 moves \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0939 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0902\u091a \u091c\u093e\u090f\u0917\u093e\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:PAT-03",
+   "kind": "RESTOCK",
+   "store": "PAT-03",
+   "move_ids": [
+    "PAT-02>PAT-03>IW-01-L",
+    "PAT-04>PAT-03>IW-01-L",
+    "WH-KOL>PAT-03>IW-01-L",
+    "PAT-04>PAT-03>IW-01-M",
+    "WH-KOL>PAT-03>IW-01-M",
+    "WH-KOL>PAT-03>IW-01-XL",
+    "PAT-01>PAT-03>JKT-04-XL",
+    "BLR-03>PAT-03>KUR-07-M",
+    "LKO-04>PAT-03>KUR-12-M",
+    "KNP-03>PAT-03>KUR-12-M",
+    "KNP-02>PAT-03>KUR-17-M",
+    "KNP-03>PAT-03>KUR-17-M",
+    "PAT-01>PAT-03>KUR-17-XXL",
+    "PAT-02>PAT-03>MOJ-02-7",
+    "WH-KOL>PAT-03>MOJ-02-7",
+    "PAT-02>PAT-03>SHW-02-M",
+    "PAT-04>PAT-03>KUR-04-XXL",
+    "WH-KOL>PAT-03>KUR-04-XXL",
+    "WH-KOL>PAT-03>KUR-04-S",
+    "WH-KOL>PAT-03>MOJ-01-9",
+    "PAT-02>PAT-03>KUR-06-M",
+    "WH-KOL>PAT-03>MOJ-01-11"
+   ],
+   "counts": {
+    "moves": 22,
+    "units": 45,
+    "from_warehouse": 23,
+    "from_stores": 22,
+    "donors": [
+     "BLR-03",
+     "KNP-02",
+     "KNP-03",
+     "LKO-04",
+     "PAT-01",
+     "PAT-02",
+     "PAT-04"
+    ]
+   },
+   "value_mrp": 462155,
+   "n_exceptions": 7,
+   "n_routine": 15,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 8
+    },
+    {
+     "style_name": "Lilac Asymmetric Indo-Western",
+     "size": "L",
+     "qty": 5
+    },
+    {
+     "style_name": "Lilac Asymmetric Indo-Western",
+     "size": "M",
+     "qty": 4
+    }
+   ],
+   "headline": "Restock PAT-03 with 45 units and Rs 4,62,155 value",
+   "summary": "Restock PAT-03 with 45 units totaling Rs 4,62,155. 7 moves need a person to decide and arrive by 2026-11-07. Items include 8 XXL Ivory Chikankari Kurta Sets from BLR-03 and 2 KNP stores.",
+   "summary_hi": "PAT-03 \u092e\u0947\u0902 45 items \u0914\u0930 Rs 4,62,155 \u0915\u0940 value \u0915\u0947 \u0938\u093e\u0925 restock \u0915\u0930\u0928\u093e \u0939\u0948\u0964 7 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0902\u091a\u0947\u0902\u0917\u0947\u0964 \u0907\u0928\u092e\u0947\u0902 BLR-03 \u0914\u0930 KNP stores \u0938\u0947 8 XXL Ivory Chikankari Kurta Sets \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:PAT-02",
+   "kind": "RESTOCK",
+   "store": "PAT-02",
+   "move_ids": [
+    "PAT-04>PAT-02>IW-01-XL",
+    "WH-KOL>PAT-02>IW-01-XL",
+    "PAT-04>PAT-02>KUR-07-L",
+    "MZF-02>PAT-02>KUR-07-L",
+    "BLR-03>PAT-02>KUR-07-L",
+    "PAT-04>PAT-02>KUR-07-XL",
+    "BLR-03>PAT-02>KUR-07-XL",
+    "PAT-01>PAT-02>KUR-10-XXL",
+    "PAT-03>PAT-02>KUR-10-XXL",
+    "MZF-02>PAT-02>KUR-10-XXL",
+    "LKO-01>PAT-02>KUR-10-XXL",
+    "LKO-02>PAT-02>KUR-10-XXL",
+    "BLR-04>PAT-02>KUR-10-XXL",
+    "PAT-01>PAT-02>KUR-19-XXL",
+    "PAT-01>PAT-02>KUR-20-XXL",
+    "PAT-03>PAT-02>KUR-20-XXL",
+    "MZF-01>PAT-02>KUR-20-XXL",
+    "MZF-02>PAT-02>KUR-21-XL",
+    "BLR-04>PAT-02>KUR-21-XL",
+    "KNP-01>PAT-02>SHW-03-XL",
+    "PAT-01>PAT-02>SHW-07-S",
+    "BLR-01>PAT-02>SHW-07-S",
+    "PAT-03>PAT-02>JKT-01-S",
+    "PAT-04>PAT-02>JKT-01-S",
+    "WH-KOL>PAT-02>JKT-01-S",
+    "PAT-03>PAT-02>JKT-01-XXXL",
+    "PAT-04>PAT-02>JKT-01-XXXL",
+    "WH-KOL>PAT-02>JKT-01-XXXL",
+    "WH-KOL>PAT-02>MOJ-01-6",
+    "WH-KOL>PAT-02>MOJ-01-7",
+    "WH-KOL>PAT-02>KUR-04-XXL",
+    "WH-KOL>PAT-02>KUR-03-S"
+   ],
+   "counts": {
+    "moves": 32,
+    "units": 63,
+    "from_warehouse": 30,
+    "from_stores": 33,
+    "donors": [
+     "BLR-01",
+     "BLR-03",
+     "BLR-04",
+     "KNP-01",
+     "LKO-01",
+     "LKO-02",
+     "MZF-01",
+     "MZF-02",
+     "PAT-01",
+     "PAT-03",
+     "PAT-04"
+    ]
+   },
+   "value_mrp": 441737,
+   "n_exceptions": 17,
+   "n_routine": 15,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 9
+    },
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "7",
+     "qty": 9
+    },
+    {
+     "style_name": "Teal Self-Design Kurta Set",
+     "size": "XXL",
+     "qty": 9
+    }
+   ],
+   "headline": "Restock PAT-02 with 63 units worth Rs 4,41,737",
+   "summary": "Restock PAT-02 with 63 units worth Rs 4,41,737 from 11 stores including BLR-01. 17 moves need a person and arrive by 2026-11-07.",
+   "summary_hi": "PAT-02 \u092e\u0947\u0902 63 units \u0914\u0930 Rs 4,41,737 \u0915\u0940 value \u0915\u093e restock \u0915\u0930\u0947\u0902, \u091c\u093f\u0938\u092e\u0947\u0902 BLR-01 \u0938\u0939\u093f\u0924 11 stores \u0938\u0947 33 units \u0906\u090f \u0939\u0948\u0902\u0964 17 moves \u092e\u0947\u0902 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0901\u091a\u0947\u0902\u0917\u0947\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:MYS-01",
+   "kind": "RESTOCK",
+   "store": "MYS-01",
+   "move_ids": [
+    "MYS-02>MYS-01>IW-03-L",
+    "BLR-03>MYS-01>IW-03-L",
+    "WH-KOL>MYS-01>IW-03-L",
+    "WH-KOL>MYS-01>JKT-03-M",
+    "BLR-03>MYS-01>KUR-07-XL",
+    "BLR-01>MYS-01>KUR-11-XXL",
+    "BLR-02>MYS-01>KUR-11-XXL",
+    "BLR-03>MYS-01>KUR-11-XXL",
+    "KNP-02>MYS-01>KUR-16-XXXL",
+    "MZF-02>MYS-01>KUR-16-XXXL",
+    "MYS-02>MYS-01>SHW-11-XXXL",
+    "BLR-01>MYS-01>SHW-11-XXXL",
+    "BLR-02>MYS-01>SHW-11-XXXL",
+    "BLR-03>MYS-01>KUR-05-L",
+    "WH-KOL>MYS-01>KUR-05-L",
+    "BLR-03>MYS-01>JKT-03-L",
+    "BLR-05>MYS-01>JKT-03-L",
+    "WH-KOL>MYS-01>KUR-04-XXXL",
+    "MYS-02>MYS-01>MAL-02-FS",
+    "WH-KOL>MYS-01>MAL-02-FS",
+    "WH-KOL>MYS-01>KUR-06-XL",
+    "MYS-02>MYS-01>KUR-09-M",
+    "MYS-02>MYS-01>MAL-01-FS",
+    "BLR-04>MYS-01>MAL-01-FS",
+    "WH-KOL>MYS-01>JKT-02-M",
+    "WH-KOL>MYS-01>KUR-05-M"
+   ],
+   "counts": {
+    "moves": 26,
+    "units": 69,
+    "from_warehouse": 33,
+    "from_stores": 36,
+    "donors": [
+     "BLR-01",
+     "BLR-02",
+     "BLR-03",
+     "BLR-04",
+     "BLR-05",
+     "KNP-02",
+     "MYS-02",
+     "MZF-02"
+    ]
+   },
+   "value_mrp": 417431,
+   "n_exceptions": 13,
+   "n_routine": 13,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "NEW_STORE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "L",
+     "qty": 9
+    },
+    {
+     "style_name": "Gold Printed Nehru Jacket",
+     "size": "M",
+     "qty": 7
+    },
+    {
+     "style_name": "Royal Blue Bead Mala",
+     "size": "FS",
+     "qty": 7
+    }
+   ],
+   "headline": "Restock MYS-01 with 69 units worth Rs 4,17,431 from 8 stores",
+   "summary": "Restock MYS-01 with 69 units worth Rs 4,17,431 from 8 stores including BLR-01. 13 moves need a person to decide and arrive by 2026-11-07.",
+   "summary_hi": "MYS-01 \u092e\u0947\u0902 69 units \u0914\u0930 Rs 4,17,431 \u0915\u0940 value \u0915\u093e restock BLR-01 \u0938\u092e\u0947\u0924 8 stores \u0938\u0947 \u0906\u090f\u0917\u093e\u0964 13 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u0906\u090f\u0917\u093e\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:LKO-03",
+   "kind": "RESTOCK",
+   "store": "LKO-03",
+   "move_ids": [
+    "LKO-02>LKO-03>IW-02-XL",
+    "WH-KOL>LKO-03>JKT-05-XL",
+    "WH-KOL>LKO-03>JKT-07-L",
+    "WH-KOL>LKO-03>KUR-05-M",
+    "BLR-03>LKO-03>KUR-07-L",
+    "MYS-02>LKO-03>KUR-10-XXL",
+    "KNP-02>LKO-03>KUR-21-XXL",
+    "MZF-02>LKO-03>KUR-21-XXL",
+    "BLR-04>LKO-03>MOJ-06-11",
+    "KNP-02>LKO-03>SHW-02-M",
+    "PAT-02>LKO-03>SHW-02-M",
+    "WH-KOL>LKO-03>KUR-06-L",
+    "LKO-04>LKO-03>JKT-02-M",
+    "WH-KOL>LKO-03>KUR-05-XL",
+    "WH-KOL>LKO-03>MOJ-01-11",
+    "LKO-04>LKO-03>JKT-02-XL",
+    "WH-KOL>LKO-03>JKT-02-XL",
+    "WH-KOL>LKO-03>KUR-06-M"
+   ],
+   "counts": {
+    "moves": 18,
+    "units": 44,
+    "from_warehouse": 29,
+    "from_stores": 15,
+    "donors": [
+     "BLR-03",
+     "BLR-04",
+     "KNP-02",
+     "LKO-02",
+     "LKO-04",
+     "MYS-02",
+     "MZF-02",
+     "PAT-02"
+    ]
+   },
+   "value_mrp": 292456,
+   "n_exceptions": 6,
+   "n_routine": 12,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Maroon Cotton Silk Kurta Set",
+     "size": "L",
+     "qty": 6
+    },
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "XL",
+     "qty": 5
+    },
+    {
+     "style_name": "Teal Printed Nehru Jacket",
+     "size": "XL",
+     "qty": 5
+    }
+   ],
+   "headline": "Restock LKO-03 with 44 units worth Rs 2,92,456",
+   "summary": "44 units arrive at LKO-03 on 2026-11-07 from the warehouse and 8 other stores including BLR-03 and BLR-04 for Rs 2,92,456. 6 moves need a person to decide and 12 are routine.",
+   "summary_hi": "LKO-03 \u092e\u0947\u0902 2026-11-07 \u0915\u094b 44 units \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902, \u091c\u093f\u0928\u0915\u0940 \u0915\u0940\u092e\u0924 Rs 2,92,456 \u0939\u0948\u0964 \u092f\u0947 warehouse \u0914\u0930 BLR-03, BLR-04 \u091c\u0948\u0938\u0947 8 \u0926\u0942\u0938\u0930\u0947 stores \u0938\u0947 \u0906\u090f \u0939\u0948\u0902\u0964 6 moves \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 person \u0915\u093e \u092b\u0948\u0938\u0932\u093e \u091a\u093e\u0939\u093f\u090f \u0914\u0930 12 routine \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:MZF-02",
+   "kind": "RESTOCK",
+   "store": "MZF-02",
+   "move_ids": [
+    "WH-KOL>MZF-02>JKT-01-S",
+    "WH-KOL>MZF-02>KUR-02-XL",
+    "WH-KOL>MZF-02>KUR-05-L",
+    "WH-KOL>MZF-02>KUR-05-XL",
+    "WH-KOL>MZF-02>KUR-05-XXL",
+    "WH-KOL>MZF-02>MOJ-02-8",
+    "WH-KOL>MZF-02>KUR-02-L",
+    "WH-KOL>MZF-02>KUR-02-M",
+    "WH-KOL>MZF-02>KUR-02-S",
+    "WH-KOL>MZF-02>KUR-03-M",
+    "WH-KOL>MZF-02>KUR-04-XL"
+   ],
+   "counts": {
+    "moves": 11,
+    "units": 47,
+    "from_warehouse": 47,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 288953,
+   "n_exceptions": 1,
+   "n_routine": 10,
+   "needs_decision": true,
+   "warnings": [
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "XL",
+     "qty": 9
+    },
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "L",
+     "qty": 6
+    },
+    {
+     "style_name": "Mustard Embroidered Yoke Kurta Set",
+     "size": "XL",
+     "qty": 6
+    }
+   ],
+   "headline": "Restock MZF-02 with 47 units worth Rs 2,88,953",
+   "summary": "Restock MZF-02 with 11 moves arriving by 2026-11-03. The transfer includes 47 units worth Rs 2,88,953, with 1 move needing a person and 10 routine moves.",
+   "summary_hi": "MZF-02 \u092e\u0947\u0902 11 moves \u0938\u0947 47 units \u0915\u0940 restock \u0906 \u0930\u0939\u0940 \u0939\u0948, \u091c\u093f\u0938\u0915\u0940 value Rs 2,88,953 \u0939\u0948\u0964 1 move \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 10 routine moves \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:KNP-02",
+   "kind": "RESTOCK",
+   "store": "KNP-02",
+   "move_ids": [
+    "KNP-03>KNP-02>IW-01-M",
+    "WH-KOL>KNP-02>IW-01-M",
+    "KNP-03>KNP-02>IW-02-XL",
+    "WH-KOL>KNP-02>IW-02-XL",
+    "KNP-01>KNP-02>JKT-02-M",
+    "WH-KOL>KNP-02>JKT-02-M",
+    "KNP-03>KNP-02>JKT-04-M",
+    "WH-KOL>KNP-02>JKT-04-M",
+    "MZF-02>KNP-02>JKT-06-M",
+    "PAT-03>KNP-02>JKT-06-M",
+    "KNP-01>KNP-02>KUR-06-XXXL",
+    "BLR-03>KNP-02>KUR-07-L",
+    "KNP-03>KNP-02>KUR-10-XXL",
+    "LKO-04>KNP-02>KUR-10-XXL",
+    "KNP-03>KNP-02>KUR-20-L",
+    "WH-KOL>KNP-02>KUR-20-L",
+    "WH-KOL>KNP-02>KUR-06-XXL",
+    "WH-KOL>KNP-02>JKT-01-L",
+    "KNP-03>KNP-02>JKT-02-XXL"
+   ],
+   "counts": {
+    "moves": 19,
+    "units": 40,
+    "from_warehouse": 20,
+    "from_stores": 20,
+    "donors": [
+     "BLR-03",
+     "KNP-01",
+     "KNP-03",
+     "LKO-04",
+     "MZF-02",
+     "PAT-03"
+    ]
+   },
+   "value_mrp": 246860,
+   "n_exceptions": 4,
+   "n_routine": 15,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "L",
+     "qty": 9
+    },
+    {
+     "style_name": "Teal Printed Nehru Jacket",
+     "size": "M",
+     "qty": 6
+    },
+    {
+     "style_name": "Maroon Cotton Silk Kurta Set",
+     "size": "XXL",
+     "qty": 5
+    }
+   ],
+   "headline": "Restock KNP-02 with 40 units worth Rs 2,46,860",
+   "summary": "Restock KNP-02 with 40 units valued at Rs 2,46,860 from BLR-03 and KNP-01, arriving by 2026-11-07. 4 moves need a person to decide and 15 are routine.",
+   "summary_hi": "KNP-02 \u092e\u0947\u0902 40 \u092f\u0942\u0928\u093f\u091f\u094d\u0938 \u0915\u093e \u0938\u094d\u091f\u0949\u0915 Rs 2,46,860 \u0915\u0940 \u0935\u0948\u0932\u094d\u092f\u0942 \u0915\u0947 \u0938\u093e\u0925 \u0906 \u0930\u0939\u093e \u0939\u0948, \u091c\u094b BLR-03 \u0914\u0930 KNP-01 \u0938\u0947 \u0906\u090f\u0917\u093e \u0914\u0930 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0902\u091a\u0947\u0917\u093e\u0964 4 \u092e\u0942\u0935\u094d\u0938 \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u094b \u092b\u0948\u0938\u0932\u093e \u0932\u0947\u0928\u093e \u0939\u0948 \u0914\u0930 15 \u0930\u0942\u091f\u0940\u0928 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:BLR-05",
+   "kind": "RESTOCK",
+   "store": "BLR-05",
+   "move_ids": [
+    "MYS-01>BLR-05>JKT-01-S",
+    "MYS-02>BLR-05>JKT-01-S",
+    "WH-KOL>BLR-05>JKT-01-S",
+    "BLR-03>BLR-05>KUR-06-XXL",
+    "MYS-02>BLR-05>KUR-06-XXL",
+    "WH-KOL>BLR-05>KUR-06-XXL",
+    "BLR-04>BLR-05>KUR-09-XXL",
+    "BLR-01>BLR-05>KUR-10-XL",
+    "BLR-03>BLR-05>JKT-02-L",
+    "WH-KOL>BLR-05>JKT-02-L",
+    "WH-KOL>BLR-05>KUR-04-M",
+    "WH-KOL>BLR-05>KUR-11-L",
+    "WH-KOL>BLR-05>JKT-03-XL",
+    "WH-KOL>BLR-05>KUR-06-XL",
+    "BLR-03>BLR-05>MOJ-01-7"
+   ],
+   "counts": {
+    "moves": 15,
+    "units": 48,
+    "from_warehouse": 30,
+    "from_stores": 18,
+    "donors": [
+     "BLR-01",
+     "BLR-03",
+     "BLR-04",
+     "MYS-01",
+     "MYS-02"
+    ]
+   },
+   "value_mrp": 241552,
+   "n_exceptions": 15,
+   "n_routine": 0,
+   "needs_decision": true,
+   "warnings": [
+    "NEW_STORE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "M",
+     "qty": 13
+    },
+    {
+     "style_name": "Teal Printed Nehru Jacket",
+     "size": "L",
+     "qty": 6
+    },
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 5
+    }
+   ],
+   "headline": "Restock BLR-05 with 48 units worth Rs 2,41,552",
+   "summary": "Restock BLR-05 with 48 units worth Rs 2,41,552 from BLR-01 and BLR-03. 15 moves need a person to decide and arrive by 2026-11-06.",
+   "summary_hi": "BLR-05 \u092e\u0947\u0902 48 units \u0914\u0930 Rs 2,41,552 \u0915\u0940 value \u0915\u093e stock restock \u0915\u0930\u0928\u093e \u0939\u0948, \u091c\u094b BLR-01 \u0914\u0930 BLR-03 \u0938\u0947 \u0906\u090f\u0917\u093e\u0964 15 moves \u092e\u0947\u0902 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-06 \u0924\u0915 \u0906\u090f\u0917\u093e\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:PAT-04",
+   "kind": "RESTOCK",
+   "store": "PAT-04",
+   "move_ids": [
+    "PAT-03>PAT-04>KUR-10-M",
+    "WH-KOL>PAT-04>KUR-10-M",
+    "WH-KOL>PAT-04>KUR-10-XL",
+    "MZF-02>PAT-04>KUR-10-XXXL",
+    "BLR-01>PAT-04>KUR-10-XXXL",
+    "WH-KOL>PAT-04>MOJ-01-11",
+    "PAT-02>PAT-04>SHW-02-XXL",
+    "KNP-02>PAT-04>SHW-02-XXL",
+    "LKO-04>PAT-04>SHW-09-L",
+    "WH-KOL>PAT-04>MOJ-01-8",
+    "PAT-03>PAT-04>JKT-01-L",
+    "WH-KOL>PAT-04>KUR-04-XL",
+    "WH-KOL>PAT-04>KUR-03-M"
+   ],
+   "counts": {
+    "moves": 13,
+    "units": 31,
+    "from_warehouse": 22,
+    "from_stores": 9,
+    "donors": [
+     "BLR-01",
+     "KNP-02",
+     "LKO-04",
+     "MZF-02",
+     "PAT-02",
+     "PAT-03"
+    ]
+   },
+   "value_mrp": 218169,
+   "n_exceptions": 5,
+   "n_routine": 8,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Ivory Chikankari Kurta Set",
+     "size": "XL",
+     "qty": 9
+    },
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "11",
+     "qty": 4
+    },
+    {
+     "style_name": "Peach Leather Mojari",
+     "size": "8",
+     "qty": 4
+    }
+   ],
+   "headline": "Restock PAT-04 with 31 units worth Rs 2,18,169",
+   "summary": "Restock PAT-04 with 31 units from BLR-01 and KNP-02, totaling Rs 2,18,169. 5 moves need a person and it arrives by 2026-11-07.",
+   "summary_hi": "PAT-04 \u092e\u0947\u0902 31 units \u0915\u0940 restock \u0939\u0948, \u091c\u093f\u0938\u0915\u0940 value Rs 2,18,169 \u0939\u0948, \u091c\u094b BLR-01 \u0914\u0930 KNP-02 \u0938\u0947 \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902\u0964 5 moves \u092e\u0947\u0902 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0902\u091a\u0947\u0917\u093e\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:KNP-01",
+   "kind": "RESTOCK",
+   "store": "KNP-01",
+   "move_ids": [
+    "PAT-01>KNP-01>IW-08-M",
+    "KNP-02>KNP-01>KUR-05-S",
+    "KNP-03>KNP-01>KUR-05-S",
+    "KNP-02>KNP-01>KUR-07-XL",
+    "LKO-04>KNP-01>KUR-07-XL",
+    "MYS-01>KNP-01>KUR-07-XXXL",
+    "MYS-02>KNP-01>KUR-07-XXXL",
+    "KNP-02>KNP-01>MOJ-04-11",
+    "KNP-03>KNP-01>MOJ-04-11",
+    "LKO-04>KNP-01>SHW-06-XL",
+    "KNP-02>KNP-01>KUR-09-S",
+    "KNP-03>KNP-01>KUR-09-S",
+    "KNP-02>KNP-01>IW-01-XXL",
+    "WH-KOL>KNP-01>IW-01-XXL"
+   ],
+   "counts": {
+    "moves": 14,
+    "units": 17,
+    "from_warehouse": 1,
+    "from_stores": 16,
+    "donors": [
+     "KNP-02",
+     "KNP-03",
+     "LKO-04",
+     "MYS-01",
+     "MYS-02",
+     "PAT-01"
+    ]
+   },
+   "value_mrp": 195983,
+   "n_exceptions": 3,
+   "n_routine": 11,
+   "needs_decision": true,
+   "warnings": [
+    "CROSS_ZONE",
+    "THIN_DATA"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-07",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Pastel Mint Draped Indo-Western",
+     "size": "M",
+     "qty": 4
+    },
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "S",
+     "qty": 2
+    },
+    {
+     "style_name": "Lilac Asymmetric Indo-Western",
+     "size": "XXL",
+     "qty": 2
+    }
+   ],
+   "headline": "Restock KNP-01 with 17 units worth Rs 1,95,983",
+   "summary": "14 moves bring 17 units to KNP-01 from 1 warehouse and 6 other stores including KNP-02. 3 moves need a person to decide and arrive by 2026-11-07.",
+   "summary_hi": "KNP-01 \u092e\u0947\u0902 17 items \u0906\u090f, \u091c\u093f\u0928\u0915\u0940 value Rs 1,95,983 \u0939\u0948\u0964 1 warehouse \u0914\u0930 6 \u0926\u0942\u0938\u0930\u0947 stores \u0938\u0947 \u0906\u090f, \u091c\u093f\u0928\u092e\u0947\u0902 KNP-02 \u092d\u0940 \u0939\u0948\u0964 3 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u094b \u092b\u0948\u0938\u0932\u093e \u0932\u0947\u0928\u093e \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-07 \u0924\u0915 \u092a\u0939\u0941\u0901\u091a\u0947\u0902\u0917\u0947\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "RESTOCK:MYS-02",
+   "kind": "RESTOCK",
+   "store": "MYS-02",
+   "move_ids": [
+    "BLR-05>MYS-02>IW-01-L",
+    "MYS-01>MYS-02>JKT-01-XXL",
+    "WH-KOL>MYS-02>KUR-08-M",
+    "BLR-05>MYS-02>MOJ-04-8",
+    "WH-KOL>MYS-02>JKT-01-M",
+    "BLR-03>MYS-02>KUR-05-XL",
+    "WH-KOL>MYS-02>KUR-06-L",
+    "BLR-03>MYS-02>MOJ-02-7"
+   ],
+   "counts": {
+    "moves": 8,
+    "units": 21,
+    "from_warehouse": 9,
+    "from_stores": 12,
+    "donors": [
+     "BLR-03",
+     "BLR-05",
+     "MYS-01"
+    ]
+   },
+   "value_mrp": 146079,
+   "n_exceptions": 2,
+   "n_routine": 6,
+   "needs_decision": true,
+   "warnings": [
+    "NEW_STORE"
+   ],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": 0.0,
+   "top_items": [
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "M",
+     "qty": 5
+    },
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "XL",
+     "qty": 3
+    },
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "XXL",
+     "qty": 3
+    }
+   ],
+   "headline": "Restock MYS-02 with 21 units worth Rs 1,46,079",
+   "summary": "MYS-02 receives 21 units worth Rs 1,46,079 from BLR-03, BLR-05 and MYS-01. Two moves need a person to decide and the restock arrives by 2026-11-06.",
+   "summary_hi": "MYS-02 \u092e\u0947\u0902 BLR-03, BLR-05 \u0914\u0930 MYS-01 \u0938\u0947 21 units \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902, \u091c\u093f\u0928\u0915\u0940 \u0915\u0940\u092e\u0924 Rs 1,46,079 \u0939\u0948\u0964 2 moves \u0915\u0947 \u0932\u093f\u090f person \u0915\u094b \u092b\u0948\u0938\u0932\u093e \u0915\u0930\u0928\u093e \u0939\u0948 \u0914\u0930 \u0938\u093e\u092e\u093e\u0928 2026-11-06 \u0924\u0915 \u092a\u0939\u0941\u0901\u091a \u091c\u093e\u090f\u0917\u093e\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:PAT-02",
+   "kind": "CLEAR",
+   "store": "PAT-02",
+   "move_ids": [
+    "PAT-02>WH-KOL>SHW-11-S",
+    "PAT-02>WH-KOL>IW-01-XXXL",
+    "PAT-02>WH-KOL>KUR-20-M",
+    "PAT-02>WH-KOL>IW-01-XXL",
+    "PAT-02>WH-KOL>KUR-17-XXL",
+    "PAT-02>WH-KOL>KUR-17-XL",
+    "PAT-02>WH-KOL>KUR-23-M",
+    "PAT-02>WH-KOL>JKT-07-M",
+    "PAT-02>WH-KOL>JKT-08-L",
+    "PAT-02>WH-KOL>JKT-08-M",
+    "PAT-02>WH-KOL>JKT-08-XL",
+    "PAT-02>WH-KOL>JKT-08-XXL",
+    "PAT-02>WH-KOL>JKT-07-L",
+    "PAT-02>WH-KOL>KUR-10-L",
+    "PAT-02>WH-KOL>KUR-11-L",
+    "PAT-02>WH-KOL>KUR-10-M",
+    "PAT-02>WH-KOL>KUR-08-S",
+    "PAT-02>WH-KOL>KUR-06-XXXL",
+    "PAT-02>WH-KOL>KUR-08-XXXL",
+    "PAT-02>WH-KOL>KUR-11-XL",
+    "PAT-02>WH-KOL>KUR-05-XXXL",
+    "PAT-02>WH-KOL>IW-03-L",
+    "PAT-02>WH-KOL>KUR-23-XL",
+    "PAT-02>WH-KOL>IW-02-M"
+   ],
+   "counts": {
+    "moves": 24,
+    "units": 38,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 299762,
+   "n_exceptions": 0,
+   "n_routine": 24,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Cream Draped Indo-Western",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Mustard Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Mustard Printed Nehru Jacket",
+     "size": "M",
+     "qty": 2
+    }
+   ],
+   "headline": "PAT-02: clear 24 moves, 38 units, Rs 2,99,762",
+   "summary": "Clear 24 routine moves and 38 units worth Rs 2,99,762 from PAT-02 by 2026-11-03. Two biggest items are Cream Draped Indo-Western size M and Mustard Printed Nehru Jacket size L and M.",
+   "summary_hi": "PAT-02 \u0938\u0947 2026-11-03 \u0924\u0915 24 routine moves \u0914\u0930 38 units \u0928\u093f\u0915\u093e\u0932\u0947\u0902, \u091c\u093f\u0928\u0915\u0940 value Rs 2,99,762 \u0939\u0948\u0964 \u0938\u092c\u0938\u0947 \u092c\u095c\u0940 items Cream Draped Indo-Western size M (2) \u0914\u0930 Mustard Printed Nehru Jacket size L \u0914\u0930 M (2-2) \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:MZF-02",
+   "kind": "CLEAR",
+   "store": "MZF-02",
+   "move_ids": [
+    "MZF-02>WH-KOL>IW-01-XXXL",
+    "MZF-02>WH-KOL>IW-02-M",
+    "MZF-02>WH-KOL>KUR-17-XXL",
+    "MZF-02>WH-KOL>JKT-02-S",
+    "MZF-02>WH-KOL>IW-01-XXL",
+    "MZF-02>WH-KOL>KUR-13-XXL",
+    "MZF-02>WH-KOL>KUR-20-M",
+    "MZF-02>WH-KOL>JKT-02-XXXL",
+    "MZF-02>WH-KOL>KUR-13-M",
+    "MZF-02>WH-KOL>KUR-03-S",
+    "MZF-02>WH-KOL>IW-01-XL",
+    "MZF-02>WH-KOL>IW-01-L",
+    "MZF-02>WH-KOL>KUR-10-XL",
+    "MZF-02>WH-KOL>KUR-02-XXXL",
+    "MZF-02>WH-KOL>JKT-07-M",
+    "MZF-02>WH-KOL>IW-02-L",
+    "MZF-02>WH-KOL>KUR-16-XL",
+    "MZF-02>WH-KOL>JKT-02-XXL",
+    "MZF-02>WH-KOL>JKT-08-L",
+    "MZF-02>WH-KOL>JKT-08-XL",
+    "MZF-02>WH-KOL>JKT-08-XXL",
+    "MZF-02>WH-KOL>MOJ-02-11",
+    "MZF-02>WH-KOL>MOJ-05-10",
+    "MZF-02>WH-KOL>MOJ-05-7",
+    "MZF-02>WH-KOL>JKT-07-L",
+    "MZF-02>WH-KOL>KUR-05-S",
+    "MZF-02>WH-KOL>KUR-06-XXL",
+    "MZF-02>WH-KOL>KUR-01-XXXL",
+    "MZF-02>WH-KOL>KUR-17-XL",
+    "MZF-02>WH-KOL>KUR-06-XXXL",
+    "MZF-02>WH-KOL>KUR-17-L",
+    "MZF-02>WH-KOL>KUR-06-S",
+    "MZF-02>WH-KOL>KUR-13-L"
+   ],
+   "counts": {
+    "moves": 33,
+    "units": 36,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 261689,
+   "n_exceptions": 0,
+   "n_routine": 33,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "XL",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "XXL",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear 33 moves, 36 units worth Rs 2,61,689 from MZF-02",
+   "summary": "Clear 33 routine moves and 36 units worth Rs 2,61,689 from MZF-02 by 2026-11-03. Biggest items are 2 Neon Lime Printed Nehru Jackets each in sizes L, XL, and XXL.",
+   "summary_hi": "MZF-02 \u0938\u0947 33 routine moves \u0914\u0930 36 units \u0915\u0940 Rs 2,61,689 \u0915\u0940 stock \u0915\u094b 2026-11-03 \u0924\u0915 clear \u0915\u0930\u0947\u0902\u0964 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0940 items 2-2 Neon Lime Printed Nehru Jackets \u0939\u0948\u0902, sizes L, XL, \u0914\u0930 XXL \u092e\u0947\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:BLR-03",
+   "kind": "CLEAR",
+   "store": "BLR-03",
+   "move_ids": [
+    "BLR-03>WH-KOL>SHW-11-S",
+    "BLR-03>WH-KOL>KUR-11-M",
+    "BLR-03>WH-KOL>JKT-08-M",
+    "BLR-03>WH-KOL>JKT-08-XL",
+    "BLR-03>WH-KOL>JKT-08-XXL",
+    "BLR-03>WH-KOL>IW-01-XXXL",
+    "BLR-03>WH-KOL>KUR-13-XXL",
+    "BLR-03>WH-KOL>IW-01-XXL",
+    "BLR-03>WH-KOL>KUR-13-M",
+    "BLR-03>WH-KOL>JKT-03-S",
+    "BLR-03>WH-KOL>KUR-17-L",
+    "BLR-03>WH-KOL>KUR-20-M",
+    "BLR-03>WH-KOL>KUR-13-XL",
+    "BLR-03>WH-KOL>KUR-23-XL",
+    "BLR-03>WH-KOL>JKT-07-L",
+    "BLR-03>WH-KOL>SAF-04-FS",
+    "BLR-03>WH-KOL>MOJ-05-9",
+    "BLR-03>WH-KOL>JKT-05-XL",
+    "BLR-03>WH-KOL>KUR-05-XXXL",
+    "BLR-03>WH-KOL>KUR-14-L"
+   ],
+   "counts": {
+    "moves": 20,
+    "units": 33,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 223667,
+   "n_exceptions": 0,
+   "n_routine": 20,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Emerald Plain Silk Safa",
+     "size": "FS",
+     "qty": 2
+    },
+    {
+     "style_name": "Lilac Asymmetric Indo-Western",
+     "size": "XXL",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "M",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock from BLR-03 with 33 units",
+   "summary": "Clear 33 units worth Rs 2,23,667 of old slow stock at BLR-03 by 2026-11-06. 20 moves are routine and 0 need a person to decide.",
+   "summary_hi": "BLR-03 \u0938\u0947 33 units \u0915\u093e \u092a\u0941\u0930\u093e\u0928\u093e \u0938\u094d\u091f\u0949\u0915 \u0939\u091f\u093e\u0928\u093e \u0939\u0948 \u091c\u093f\u0938\u0915\u0940 \u0915\u0940\u092e\u0924 Rs 2,23,667 \u0939\u0948\u0964 \u092f\u0939 2026-11-06 \u0924\u0915 \u0906 \u091c\u093e\u090f\u0917\u093e\u0964 20 \u0915\u093e\u092e \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0939\u0948\u0902 \u0914\u0930 0 \u092e\u0947\u0902 \u0915\u093f\u0938\u0940 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u0947 \u092b\u0948\u0938\u0932\u0947 \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:KNP-03",
+   "kind": "CLEAR",
+   "store": "KNP-03",
+   "move_ids": [
+    "KNP-03>WH-KOL>SHW-11-S",
+    "KNP-03>WH-KOL>JKT-07-M",
+    "KNP-03>WH-KOL>IW-01-XXXL",
+    "KNP-03>WH-KOL>KUR-17-XXL",
+    "KNP-03>WH-KOL>IW-02-M",
+    "KNP-03>WH-KOL>KUR-23-M",
+    "KNP-03>WH-KOL>MOJ-04-7",
+    "KNP-03>WH-KOL>KUR-10-XL",
+    "KNP-03>WH-KOL>KUR-11-L",
+    "KNP-03>WH-KOL>KUR-10-M",
+    "KNP-03>WH-KOL>KUR-20-M",
+    "KNP-03>WH-KOL>KUR-06-XXXL",
+    "KNP-03>WH-KOL>JKT-07-L",
+    "KNP-03>WH-KOL>KUR-11-M",
+    "KNP-03>WH-KOL>JKT-01-XXXL",
+    "KNP-03>WH-KOL>KUR-06-S",
+    "KNP-03>WH-KOL>KUR-20-XL",
+    "KNP-03>WH-KOL>KUR-05-XXXL",
+    "KNP-03>WH-KOL>IW-02-L",
+    "KNP-03>WH-KOL>MOJ-04-8",
+    "KNP-03>WH-KOL>KUR-05-M",
+    "KNP-03>WH-KOL>MOJ-01-11",
+    "KNP-03>WH-KOL>MOJ-04-9",
+    "KNP-03>WH-KOL>KUR-17-XL",
+    "KNP-03>WH-KOL>MOJ-02-6",
+    "KNP-03>WH-KOL>KUR-06-M",
+    "KNP-03>WH-KOL>JKT-04-L",
+    "KNP-03>WH-KOL>JKT-01-XXL",
+    "KNP-03>WH-KOL>KUR-23-XL",
+    "KNP-03>WH-KOL>MOJ-02-11"
+   ],
+   "counts": {
+    "moves": 30,
+    "units": 32,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 218668,
+   "n_exceptions": 0,
+   "n_routine": 30,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "XXL",
+     "qty": 2
+    },
+    {
+     "style_name": "Cream Draped Indo-Western",
+     "size": "L",
+     "qty": 1
+    }
+   ],
+   "headline": "Clear old slow stock from KNP-03",
+   "summary": "30 routine moves clear 32 units worth Rs 2,18,668 from KNP-03 by 2026-11-04, including 2 Peach Cotton Silk Kurta Set size M, 2 Rust Nehru Jacket size XXL, and 1 Cream Draped Indo-Western size L.",
+   "summary_hi": "KNP-03 \u0938\u0947 30 routine moves \u092e\u0947\u0902 32 items \u0915\u0940 value Rs 2,18,668 \u0915\u093e \u092a\u0941\u0930\u093e\u0928\u093e stock 2026-11-04 \u0924\u0915 clear \u0915\u093f\u092f\u093e \u091c\u093e \u0930\u0939\u093e \u0939\u0948, \u091c\u093f\u0938\u092e\u0947\u0902 2 Peach Cotton Silk Kurta Set size M, 2 Rust Nehru Jacket size XXL \u0914\u0930 1 Cream Draped Indo-Western size L \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:LKO-03",
+   "kind": "CLEAR",
+   "store": "LKO-03",
+   "move_ids": [
+    "LKO-03>WH-KOL>SHW-11-S",
+    "LKO-03>WH-KOL>KUR-05-S",
+    "LKO-03>WH-KOL>KUR-23-M",
+    "LKO-03>WH-KOL>MOJ-05-10",
+    "LKO-03>WH-KOL>MOJ-02-11",
+    "LKO-03>WH-KOL>MOJ-05-8",
+    "LKO-03>WH-KOL>IW-03-M",
+    "LKO-03>WH-KOL>JKT-02-XXXL",
+    "LKO-03>WH-KOL>KUR-20-M",
+    "LKO-03>WH-KOL>JKT-08-L",
+    "LKO-03>WH-KOL>JKT-08-M",
+    "LKO-03>WH-KOL>JKT-08-XL",
+    "LKO-03>WH-KOL>JKT-08-XXL",
+    "LKO-03>WH-KOL>JKT-04-XL",
+    "LKO-03>WH-KOL>KUR-10-L",
+    "LKO-03>WH-KOL>KUR-06-S",
+    "LKO-03>WH-KOL>KUR-10-M",
+    "LKO-03>WH-KOL>KUR-11-M",
+    "LKO-03>WH-KOL>JKT-04-M",
+    "LKO-03>WH-KOL>KUR-06-XXXL",
+    "LKO-03>WH-KOL>KUR-23-XL",
+    "LKO-03>WH-KOL>IW-01-XXXL",
+    "LKO-03>WH-KOL>JKT-01-XXXL",
+    "LKO-03>WH-KOL>KUR-09-M",
+    "LKO-03>WH-KOL>JKT-07-M",
+    "LKO-03>WH-KOL>KUR-05-XXXL",
+    "LKO-03>WH-KOL>KUR-02-S",
+    "LKO-03>WH-KOL>KUR-16-XL",
+    "LKO-03>WH-KOL>KUR-16-L"
+   ],
+   "counts": {
+    "moves": 29,
+    "units": 36,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 209464,
+   "n_exceptions": 0,
+   "n_routine": 29,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "M",
+     "qty": 4
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "M",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear 29 moves and 36 units worth Rs 2,09,464 at LKO-03",
+   "summary": "Clear 29 routine moves and 36 units worth Rs 2,09,464 from LKO-03 by 2026-11-04. No moves need a person to decide and no units arrive from warehouse or other stores.",
+   "summary_hi": "LKO-03 \u0938\u0947 2026-11-04 \u0924\u0915 29 routine moves \u0914\u0930 36 units \u0928\u093f\u0915\u093e\u0932\u0947\u0902, \u091c\u093f\u0928\u0915\u0940 value Rs 2,09,464 \u0939\u0948\u0964 \u0915\u093f\u0938\u0940 move \u092e\u0947\u0902 person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948 \u0914\u0930 warehouse \u092f\u093e \u0926\u0942\u0938\u0930\u0947 stores \u0938\u0947 \u0915\u094b\u0908 units \u0928\u0939\u0940\u0902 \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:KNP-01",
+   "kind": "CLEAR",
+   "store": "KNP-01",
+   "move_ids": [
+    "KNP-01>WH-KOL>SHW-11-S",
+    "KNP-01>WH-KOL>JKT-03-S",
+    "KNP-01>WH-KOL>KUR-14-M",
+    "KNP-01>WH-KOL>MOJ-05-7",
+    "KNP-01>WH-KOL>JKT-08-L",
+    "KNP-01>WH-KOL>JKT-08-M",
+    "KNP-01>WH-KOL>KUR-20-M",
+    "KNP-01>WH-KOL>JKT-05-M",
+    "KNP-01>WH-KOL>MOJ-02-6",
+    "KNP-01>WH-KOL>KUR-23-M",
+    "KNP-01>WH-KOL>KUR-03-S",
+    "KNP-01>WH-KOL>KUR-10-M",
+    "KNP-01>WH-KOL>KUR-11-XL",
+    "KNP-01>WH-KOL>KUR-17-L",
+    "KNP-01>WH-KOL>KUR-16-L",
+    "KNP-01>WH-KOL>JKT-02-S",
+    "KNP-01>WH-KOL>IW-03-M",
+    "KNP-01>WH-KOL>KUR-14-L",
+    "KNP-01>WH-KOL>KUR-06-S",
+    "KNP-01>WH-KOL>MOJ-05-10",
+    "KNP-01>WH-KOL>KUR-02-S",
+    "KNP-01>WH-KOL>KUR-11-M",
+    "KNP-01>WH-KOL>MOJ-05-8"
+   ],
+   "counts": {
+    "moves": 23,
+    "units": 36,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 199064,
+   "n_exceptions": 0,
+   "n_routine": 23,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Ivory Embroidered Yoke Kurta Set",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Lilac Zari Mojari",
+     "size": "6",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Self-Design Kurta Set",
+     "size": "L",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock from KNP-01",
+   "summary": "Clear 23 routine moves of 36 units worth Rs 1,99,064 from KNP-01 by 2026-11-04. Biggest items are Ivory Embroidered Yoke Kurta Set size L, Lilac Zari Mojari size 6, and Mint Self-Design Kurta Set size L, 2 each.",
+   "summary_hi": "KNP-01 \u0938\u0947 2026-11-04 \u0924\u0915 23 routine moves \u092e\u0947\u0902 36 units \u0915\u093e \u092a\u0941\u0930\u093e\u0928\u093e stock \u0928\u093f\u0915\u093e\u0932\u0928\u093e \u0939\u0948, \u091c\u093f\u0938\u0915\u0940 value Rs 1,99,064 \u0939\u0948\u0964 \u0938\u092c\u0938\u0947 \u092c\u095c\u0947 items Ivory Embroidered Yoke Kurta Set size L, Lilac Zari Mojari size 6, \u0914\u0930 Mint Self-Design Kurta Set size L \u0939\u0948\u0902, \u0939\u0930 \u090f\u0915 2 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:PAT-01",
+   "kind": "CLEAR",
+   "store": "PAT-01",
+   "move_ids": [
+    "PAT-01>WH-KOL>SHW-11-S",
+    "PAT-01>WH-KOL>JKT-05-M",
+    "PAT-01>WH-KOL>JKT-08-L",
+    "PAT-01>WH-KOL>JKT-08-M",
+    "PAT-01>WH-KOL>JKT-08-XL",
+    "PAT-01>WH-KOL>JKT-08-XXL",
+    "PAT-01>WH-KOL>KUR-14-M",
+    "PAT-01>WH-KOL>JKT-07-M",
+    "PAT-01>WH-KOL>IW-03-M",
+    "PAT-01>WH-KOL>KUR-23-M",
+    "PAT-01>WH-KOL>KUR-14-XL",
+    "PAT-01>WH-KOL>IW-03-L",
+    "PAT-01>WH-KOL>MOJ-05-8",
+    "PAT-01>WH-KOL>KUR-14-L",
+    "PAT-01>WH-KOL>KUR-16-XL"
+   ],
+   "counts": {
+    "moves": 15,
+    "units": 28,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 196472,
+   "n_exceptions": 0,
+   "n_routine": 15,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Teal Leather Mojari",
+     "size": "8",
+     "qty": 3
+    },
+    {
+     "style_name": "Ivory Embroidered Yoke Kurta Set",
+     "size": "XL",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Self-Design Kurta Set",
+     "size": "L",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock from PAT-01",
+   "summary": "15 routine moves clear 28 units worth Rs 1,96,472 from PAT-01 by 2026-11-03, including 3 Teal Leather Mojari size 8, 2 Ivory Embroidered Yoke Kurta Set size XL, and 2 Mint Self-Design Kurta Set size L.",
+   "summary_hi": "PAT-01 \u0938\u0947 15 routine moves \u092e\u0947\u0902 28 units \u0915\u0940 old slow stock Rs 1,96,472 \u0915\u0940 clear \u0915\u0940 \u091c\u093e \u0930\u0939\u0940 \u0939\u0948, \u091c\u094b 2026-11-03 \u0924\u0915 \u0906 \u091c\u093e\u090f\u0917\u0940\u0964 \u0907\u0938\u092e\u0947\u0902 3 Teal Leather Mojari size 8, 2 Ivory Embroidered Yoke Kurta Set size XL, \u0914\u0930 2 Mint Self-Design Kurta Set size L \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:LKO-02",
+   "kind": "CLEAR",
+   "store": "LKO-02",
+   "move_ids": [
+    "LKO-02>WH-KOL>KUR-23-M",
+    "LKO-02>WH-KOL>JKT-05-M",
+    "LKO-02>WH-KOL>JKT-08-L",
+    "LKO-02>WH-KOL>JKT-08-M",
+    "LKO-02>WH-KOL>JKT-08-XL",
+    "LKO-02>WH-KOL>JKT-08-XXL",
+    "LKO-02>WH-KOL>KUR-13-XXL",
+    "LKO-02>WH-KOL>KUR-16-XL",
+    "LKO-02>WH-KOL>KUR-11-M",
+    "LKO-02>WH-KOL>KUR-20-L",
+    "LKO-02>WH-KOL>SHW-11-S",
+    "LKO-02>WH-KOL>JKT-01-S",
+    "LKO-02>WH-KOL>IW-03-L",
+    "LKO-02>WH-KOL>KUR-10-XL",
+    "LKO-02>WH-KOL>KUR-10-M",
+    "LKO-02>WH-KOL>KUR-17-XXL",
+    "LKO-02>WH-KOL>KUR-20-XL",
+    "LKO-02>WH-KOL>KUR-10-L",
+    "LKO-02>WH-KOL>MOJ-05-9",
+    "LKO-02>WH-KOL>KUR-09-XXXL",
+    "LKO-02>WH-KOL>SAF-04-FS"
+   ],
+   "counts": {
+    "moves": 21,
+    "units": 35,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 195765,
+   "n_exceptions": 0,
+   "n_routine": 21,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Emerald Plain Silk Safa",
+     "size": "FS",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 2
+    },
+    {
+     "style_name": "Mustard Self-Design Kurta Set",
+     "size": "L",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock from LKO-02 via 21 routine moves",
+   "summary": "LKO-02 has 35 units worth Rs 1,95,765 to clear via 21 routine moves by 2026-11-04. No items need a person to decide.",
+   "summary_hi": "LKO-02 \u092e\u0947\u0902 35 items \u0939\u0948\u0902 \u091c\u093f\u0928\u0915\u0940 \u0915\u0940\u092e\u0924 Rs 1,95,765 \u0939\u0948\u0964 \u0907\u0928\u094d\u0939\u0947\u0902 21 routine moves \u0938\u0947 2026-11-04 \u0924\u0915 clear \u0915\u0930\u0928\u093e \u0939\u0948\u0964 \u0915\u093f\u0938\u0940 \u092d\u0940 item \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:LKO-04",
+   "kind": "CLEAR",
+   "store": "LKO-04",
+   "move_ids": [
+    "LKO-04>WH-KOL>SHW-11-S",
+    "LKO-04>WH-KOL>KUR-17-XXL",
+    "LKO-04>WH-KOL>KUR-20-L",
+    "LKO-04>WH-KOL>KUR-13-M",
+    "LKO-04>WH-KOL>JKT-08-L",
+    "LKO-04>WH-KOL>JKT-08-M",
+    "LKO-04>WH-KOL>JKT-08-XL",
+    "LKO-04>WH-KOL>JKT-08-XXL",
+    "LKO-04>WH-KOL>KUR-16-XL",
+    "LKO-04>WH-KOL>MOJ-04-9",
+    "LKO-04>WH-KOL>JKT-05-M",
+    "LKO-04>WH-KOL>KUR-11-L",
+    "LKO-04>WH-KOL>KUR-10-L",
+    "LKO-04>WH-KOL>KUR-13-L",
+    "LKO-04>WH-KOL>IW-01-XXXL",
+    "LKO-04>WH-KOL>JKT-03-S",
+    "LKO-04>WH-KOL>KUR-11-M",
+    "LKO-04>WH-KOL>KUR-13-XXL",
+    "LKO-04>WH-KOL>KUR-14-M",
+    "LKO-04>WH-KOL>KUR-17-L",
+    "LKO-04>WH-KOL>KUR-05-XXXL"
+   ],
+   "counts": {
+    "moves": 21,
+    "units": 35,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 194665,
+   "n_exceptions": 0,
+   "n_routine": 21,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Ivory Embroidered Yoke Kurta Set",
+     "size": "XL",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "M",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock from LKO-04 with 35 units worth Rs 1,94,665",
+   "summary": "Clear old slow stock from LKO-04 by 2026-11-04. Move 35 units worth Rs 1,94,665 with 0 moves needing a person. Routine moves are 21.",
+   "summary_hi": "LKO-04 \u0938\u0947 2026-11-04 \u0924\u0915 \u092a\u0941\u0930\u093e\u0928\u093e \u0938\u094d\u091f\u0949\u0915 \u0939\u091f\u093e\u090f\u0901\u0964 35 \u0906\u0907\u091f\u092e \u0915\u0940 \u0915\u0940\u092e\u0924 Rs 1,94,665 \u0939\u0948\u0964 0 \u0915\u093e\u092e \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938\u0940 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964 21 \u0915\u093e\u092e \u0930\u0942\u091f\u0940\u0928 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:KNP-02",
+   "kind": "CLEAR",
+   "store": "KNP-02",
+   "move_ids": [
+    "KNP-02>WH-KOL>KUR-17-XXL",
+    "KNP-02>WH-KOL>SHW-11-S",
+    "KNP-02>WH-KOL>KUR-20-XL",
+    "KNP-02>WH-KOL>MOJ-04-10",
+    "KNP-02>WH-KOL>MOJ-04-8",
+    "KNP-02>WH-KOL>JKT-04-XL",
+    "KNP-02>WH-KOL>KUR-16-L",
+    "KNP-02>WH-KOL>IW-02-M",
+    "KNP-02>WH-KOL>KUR-13-M",
+    "KNP-02>WH-KOL>KUR-17-XL",
+    "KNP-02>WH-KOL>MOJ-04-7",
+    "KNP-02>WH-KOL>JKT-01-S",
+    "KNP-02>WH-KOL>JKT-08-L",
+    "KNP-02>WH-KOL>JKT-08-M",
+    "KNP-02>WH-KOL>JKT-08-XL",
+    "KNP-02>WH-KOL>JKT-08-XXL",
+    "KNP-02>WH-KOL>KUR-05-XXXL",
+    "KNP-02>WH-KOL>KUR-13-L",
+    "KNP-02>WH-KOL>MOJ-02-11",
+    "KNP-02>WH-KOL>MOJ-02-6",
+    "KNP-02>WH-KOL>IW-02-L",
+    "KNP-02>WH-KOL>JKT-02-XXXL",
+    "KNP-02>WH-KOL>KUR-13-XXL",
+    "KNP-02>WH-KOL>MOJ-04-9",
+    "KNP-02>WH-KOL>JKT-04-L",
+    "KNP-02>WH-KOL>KUR-06-S",
+    "KNP-02>WH-KOL>KUR-16-XL",
+    "KNP-02>WH-KOL>MOJ-02-7",
+    "KNP-02>WH-KOL>KUR-17-L",
+    "KNP-02>WH-KOL>JKT-01-XXXL"
+   ],
+   "counts": {
+    "moves": 30,
+    "units": 34,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 182466,
+   "n_exceptions": 0,
+   "n_routine": 30,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Lilac Zari Mojari",
+     "size": "7",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "M",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock from KNP-02",
+   "summary": "Move 30 routine items worth Rs 1,82,466 to clear old slow stock at KNP-02 by 2026-11-04. The 34 units include 2 Lilac Zari Mojari size 7 and 2 each of Neon Lime Printed Nehru Jackets size L and M.",
+   "summary_hi": "KNP-02 \u092e\u0947\u0902 2026-11-04 \u0924\u0915 \u092a\u0941\u0930\u093e\u0928\u0947 \u0927\u0940\u092e\u0947 \u0938\u094d\u091f\u0949\u0915 \u0915\u094b \u0939\u091f\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f 30 \u0930\u0942\u091f\u0940\u0928 \u092e\u0942\u0935\u094d\u0938 \u0938\u0947 34 \u092f\u0942\u0928\u093f\u091f\u094d\u0938 \u0915\u094b Rs 1,82,466 \u0915\u0940 \u0935\u0948\u0932\u094d\u092f\u0942 \u092a\u0930 \u092d\u0947\u091c\u093e \u091c\u093e \u0930\u0939\u093e \u0939\u0948\u0964 \u0907\u0938\u092e\u0947\u0902 Lilac Zari Mojari size 7 \u0915\u0947 2 \u0914\u0930 Neon Lime Printed Nehru Jacket size L \u0914\u0930 M \u0915\u0947 2-2 \u092a\u0940\u0938 \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:PAT-03",
+   "kind": "CLEAR",
+   "store": "PAT-03",
+   "move_ids": [
+    "PAT-03>WH-KOL>IW-01-XXXL",
+    "PAT-03>WH-KOL>SHW-11-S",
+    "PAT-03>WH-KOL>KUR-05-S",
+    "PAT-03>WH-KOL>KUR-23-M",
+    "PAT-03>WH-KOL>JKT-05-XL",
+    "PAT-03>WH-KOL>KUR-13-M",
+    "PAT-03>WH-KOL>KUR-06-S",
+    "PAT-03>WH-KOL>MOJ-04-10",
+    "PAT-03>WH-KOL>KUR-23-XL",
+    "PAT-03>WH-KOL>KUR-20-L",
+    "PAT-03>WH-KOL>JKT-05-L",
+    "PAT-03>WH-KOL>MOJ-02-6",
+    "PAT-03>WH-KOL>KUR-06-XXXL",
+    "PAT-03>WH-KOL>KUR-13-XL",
+    "PAT-03>WH-KOL>KUR-14-M",
+    "PAT-03>WH-KOL>JKT-02-XXXL",
+    "PAT-03>WH-KOL>KUR-05-XXXL",
+    "PAT-03>WH-KOL>JKT-02-S",
+    "PAT-03>WH-KOL>JKT-04-L",
+    "PAT-03>WH-KOL>KUR-13-XXL",
+    "PAT-03>WH-KOL>MOJ-02-11",
+    "PAT-03>WH-KOL>KUR-17-L",
+    "PAT-03>WH-KOL>KUR-10-L",
+    "PAT-03>WH-KOL>KUR-13-L",
+    "PAT-03>WH-KOL>JKT-01-XXL",
+    "PAT-03>WH-KOL>KUR-09-XXXL",
+    "PAT-03>WH-KOL>JKT-02-L",
+    "PAT-03>WH-KOL>KUR-09-XXL",
+    "PAT-03>WH-KOL>KUR-09-S"
+   ],
+   "counts": {
+    "moves": 29,
+    "units": 33,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 176367,
+   "n_exceptions": 0,
+   "n_routine": 29,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 3
+    },
+    {
+     "style_name": "Rust Nehru Jacket",
+     "size": "XXL",
+     "qty": 2
+    },
+    {
+     "style_name": "Teal Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear slow stock from PAT-03",
+   "summary": "Move 29 routine items worth Rs 1,76,367 to clear old slow stock at PAT-03 by 2026-11-03. No moves need a person to decide.",
+   "summary_hi": "PAT-03 \u092e\u0947\u0902 2026-11-03 \u0924\u0915 1,76,367 \u0930\u0941\u092a\u092f\u0947 \u0915\u0947 29 \u0930\u0942\u091f\u0940\u0928 \u0906\u0907\u091f\u092e \u0915\u094d\u0932\u093f\u092f\u0930 \u0915\u0930\u0928\u0947 \u0939\u0948\u0902\u0964 \u0915\u093f\u0938\u0940 \u092d\u0940 \u092e\u0942\u0935 \u0915\u0947 \u0932\u093f\u090f \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:PAT-04",
+   "kind": "CLEAR",
+   "store": "PAT-04",
+   "move_ids": [
+    "PAT-04>WH-KOL>JKT-02-S",
+    "PAT-04>WH-KOL>IW-01-XXXL",
+    "PAT-04>WH-KOL>KUR-23-XL",
+    "PAT-04>WH-KOL>SHW-11-S",
+    "PAT-04>WH-KOL>KUR-22-XL",
+    "PAT-04>WH-KOL>JKT-03-S",
+    "PAT-04>WH-KOL>KUR-05-XXXL",
+    "PAT-04>WH-KOL>KUR-06-S",
+    "PAT-04>WH-KOL>KUR-23-M",
+    "PAT-04>WH-KOL>JKT-03-XXL",
+    "PAT-04>WH-KOL>KUR-05-M",
+    "PAT-04>WH-KOL>KUR-01-XXL",
+    "PAT-04>WH-KOL>KUR-14-M",
+    "PAT-04>WH-KOL>KUR-01-XXXL",
+    "PAT-04>WH-KOL>KUR-05-L",
+    "PAT-04>WH-KOL>KUR-03-XXL",
+    "PAT-04>WH-KOL>KUR-06-XXXL",
+    "PAT-04>WH-KOL>JKT-03-L",
+    "PAT-04>WH-KOL>KUR-05-XXL",
+    "PAT-04>WH-KOL>IW-01-XXL",
+    "PAT-04>WH-KOL>KUR-09-XXXL"
+   ],
+   "counts": {
+    "moves": 21,
+    "units": 25,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 176350,
+   "n_exceptions": 0,
+   "n_routine": 21,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Gold Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Peach Cotton Silk Kurta Set",
+     "size": "M",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear slow stock from PAT-04: 21 moves, Rs 1,76,350",
+   "summary": "Clear 21 routine moves of 25 units worth Rs 1,76,350 from PAT-04 by 2026-11-03. Biggest items are 2 Gold Printed Nehru Jackets size L and 2 Peach Cotton Silk Kurta Sets size L and M. No moves need a person to decide.",
+   "summary_hi": "PAT-04 \u0938\u0947 2026-11-03 \u0924\u0915 21 \u0930\u0942\u091f\u0940\u0928 \u092e\u0942\u0935\u094d\u0938 \u092e\u0947\u0902 25 \u092f\u0942\u0928\u093f\u091f\u094d\u0938, \u091c\u093f\u0928\u0915\u0940 \u0935\u0948\u0932\u094d\u092f\u0942 Rs 1,76,350 \u0939\u0948, \u0915\u094b \u0915\u094d\u0932\u093f\u092f\u0930 \u0915\u0930\u0928\u093e \u0939\u0948\u0964 \u0938\u092c\u0938\u0947 \u092c\u095c\u0947 \u0906\u0907\u091f\u092e 2 Gold Printed Nehru Jacket size L \u0914\u0930 2 Peach Cotton Silk Kurta Set size L \u0914\u0930 M \u0939\u0948\u0902\u0964 \u0915\u093f\u0938\u0940 \u092d\u0940 \u092e\u0942\u0935 \u0915\u0947 \u0932\u093f\u090f \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u0947 \u092b\u0948\u0938\u0932\u0947 \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:MYS-01",
+   "kind": "CLEAR",
+   "store": "MYS-01",
+   "move_ids": [
+    "MYS-01>WH-KOL>SHW-11-S",
+    "MYS-01>WH-KOL>MOJ-04-7",
+    "MYS-01>WH-KOL>KUR-13-XXL",
+    "MYS-01>WH-KOL>KUR-23-M",
+    "MYS-01>WH-KOL>KUR-10-M",
+    "MYS-01>WH-KOL>KUR-03-S",
+    "MYS-01>WH-KOL>KUR-23-XL",
+    "MYS-01>WH-KOL>IW-01-XXXL",
+    "MYS-01>WH-KOL>SAF-04-FS",
+    "MYS-01>WH-KOL>JKT-08-L",
+    "MYS-01>WH-KOL>JKT-08-M",
+    "MYS-01>WH-KOL>JKT-08-XL",
+    "MYS-01>WH-KOL>JKT-08-XXL",
+    "MYS-01>WH-KOL>MOJ-02-11",
+    "MYS-01>WH-KOL>KUR-13-XL",
+    "MYS-01>WH-KOL>MOJ-04-10",
+    "MYS-01>WH-KOL>KUR-06-S",
+    "MYS-01>WH-KOL>KUR-10-L",
+    "MYS-01>WH-KOL>KUR-11-L",
+    "MYS-01>WH-KOL>KUR-22-XL",
+    "MYS-01>WH-KOL>KUR-05-S",
+    "MYS-01>WH-KOL>KUR-06-XXXL",
+    "MYS-01>WH-KOL>MOJ-04-9",
+    "MYS-01>WH-KOL>KUR-01-XXL",
+    "MYS-01>WH-KOL>MOJ-02-6"
+   ],
+   "counts": {
+    "moves": 25,
+    "units": 29,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 160996,
+   "n_exceptions": 0,
+   "n_routine": 25,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "XL",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear slow stock from MYS-01 with 29 units worth Rs 1,60,996",
+   "summary": "25 routine moves clear 29 units of slow stock from MYS-01 by 2026-11-06, including 2 Neon Lime Printed Nehru Jackets in each of sizes L, M, and XL, valued at Rs 1,60,996. No moves need a person to decide.",
+   "summary_hi": "MYS-01 \u0938\u0947 2026-11-06 \u0924\u0915 29 units \u0915\u093e slow stock clear \u0915\u093f\u092f\u093e \u091c\u093e \u0930\u0939\u093e \u0939\u0948, \u091c\u093f\u0938\u0915\u0940 value Rs 1,60,996 \u0939\u0948\u0964 \u0907\u0938\u092e\u0947\u0902 Neon Lime Printed Nehru Jacket \u0915\u0947 size L, M, \u0914\u0930 XL \u092e\u0947\u0902 2-2 units \u0936\u093e\u092e\u093f\u0932 \u0939\u0948\u0902\u0964 25 routine moves \u0939\u0948\u0902 \u0914\u0930 \u0915\u093f\u0938\u0940 decision \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:BLR-04",
+   "kind": "CLEAR",
+   "store": "BLR-04",
+   "move_ids": [
+    "BLR-04>WH-KOL>SHW-11-S",
+    "BLR-04>WH-KOL>KUR-20-M",
+    "BLR-04>WH-KOL>MOJ-05-9",
+    "BLR-04>WH-KOL>JKT-08-L",
+    "BLR-04>WH-KOL>JKT-08-M",
+    "BLR-04>WH-KOL>JKT-08-XL",
+    "BLR-04>WH-KOL>JKT-08-XXL",
+    "BLR-04>WH-KOL>KUR-13-XL",
+    "BLR-04>WH-KOL>KUR-23-XL",
+    "BLR-04>WH-KOL>IW-02-M",
+    "BLR-04>WH-KOL>JKT-07-M",
+    "BLR-04>WH-KOL>KUR-13-XXL",
+    "BLR-04>WH-KOL>JKT-07-L",
+    "BLR-04>WH-KOL>MOJ-04-7"
+   ],
+   "counts": {
+    "moves": 14,
+    "units": 24,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 151676,
+   "n_exceptions": 0,
+   "n_routine": 14,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Cream Draped Indo-Western",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "XL",
+     "qty": 2
+    },
+    {
+     "style_name": "Mustard Printed Nehru Jacket",
+     "size": "L",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear old slow stock at BLR-04",
+   "summary": "Clear 14 routine moves of 24 units worth Rs 1,51,676 at BLR-04 by 2026-11-06. No moves need a person to decide.",
+   "summary_hi": "BLR-04 \u092e\u0947\u0902 14 routine moves \u0938\u0947 24 units \u0915\u093e \u092a\u0941\u0930\u093e\u0928\u093e stock, \u091c\u093f\u0938\u0915\u0940 value Rs 1,51,676 \u0939\u0948, 2026-11-06 \u0924\u0915 clear \u0915\u0930\u0928\u093e \u0939\u0948\u0964 \u0915\u093f\u0938\u0940 move \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:MYS-02",
+   "kind": "CLEAR",
+   "store": "MYS-02",
+   "move_ids": [
+    "MYS-02>WH-KOL>SHW-11-S",
+    "MYS-02>WH-KOL>KUR-10-M",
+    "MYS-02>WH-KOL>KUR-23-XL",
+    "MYS-02>WH-KOL>KUR-13-XL",
+    "MYS-02>WH-KOL>JKT-05-XL",
+    "MYS-02>WH-KOL>KUR-13-XXL",
+    "MYS-02>WH-KOL>MOJ-01-6",
+    "MYS-02>WH-KOL>IW-01-XXL",
+    "MYS-02>WH-KOL>KUR-13-L",
+    "MYS-02>WH-KOL>IW-03-M",
+    "MYS-02>WH-KOL>KUR-13-M",
+    "MYS-02>WH-KOL>KUR-23-M",
+    "MYS-02>WH-KOL>KUR-02-XXXL",
+    "MYS-02>WH-KOL>MOJ-04-10",
+    "MYS-02>WH-KOL>MOJ-02-11",
+    "MYS-02>WH-KOL>KUR-05-S",
+    "MYS-02>WH-KOL>MOJ-04-7",
+    "MYS-02>WH-KOL>JKT-02-XXXL",
+    "MYS-02>WH-KOL>MOJ-02-6",
+    "MYS-02>WH-KOL>MOJ-04-9",
+    "MYS-02>WH-KOL>KUR-06-M"
+   ],
+   "counts": {
+    "moves": 21,
+    "units": 22,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 146178,
+   "n_exceptions": 0,
+   "n_routine": 21,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Maroon Cotton Silk Kurta Set",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Lilac Asymmetric Indo-Western",
+     "size": "XXL",
+     "qty": 1
+    },
+    {
+     "style_name": "Lilac Zari Mojari",
+     "size": "11",
+     "qty": 1
+    }
+   ],
+   "headline": "Clear 21 moves of 22 units worth Rs 1,46,178 at MYS-02",
+   "summary": "Clear 21 routine moves of 22 units worth Rs 1,46,178 at MYS-02 by 2026-11-06. No moves need a person to decide.",
+   "summary_hi": "MYS-02 \u092e\u0947\u0902 21 routine moves \u0938\u0947 22 units \u0915\u093e stock Rs 1,46,178 \u0915\u093e clear \u0915\u0930\u0928\u093e \u0939\u0948, \u091c\u094b 2026-11-06 \u0924\u0915 \u0906\u090f\u0917\u093e\u0964 \u0915\u093f\u0938\u0940 \u092d\u0940 move \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:MZF-01",
+   "kind": "CLEAR",
+   "store": "MZF-01",
+   "move_ids": [
+    "MZF-01>WH-KOL>SHW-11-S",
+    "MZF-01>WH-KOL>KUR-13-XXL",
+    "MZF-01>WH-KOL>IW-03-M",
+    "MZF-01>WH-KOL>JKT-05-M",
+    "MZF-01>WH-KOL>KUR-05-XXXL",
+    "MZF-01>WH-KOL>JKT-02-XXXL",
+    "MZF-01>WH-KOL>IW-01-XXL",
+    "MZF-01>WH-KOL>JKT-02-XXL",
+    "MZF-01>WH-KOL>KUR-20-XL",
+    "MZF-01>WH-KOL>KUR-02-XXXL",
+    "MZF-01>WH-KOL>JKT-01-XXXL",
+    "MZF-01>WH-KOL>JKT-03-S",
+    "MZF-01>WH-KOL>KUR-22-XL",
+    "MZF-01>WH-KOL>JKT-05-XL",
+    "MZF-01>WH-KOL>KUR-16-L",
+    "MZF-01>WH-KOL>KUR-13-M",
+    "MZF-01>WH-KOL>KUR-09-XXXL",
+    "MZF-01>WH-KOL>IW-01-XXXL"
+   ],
+   "counts": {
+    "moves": 18,
+    "units": 18,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 145382,
+   "n_exceptions": 0,
+   "n_routine": 18,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-03",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Gold Chikankari Kurta Set",
+     "size": "XXXL",
+     "qty": 1
+    },
+    {
+     "style_name": "Gold Printed Nehru Jacket",
+     "size": "S",
+     "qty": 1
+    },
+    {
+     "style_name": "Ivory Embroidered Yoke Kurta Set",
+     "size": "L",
+     "qty": 1
+    }
+   ],
+   "headline": "Clear 18 slow units worth Rs 1,45,382 at MZF-01 by 2026-11-03",
+   "summary": "Clear 18 routine units worth Rs 1,45,382 from MZF-01 by 2026-11-03. No moves need a person to decide.",
+   "summary_hi": "MZF-01 \u0938\u0947 18 units \u0915\u0940 \u0915\u0940\u092e\u0924 Rs 1,45,382 \u0915\u094b 2026-11-03 \u0924\u0915 clear \u0915\u0930\u0947\u0902\u0964 \u0915\u093f\u0938\u0940 \u092d\u0940 move \u0915\u0947 \u0932\u093f\u090f person \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:LKO-01",
+   "kind": "CLEAR",
+   "store": "LKO-01",
+   "move_ids": [
+    "LKO-01>WH-KOL>SHW-11-S",
+    "LKO-01>WH-KOL>KUR-13-XXL",
+    "LKO-01>WH-KOL>KUR-23-M",
+    "LKO-01>WH-KOL>JKT-08-L",
+    "LKO-01>WH-KOL>JKT-08-M",
+    "LKO-01>WH-KOL>JKT-08-XXL",
+    "LKO-01>WH-KOL>KUR-13-M",
+    "LKO-01>WH-KOL>KUR-14-L",
+    "LKO-01>WH-KOL>KUR-20-M",
+    "LKO-01>WH-KOL>KUR-11-L",
+    "LKO-01>WH-KOL>KUR-17-XXL",
+    "LKO-01>WH-KOL>MOJ-05-10"
+   ],
+   "counts": {
+    "moves": 12,
+    "units": 23,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 121477,
+   "n_exceptions": 0,
+   "n_routine": 12,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-04",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Royal Blue Self-Design Kurta Set",
+     "size": "L",
+     "qty": 3
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear slow stock at LKO-01",
+   "summary": "Clear 12 routine moves of 23 units worth Rs 1,21,477 at LKO-01 by 2026-11-04. Biggest items are Royal Blue Self-Design Kurta Set size L: 3, Mint Chikankari Kurta Set size M: 2, and Mint Chikankari Kurta Set size XXL: 2.",
+   "summary_hi": "LKO-01 \u092e\u0947\u0902 2026-11-04 \u0924\u0915 12 routine moves \u0915\u0947 \u091c\u0930\u093f\u090f 23 units \u0915\u093e slow stock clear \u0915\u0930\u0928\u093e \u0939\u0948, \u091c\u093f\u0938\u0915\u0940 value Rs 1,21,477 \u0939\u0948\u0964 \u0938\u092c\u0938\u0947 \u092c\u095c\u0947 items Royal Blue Self-Design Kurta Set size L: 3, Mint Chikankari Kurta Set size M: 2, \u0914\u0930 Mint Chikankari Kurta Set size XXL: 2 \u0939\u0948\u0902\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:BLR-02",
+   "kind": "CLEAR",
+   "store": "BLR-02",
+   "move_ids": [
+    "BLR-02>WH-KOL>SHW-11-S",
+    "BLR-02>WH-KOL>KUR-17-XXL",
+    "BLR-02>WH-KOL>KUR-23-M",
+    "BLR-02>WH-KOL>JKT-08-L",
+    "BLR-02>WH-KOL>JKT-08-M",
+    "BLR-02>WH-KOL>JKT-08-XL",
+    "BLR-02>WH-KOL>JKT-08-XXL",
+    "BLR-02>WH-KOL>KUR-13-XXL",
+    "BLR-02>WH-KOL>MOJ-05-10",
+    "BLR-02>WH-KOL>JKT-07-L",
+    "BLR-02>WH-KOL>KUR-16-XL",
+    "BLR-02>WH-KOL>KUR-10-M"
+   ],
+   "counts": {
+    "moves": 12,
+    "units": 20,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 103080,
+   "n_exceptions": 0,
+   "n_routine": 12,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Ivory Embroidered Yoke Kurta Set",
+     "size": "XL",
+     "qty": 2
+    },
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "XXL",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "XL",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear slow stock from BLR-02",
+   "summary": "12 routine moves of 20 units worth Rs 1,03,080 arrive at BLR-02 by 2026-11-06. No moves need a person to decide.",
+   "summary_hi": "BLR-02 \u092e\u0947\u0902 20 items \u0915\u0947 12 routine moves \u0906 \u0930\u0939\u0947 \u0939\u0948\u0902, \u091c\u093f\u0928\u0915\u0940 value Rs 1,03,080 \u0939\u0948 \u0914\u0930 \u092f\u0947 2026-11-06 \u0924\u0915 \u092a\u0939\u0941\u0901\u091a\u0947\u0902\u0917\u0947\u0964 \u0915\u093f\u0938\u0940 \u092d\u0940 move \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938\u0940 person \u0915\u0947 decision \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  },
+  {
+   "action_id": "CLEAR:BLR-01",
+   "kind": "CLEAR",
+   "store": "BLR-01",
+   "move_ids": [
+    "BLR-01>WH-KOL>SHW-11-S",
+    "BLR-01>WH-KOL>JKT-08-M",
+    "BLR-01>WH-KOL>JKT-08-XXL",
+    "BLR-01>WH-KOL>KUR-11-M",
+    "BLR-01>WH-KOL>KUR-20-L",
+    "BLR-01>WH-KOL>KUR-13-M"
+   ],
+   "counts": {
+    "moves": 6,
+    "units": 10,
+    "from_warehouse": 0,
+    "from_stores": 0,
+    "donors": []
+   },
+   "value_mrp": 61490,
+   "n_exceptions": 0,
+   "n_routine": 6,
+   "needs_decision": false,
+   "warnings": [],
+   "dispatch_by": "2026-10-31",
+   "arrives_by": "2026-11-06",
+   "urgency": null,
+   "top_items": [
+    {
+     "style_name": "Mint Chikankari Kurta Set",
+     "size": "M",
+     "qty": 2
+    },
+    {
+     "style_name": "Mustard Self-Design Kurta Set",
+     "size": "L",
+     "qty": 2
+    },
+    {
+     "style_name": "Neon Lime Printed Nehru Jacket",
+     "size": "XXL",
+     "qty": 2
+    }
+   ],
+   "headline": "Clear 10 old units worth Rs 61,490 at BLR-01",
+   "summary": "Clear 10 old units worth Rs 61,490 at BLR-01 with 6 routine moves and 0 moves needing a person to decide by 2026-11-06.",
+   "summary_hi": "BLR-01 \u092e\u0947\u0902 10 \u092a\u0941\u0930\u093e\u0928\u0947 \u092f\u0942\u0928\u093f\u091f\u094d\u0938 \u0915\u094b \u0915\u094d\u0932\u093f\u092f\u0930 \u0915\u0930\u0947\u0902, \u091c\u093f\u0928\u0915\u0940 \u0915\u0940\u092e\u0924 Rs 61,490 \u0939\u0948\u0964 6 \u0930\u0942\u091f\u0940\u0928 \u092e\u0942\u0935\u094d\u0938 \u0939\u0948\u0902 \u0914\u0930 0 \u092e\u0942\u0935\u094d\u0938 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0938\u0940 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u0947 \u092b\u0948\u0938\u0932\u0947 \u0915\u0940 \u091c\u0930\u0942\u0930\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948, \u091c\u094b 2026-11-06 \u0924\u0915 \u092a\u0942\u0930\u0947 \u0939\u094b\u0902\u0917\u0947\u0964",
+   "narration": {
+    "source": "sarvam",
+    "model": "sarvam-105b",
+    "checked": true
+   }
+  }
+ ],
+ "narration": {
+  "actions": 38,
+  "sarvam": 38,
+  "template": 0,
+  "cached": 38,
+  "calls": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "credits_rs": 0.0,
+  "mode": "sarvam"
  },
  "moves": [
   {
@@ -90,7 +3083,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 1.3 a week. Sending 7 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 1.3 a week. Sending 7 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-02>BLR-01>IW-02-XXL",
@@ -137,7 +3131,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to BLR-01. BLR-01 has none left and sells about 0.7 a week; LKO-02 still keeps about 140 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-02 to BLR-01. BLR-01 has none left and sells about 0.7 a week; LKO-02 still keeps about 140 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-04>BLR-01>IW-02-XXL",
@@ -184,7 +3179,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to BLR-01. BLR-01 has none left and sells about 0.7 a week; LKO-04 still keeps about 49 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-04 to BLR-01. BLR-01 has none left and sells about 0.7 a week; LKO-04 still keeps about 49 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-02>BLR-01>IW-04-XL",
@@ -231,7 +3227,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-02 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-02 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>IW-04-XL",
@@ -278,7 +3275,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-01>IW-04-XL",
@@ -325,7 +3323,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-01>BLR-01>IW-04-XL",
@@ -372,7 +3371,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-02>BLR-01>IW-04-XL",
@@ -420,7 +3420,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to BLR-01. BLR-01 has none left and sells about 1 a week; LKO-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-02 to BLR-01. BLR-01 has none left and sells about 1 a week; LKO-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-02>BLR-01>IW-06-M",
@@ -465,7 +3466,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-02 to BLR-01. BLR-01 has none left and sells about 0.4 a week; BLR-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-02 to BLR-01. BLR-01 has none left and sells about 0.4 a week; BLR-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-01>BLR-01>IW-06-M",
@@ -512,7 +3514,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-01 to BLR-01. BLR-01 has none left and sells about 0.4 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-01 to BLR-01. BLR-01 has none left and sells about 0.4 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-01>JKT-02-S",
@@ -556,7 +3559,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-01. BLR-01 has none left and sells about 0.8 a week; BLR-04 still keeps about 51 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-01. BLR-01 has none left and sells about 0.8 a week; BLR-04 still keeps about 51 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-01>BLR-01>JKT-02-S",
@@ -600,7 +3604,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 0.8 a week; MYS-01 still keeps about 42 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 0.8 a week; MYS-01 still keeps about 42 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>JKT-02-S",
@@ -644,7 +3649,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 0.8 a week. Sending 2 from the warehouse covers it for about 43 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 0.8 a week. Sending 2 from the warehouse covers it for about 43 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-05>BLR-01>JKT-03-XXXL",
@@ -691,7 +3697,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has none left and sells about 0.5 a week; BLR-05 still keeps about 66 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has none left and sells about 0.5 a week; BLR-05 still keeps about 66 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "PAT-03>BLR-01>JKT-03-XXXL",
@@ -738,7 +3745,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to BLR-01. BLR-01 has none left and sells about 0.5 a week; PAT-03 still keeps about 32 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from PAT-03 to BLR-01. BLR-01 has none left and sells about 0.5 a week; PAT-03 still keeps about 32 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-01>JKT-07-XL",
@@ -783,7 +3791,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-01>BLR-01>JKT-07-XL",
@@ -830,7 +3839,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-01 to BLR-01. BLR-01 has none left and sells about 1 a week; LKO-01 still keeps about 33 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-01 to BLR-01. BLR-01 has none left and sells about 1 a week; LKO-01 still keeps about 33 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-02>BLR-01>JKT-07-XL",
@@ -876,7 +3886,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to BLR-01. BLR-01 has none left and sells about 1 a week; LKO-02 still keeps about 32 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-02 to BLR-01. BLR-01 has none left and sells about 1 a week; LKO-02 still keeps about 32 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-01-L",
@@ -920,7 +3931,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 7 a week. Sending 16 from the warehouse covers it for about 16 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 7 a week. Sending 16 from the warehouse covers it for about 16 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-01-M",
@@ -966,7 +3978,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 3.2 a week. Sending 9 from the warehouse covers it for about 20 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 3.2 a week. Sending 9 from the warehouse covers it for about 20 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-01-XL",
@@ -1010,7 +4023,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 7.4 a week. Sending 15 from the warehouse covers it for about 14 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 7.4 a week. Sending 15 from the warehouse covers it for about 14 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-01-XXL",
@@ -1054,7 +4068,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 3 a week. Sending 8 from the warehouse covers it for about 19 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 3 a week. Sending 8 from the warehouse covers it for about 19 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-01-XXXL",
@@ -1098,7 +4113,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 0.9 a week. Sending 2 from the warehouse covers it for about 16 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 0.9 a week. Sending 2 from the warehouse covers it for about 16 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>KUR-07-L",
@@ -1145,7 +4161,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 5 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-03 still keeps about 442 days of stock. Arrives 2 Nov."
+   "reason": "Move 5 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-03 still keeps about 442 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>KUR-07-XL",
@@ -1192,7 +4209,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 10 from BLR-03 to BLR-01. BLR-01 has none left and sells about 2 a week; BLR-03 still keeps about 386 days of stock. Arrives 2 Nov."
+   "reason": "Move 10 from BLR-03 to BLR-01. BLR-01 has none left and sells about 2 a week; BLR-03 still keeps about 386 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>KUR-07-XXL",
@@ -1239,7 +4257,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 8 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1.8 a week; BLR-03 still keeps about 342 days of stock. Arrives 2 Nov."
+   "reason": "Move 8 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1.8 a week; BLR-03 still keeps about 342 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>KUR-17-M",
@@ -1284,7 +4303,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-01. BLR-01 has none left and sells about 0.5 a week; BLR-03 still keeps about 80 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-01. BLR-01 has none left and sells about 0.5 a week; BLR-03 still keeps about 80 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "KNP-01>BLR-01>KUR-17-M",
@@ -1331,7 +4351,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to BLR-01. BLR-01 has none left and sells about 0.5 a week; KNP-01 still keeps about 138 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to BLR-01. BLR-01 has none left and sells about 0.5 a week; KNP-01 still keeps about 138 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>MOJ-05-10",
@@ -1375,7 +4396,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left and sells about 0.5 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left and sells about 0.5 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-01>BLR-01>SHW-01-XL",
@@ -1420,7 +4442,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 0.7 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 0.7 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-02>BLR-01>SHW-01-XL",
@@ -1465,7 +4488,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has none left and sells about 0.7 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has none left and sells about 0.7 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "KNP-03>BLR-01>SHW-01-XL",
@@ -1511,7 +4535,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to BLR-01. BLR-01 has none left and sells about 0.7 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to BLR-01. BLR-01 has none left and sells about 0.7 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-02>BLR-01>SHW-01-XXXL",
@@ -1558,7 +4583,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has none left and sells about 0.9 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has none left and sells about 0.9 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>SHW-02-M",
@@ -1603,7 +4629,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1.5 a week; BLR-03 still keeps about 34 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-03 to BLR-01. BLR-01 has none left and sells about 1.5 a week; BLR-03 still keeps about 34 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-01>SHW-02-M",
@@ -1648,7 +4675,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1.5 a week; BLR-04 still keeps about 34 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1.5 a week; BLR-04 still keeps about 34 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "KNP-01>BLR-01>SHW-02-M",
@@ -1694,7 +4722,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to BLR-01. BLR-01 has none left and sells about 1.5 a week; KNP-01 still keeps about 78 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from KNP-01 to BLR-01. BLR-01 has none left and sells about 1.5 a week; KNP-01 still keeps about 78 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-02>BLR-01>SHW-02-M",
@@ -1740,7 +4769,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to BLR-01. BLR-01 has none left and sells about 1.5 a week; LKO-02 still keeps about 32 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-02 to BLR-01. BLR-01 has none left and sells about 1.5 a week; LKO-02 still keeps about 32 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-04>BLR-01>SHW-02-M",
@@ -1786,7 +4816,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to BLR-01. BLR-01 has none left and sells about 1.5 a week; LKO-04 still keeps about 47 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-04 to BLR-01. BLR-01 has none left and sells about 1.5 a week; LKO-04 still keeps about 47 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-02>BLR-01>SHW-05-L",
@@ -1831,7 +4862,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has none left and sells about 0.3 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has none left and sells about 0.3 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-01>BLR-01>SHW-08-M",
@@ -1876,7 +4908,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 0.3 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has none left and sells about 0.3 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "KNP-01>BLR-01>SHW-08-M",
@@ -1923,7 +4956,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to BLR-01. BLR-01 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to BLR-01. BLR-01 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-01>SHW-09-XL",
@@ -1970,7 +5004,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-04 to BLR-01. BLR-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "KNP-01>BLR-01>SHW-09-XL",
@@ -2018,7 +5053,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to BLR-01. BLR-01 has none left and sells about 1 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to BLR-01. BLR-01 has none left and sells about 1 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-02>IW-02-XL",
@@ -2062,7 +5098,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-02. BLR-02 has none left and sells about 2.2 a week; BLR-04 still keeps about 112 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-02. BLR-02 has none left and sells about 2.2 a week; BLR-04 still keeps about 112 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>IW-02-XL",
@@ -2106,7 +5143,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has none left and sells about 2.2 a week. Sending 10 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has none left and sells about 2.2 a week. Sending 10 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-04>BLR-02>IW-03-XL",
@@ -2150,7 +5188,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-02. BLR-02 has none left and sells about 1.3 a week; BLR-04 still keeps about 34 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-02. BLR-02 has none left and sells about 1.3 a week; BLR-04 still keeps about 34 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "KNP-01>BLR-02>IW-03-XL",
@@ -2197,7 +5236,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to BLR-02. BLR-02 has none left and sells about 1.3 a week; KNP-01 still keeps about 112 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from KNP-01 to BLR-02. BLR-02 has none left and sells about 1.3 a week; KNP-01 still keeps about 112 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "LKO-03>BLR-02>IW-03-XL",
@@ -2244,7 +5284,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to BLR-02. BLR-02 has none left and sells about 1.3 a week; LKO-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-03 to BLR-02. BLR-02 has none left and sells about 1.3 a week; LKO-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "LKO-01>BLR-02>IW-07-XL",
@@ -2292,7 +5333,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to BLR-02. BLR-02 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-01 to BLR-02. BLR-02 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MZF-02>BLR-02>IW-07-XL",
@@ -2340,7 +5382,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to BLR-02. BLR-02 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to BLR-02. BLR-02 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "KNP-01>BLR-02>JKT-09-XXXL",
@@ -2387,7 +5430,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to BLR-02. BLR-02 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to BLR-02. BLR-02 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-07-S",
@@ -2432,7 +5476,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has none left and sells about 0.3 a week; BLR-03 still keeps about 330 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has none left and sells about 0.3 a week; BLR-03 still keeps about 330 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-07-XXL",
@@ -2477,7 +5522,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has none left and sells about 0.4 a week; BLR-03 still keeps about 319 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has none left and sells about 0.4 a week; BLR-03 still keeps about 319 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-02>BLR-02>KUR-08-S",
@@ -2522,7 +5568,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has none left and sells about 0.5 a week; MYS-02 still keeps about 50 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has none left and sells about 0.5 a week; MYS-02 still keeps about 50 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>KUR-08-S",
@@ -2566,7 +5613,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has none left and sells about 0.5 a week. Sending 1 from the warehouse covers it for about 27 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has none left and sells about 0.5 a week. Sending 1 from the warehouse covers it for about 27 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "KNP-01>BLR-02>KUR-08-S",
@@ -2612,7 +5660,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to BLR-02. BLR-02 has none left and sells about 0.5 a week; KNP-01 still keeps about 102 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to BLR-02. BLR-02 has none left and sells about 0.5 a week; KNP-01 still keeps about 102 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-01>BLR-02>KUR-21-XL",
@@ -2657,7 +5706,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-01 to BLR-02. BLR-02 has none left and sells about 0.4 a week; BLR-01 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-01 to BLR-02. BLR-02 has none left and sells about 0.4 a week; BLR-01 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-01>BLR-02>SHW-01-L",
@@ -2704,7 +5754,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-02. BLR-02 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-02. BLR-02 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-02>BLR-02>SHW-01-L",
@@ -2751,7 +5802,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-01>BLR-02>SHW-01-M",
@@ -2798,7 +5850,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-02. BLR-02 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-02. BLR-02 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-01>BLR-02>SHW-08-XXL",
@@ -2843,7 +5896,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-01 to BLR-02. BLR-02 has none left and sells about 0.3 a week; BLR-01 still keeps about 42 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-01 to BLR-02. BLR-02 has none left and sells about 0.3 a week; BLR-01 still keeps about 42 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-02>SHW-08-XXL",
@@ -2888,7 +5942,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to BLR-02. BLR-02 has none left and sells about 0.3 a week; BLR-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-03 to BLR-02. BLR-02 has none left and sells about 0.3 a week; BLR-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "LKO-04>LKO-01>IW-08-L",
@@ -2935,7 +5990,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to LKO-01. LKO-01 has none left and sells about 0.7 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-04 to LKO-01. LKO-01 has none left and sells about 0.7 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "KNP-02>LKO-01>IW-08-L",
@@ -2982,7 +6038,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-01. LKO-01 has none left and sells about 0.7 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-01. LKO-01 has none left and sells about 0.7 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "KNP-03>LKO-01>IW-08-L",
@@ -3029,7 +6086,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to LKO-01. LKO-01 has none left and sells about 0.7 a week; KNP-03 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-03 to LKO-01. LKO-01 has none left and sells about 0.7 a week; KNP-03 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-02>LKO-01>JKT-05-S",
@@ -3076,7 +6134,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has none left and sells about 0.6 a week; LKO-02 still keeps about 42 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has none left and sells about 0.6 a week; LKO-02 still keeps about 42 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-03>LKO-01>JKT-05-S",
@@ -3123,7 +6182,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has none left and sells about 0.6 a week; LKO-03 still keeps about 54 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has none left and sells about 0.6 a week; LKO-03 still keeps about 54 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "BLR-04>LKO-01>JKT-05-S",
@@ -3171,7 +6231,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to LKO-01. LKO-01 has none left and sells about 0.6 a week; BLR-04 still keeps about 36 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-04 to LKO-01. LKO-01 has none left and sells about 0.6 a week; BLR-04 still keeps about 36 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "KNP-01>LKO-01>JKT-10-XXL",
@@ -3216,7 +6277,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to LKO-01. LKO-01 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-01 to LKO-01. LKO-01 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "BLR-03>LKO-01>JKT-10-XXL",
@@ -3263,7 +6325,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to LKO-01. LKO-01 has none left and sells about 0.3 a week; BLR-03 still keeps about 34 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to LKO-01. LKO-01 has none left and sells about 0.3 a week; BLR-03 still keeps about 34 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-04-L",
@@ -3309,7 +6372,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-04-M",
@@ -3355,7 +6419,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-04-XL",
@@ -3401,7 +6466,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-04-XXL",
@@ -3447,7 +6513,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has none left and sells about 3 a week. Sending 15 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-05-M",
@@ -3491,7 +6558,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has none left and sells about 3.1 a week. Sending 15 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has none left and sells about 3.1 a week. Sending 15 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "MYS-01>LKO-01>SHW-01-S",
@@ -3538,7 +6606,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to LKO-01. LKO-01 has none left and sells about 0.4 a week; MYS-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-01 to LKO-01. LKO-01 has none left and sells about 0.4 a week; MYS-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "MYS-02>LKO-01>SHW-01-S",
@@ -3585,7 +6654,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to LKO-01. LKO-01 has none left and sells about 0.4 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-02 to LKO-01. LKO-01 has none left and sells about 0.4 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "PAT-04>LKO-01>SHW-04-XXXL",
@@ -3633,7 +6703,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to LKO-01. LKO-01 has none left and sells about 1 a week; PAT-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from PAT-04 to LKO-01. LKO-01 has none left and sells about 1 a week; PAT-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "KNP-01>LKO-01>SHW-05-M",
@@ -3680,7 +6751,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to LKO-01. LKO-01 has none left and sells about 1 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-01 to LKO-01. LKO-01 has none left and sells about 1 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "BLR-03>LKO-01>SHW-05-M",
@@ -3728,7 +6800,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to LKO-01. LKO-01 has none left and sells about 1 a week; BLR-03 still keeps about 46 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to LKO-01. LKO-01 has none left and sells about 1 a week; BLR-03 still keeps about 46 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "BLR-04>LKO-01>SHW-05-M",
@@ -3776,7 +6849,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to LKO-01. LKO-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-04 to LKO-01. LKO-01 has none left and sells about 1 a week; BLR-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "MYS-01>LKO-01>SHW-05-M",
@@ -3824,7 +6898,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to LKO-01. LKO-01 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-01 to LKO-01. LKO-01 has none left and sells about 1 a week; MYS-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "MYS-02>LKO-01>SHW-05-M",
@@ -3872,7 +6947,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to LKO-01. LKO-01 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-02 to LKO-01. LKO-01 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "PAT-02>PAT-01>IW-05-M",
@@ -3917,7 +6993,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to PAT-01. PAT-01 has none left and sells about 0.3 a week; PAT-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-02 to PAT-01. PAT-01 has none left and sells about 0.3 a week; PAT-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>IW-05-M",
@@ -3962,7 +7039,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.3 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.3 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "LKO-01>PAT-01>IW-09-M",
@@ -4010,7 +7088,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to PAT-01. PAT-01 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-01 to PAT-01. PAT-01 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-02>PAT-01>JKT-04-M",
@@ -4054,7 +7133,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; PAT-02 still keeps about 37 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; PAT-02 still keeps about 37 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-03>PAT-01>JKT-04-M",
@@ -4099,7 +7179,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has none left and sells about 0.5 a week; PAT-03 still keeps about 75 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has none left and sells about 0.5 a week; PAT-03 still keeps about 75 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MZF-01>PAT-01>JKT-05-S",
@@ -4146,7 +7227,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-01 to PAT-01. PAT-01 has none left and sells about 0.6 a week; MZF-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-01 to PAT-01. PAT-01 has none left and sells about 0.6 a week; MZF-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-03>PAT-01>JKT-09-L",
@@ -4193,7 +7275,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to PAT-01. PAT-01 has none left and sells about 0.6 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to PAT-01. PAT-01 has none left and sells about 0.6 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-02>PAT-01>JKT-10-L",
@@ -4238,7 +7321,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-02 to PAT-01. PAT-01 has none left and sells about 0.8 a week; PAT-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-02 to PAT-01. PAT-01 has none left and sells about 0.8 a week; PAT-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-01>PAT-01>JKT-10-L",
@@ -4285,7 +7369,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to PAT-01. PAT-01 has none left and sells about 0.8 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from KNP-01 to PAT-01. PAT-01 has none left and sells about 0.8 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-02-S",
@@ -4330,7 +7415,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.6 a week; PAT-04 still keeps about 131 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.6 a week; PAT-04 still keeps about 131 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-02-S",
@@ -4374,7 +7460,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has none left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has none left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-02-XXXL",
@@ -4418,7 +7505,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.6 a week; PAT-04 still keeps about 121 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.6 a week; PAT-04 still keeps about 121 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-02-XXXL",
@@ -4462,7 +7550,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has none left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has none left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-07-XXL",
@@ -4507,7 +7596,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.5 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 0.5 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MZF-02>PAT-01>KUR-07-XXL",
@@ -4552,7 +7642,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-03>PAT-01>KUR-07-XXL",
@@ -4599,7 +7690,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to PAT-01. PAT-01 has none left and sells about 0.5 a week; BLR-03 still keeps about 314 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to PAT-01. PAT-01 has none left and sells about 0.5 a week; BLR-03 still keeps about 314 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-07-XXXL",
@@ -4646,7 +7738,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 1 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has none left and sells about 1 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MZF-02>PAT-01>KUR-07-XXXL",
@@ -4693,7 +7786,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-02>PAT-01>KUR-07-XXXL",
@@ -4741,7 +7835,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to PAT-01. PAT-01 has none left and sells about 1 a week; KNP-02 still keeps about 44 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to PAT-01. PAT-01 has none left and sells about 1 a week; KNP-02 still keeps about 44 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "LKO-01>PAT-01>KUR-07-XXXL",
@@ -4789,7 +7884,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-01 to PAT-01. PAT-01 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-01 to PAT-01. PAT-01 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "LKO-03>PAT-01>KUR-07-XXXL",
@@ -4837,7 +7933,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to PAT-01. PAT-01 has none left and sells about 1 a week; LKO-03 still keeps about 68 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-03 to PAT-01. PAT-01 has none left and sells about 1 a week; LKO-03 still keeps about 68 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-01>PAT-01>KUR-16-M",
@@ -4884,7 +7981,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-01 to PAT-01. PAT-01 has none left and sells about 0.9 a week; BLR-01 still keeps about 35 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-01 to PAT-01. PAT-01 has none left and sells about 0.9 a week; BLR-01 still keeps about 35 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-03>PAT-01>KUR-16-M",
@@ -4930,7 +8028,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to PAT-01. PAT-01 has none left and sells about 0.9 a week; BLR-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-03 to PAT-01. PAT-01 has none left and sells about 0.9 a week; BLR-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MZF-02>PAT-01>MOJ-05-11",
@@ -4975,7 +8074,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-01>PAT-01>MOJ-05-11",
@@ -5021,7 +8121,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-01 to PAT-01. PAT-01 has none left and sells about 0.3 a week; BLR-01 still keeps about 35 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-01 to PAT-01. PAT-01 has none left and sells about 0.3 a week; BLR-01 still keeps about 35 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-03>PAT-01>SHW-01-XXL",
@@ -5069,7 +8170,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to PAT-01. PAT-01 has none left and sells about 0.6 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to PAT-01. PAT-01 has none left and sells about 0.6 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MYS-02>PAT-01>SHW-01-XXL",
@@ -5117,7 +8219,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to PAT-01. PAT-01 has none left and sells about 0.6 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-02 to PAT-01. PAT-01 has none left and sells about 0.6 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MZF-02>PAT-01>SHW-02-XXXL",
@@ -5164,7 +8267,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-02>PAT-01>SHW-02-XXXL",
@@ -5212,7 +8316,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to PAT-01. PAT-01 has none left and sells about 0.5 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-03>PAT-01>SHW-02-XXXL",
@@ -5260,7 +8365,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to PAT-01. PAT-01 has none left and sells about 0.5 a week; KNP-03 still keeps about 44 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to PAT-01. PAT-01 has none left and sells about 0.5 a week; KNP-03 still keeps about 44 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-03>PAT-01>SHW-09-L",
@@ -5305,7 +8411,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has none left and sells about 0.4 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has none left and sells about 0.4 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "KNP-01>PAT-01>SHW-09-L",
@@ -5352,7 +8459,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to PAT-01. PAT-01 has none left and sells about 0.4 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to PAT-01. PAT-01 has none left and sells about 0.4 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-01>BLR-03>KUR-10-XXL",
@@ -5396,7 +8504,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-01 to BLR-03. BLR-03 has none left and sells about 1 a week; BLR-01 still keeps about 112 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-01 to BLR-03. BLR-03 has none left and sells about 1 a week; BLR-01 still keeps about 112 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-02>BLR-03>KUR-10-XXL",
@@ -5441,7 +8550,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to BLR-03. BLR-03 has none left and sells about 1 a week; BLR-02 still keeps about 196 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-02 to BLR-03. BLR-03 has none left and sells about 1 a week; BLR-02 still keeps about 196 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-04>BLR-03>KUR-10-XXL",
@@ -5486,7 +8596,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to BLR-03. BLR-03 has none left and sells about 1 a week; BLR-04 still keeps about 43 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-04 to BLR-03. BLR-03 has none left and sells about 1 a week; BLR-04 still keeps about 43 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "MYS-01>BLR-03>KUR-12-XXXL",
@@ -5533,7 +8644,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-03. BLR-03 has none left and sells about 0.6 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-03. BLR-03 has none left and sells about 0.6 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "KNP-03>BLR-03>KUR-12-XXXL",
@@ -5581,7 +8693,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to BLR-03. BLR-03 has none left and sells about 0.6 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to BLR-03. BLR-03 has none left and sells about 0.6 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-02>BLR-03>SHW-03-XXL",
@@ -5626,7 +8739,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to BLR-03. BLR-03 has none left and sells about 0.4 a week; BLR-02 still keeps about 47 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-02 to BLR-03. BLR-03 has none left and sells about 0.4 a week; BLR-02 still keeps about 47 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-04>BLR-03>SHW-04-XL",
@@ -5670,7 +8784,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-03. BLR-03 has none left and sells about 0.9 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-03. BLR-03 has none left and sells about 0.9 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "KNP-01>BLR-03>SHW-04-XL",
@@ -5716,7 +8831,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to BLR-03. BLR-03 has none left and sells about 0.9 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from KNP-01 to BLR-03. BLR-03 has none left and sells about 0.9 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-02>BLR-03>SHW-05-XL",
@@ -5761,7 +8877,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-02 to BLR-03. BLR-03 has none left and sells about 0.3 a week; BLR-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-02 to BLR-03. BLR-03 has none left and sells about 0.3 a week; BLR-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-04>BLR-03>SHW-05-XL",
@@ -5806,7 +8923,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to BLR-03. BLR-03 has none left and sells about 0.3 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-04 to BLR-03. BLR-03 has none left and sells about 0.3 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "MYS-02>BLR-03>SHW-09-L",
@@ -5851,7 +8969,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-03. BLR-03 has none left and sells about 0.5 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-03. BLR-03 has none left and sells about 0.5 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "KNP-01>BLR-03>SHW-09-L",
@@ -5898,7 +9017,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to BLR-03. BLR-03 has none left and sells about 0.5 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to BLR-03. BLR-03 has none left and sells about 0.5 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "LKO-03>BLR-03>SHW-09-L",
@@ -5945,7 +9065,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to BLR-03. BLR-03 has none left and sells about 0.5 a week; LKO-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-03 to BLR-03. BLR-03 has none left and sells about 0.5 a week; LKO-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-05>BLR-04>JKT-03-XXL",
@@ -5992,7 +9113,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-04. BLR-04 has none left and sells about 1.2 a week; BLR-05 still keeps about 51 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-04. BLR-04 has none left and sells about 1.2 a week; BLR-05 still keeps about 51 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-03>BLR-04>JKT-03-XXL",
@@ -6036,7 +9158,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to BLR-04. BLR-04 has none left and sells about 1.2 a week; BLR-03 still keeps about 46 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-03 to BLR-04. BLR-04 has none left and sells about 1.2 a week; BLR-03 still keeps about 46 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>JKT-03-XXL",
@@ -6080,7 +9203,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has none left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has none left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "MYS-02>BLR-04>KUR-06-S",
@@ -6124,7 +9248,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has none left and sells about 0.3 a week; MYS-02 still keeps about 60 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has none left and sells about 0.3 a week; MYS-02 still keeps about 60 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>KUR-06-S",
@@ -6168,7 +9293,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 46 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 46 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-03>BLR-04>KUR-07-M",
@@ -6213,7 +9339,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from BLR-03 to BLR-04. BLR-04 has none left and sells about 0.7 a week; BLR-03 still keeps about 291 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from BLR-03 to BLR-04. BLR-04 has none left and sells about 0.7 a week; BLR-03 still keeps about 291 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-03>BLR-04>KUR-07-XXL",
@@ -6260,7 +9387,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-04. BLR-04 has none left and sells about 0.5 a week; BLR-03 still keeps about 280 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-04. BLR-04 has none left and sells about 0.5 a week; BLR-03 still keeps about 280 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "MYS-02>BLR-04>KUR-07-XXL",
@@ -6307,7 +9435,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has none left and sells about 0.5 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has none left and sells about 0.5 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-01>BLR-04>KUR-14-XXL",
@@ -6353,7 +9482,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-01 to BLR-04. BLR-04 has none left and sells about 0.6 a week; BLR-01 still keeps about 53 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-01 to BLR-04. BLR-04 has none left and sells about 0.6 a week; BLR-01 still keeps about 53 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-02>BLR-04>KUR-14-XXL",
@@ -6399,7 +9529,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-02 to BLR-04. BLR-04 has none left and sells about 0.6 a week; BLR-02 still keeps about 34 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-02 to BLR-04. BLR-04 has none left and sells about 0.6 a week; BLR-02 still keeps about 34 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-02>BLR-04>KUR-19-M",
@@ -6444,7 +9575,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to BLR-04. BLR-04 has none left and sells about 0.4 a week; BLR-02 still keeps about 78 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-02 to BLR-04. BLR-04 has none left and sells about 0.4 a week; BLR-02 still keeps about 78 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "MYS-02>BLR-04>KUR-24-XXL",
@@ -6491,7 +9623,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has none left and sells about 0.9 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has none left and sells about 0.9 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "LKO-04>BLR-04>KUR-24-XXL",
@@ -6539,7 +9672,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to BLR-04. BLR-04 has none left and sells about 0.9 a week; LKO-04 still keeps about 56 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-04 to BLR-04. BLR-04 has none left and sells about 0.9 a week; LKO-04 still keeps about 56 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "PAT-01>KNP-01>IW-08-M",
@@ -6586,7 +9720,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from PAT-01 to KNP-01. KNP-01 has none left and sells about 0.6 a week; PAT-01 still keeps about 840 days of stock. Arrives 7 Nov."
+   "reason": "Move 4 from PAT-01 to KNP-01. KNP-01 has none left and sells about 0.6 a week; PAT-01 still keeps about 840 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "KNP-02>KNP-01>KUR-05-S",
@@ -6631,7 +9766,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-02 still keeps about 112 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-02 still keeps about 112 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "KNP-03>KNP-01>KUR-05-S",
@@ -6676,7 +9812,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-03 still keeps about 50 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-03 still keeps about 50 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "KNP-02>KNP-01>KUR-07-XL",
@@ -6720,7 +9857,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-02 still keeps about 33 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-02 still keeps about 33 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "LKO-04>KNP-01>KUR-07-XL",
@@ -6764,7 +9902,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to KNP-01. KNP-01 has none left and sells about 0.3 a week; LKO-04 still keeps about 35 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from LKO-04 to KNP-01. KNP-01 has none left and sells about 0.3 a week; LKO-04 still keeps about 35 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "MYS-01>KNP-01>KUR-07-XXXL",
@@ -6812,7 +9951,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to KNP-01. KNP-01 has none left and sells about 1 a week; MYS-01 still keeps about 34 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-01 to KNP-01. KNP-01 has none left and sells about 1 a week; MYS-01 still keeps about 34 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "MYS-02>KNP-01>KUR-07-XXXL",
@@ -6860,7 +10000,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to KNP-01. KNP-01 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-02 to KNP-01. KNP-01 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "KNP-02>KNP-01>MOJ-04-11",
@@ -6905,7 +10046,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "KNP-03>KNP-01>MOJ-04-11",
@@ -6950,7 +10092,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-01. KNP-01 has none left and sells about 0.3 a week; KNP-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "LKO-04>KNP-01>SHW-06-XL",
@@ -6995,7 +10138,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to KNP-01. KNP-01 has none left and sells about 0.3 a week; LKO-04 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from LKO-04 to KNP-01. KNP-01 has none left and sells about 0.3 a week; LKO-04 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "LKO-03>LKO-02>IW-05-XL",
@@ -7040,7 +10184,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 0.5 a week; LKO-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 0.5 a week; LKO-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-04>LKO-02>IW-05-XL",
@@ -7085,7 +10230,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to LKO-02. LKO-02 has none left and sells about 0.5 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-04 to LKO-02. LKO-02 has none left and sells about 0.5 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "PAT-02>LKO-02>IW-08-M",
@@ -7133,7 +10279,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from PAT-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; PAT-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 3 from PAT-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; PAT-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "BLR-02>LKO-02>JKT-05-XXL",
@@ -7180,7 +10327,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to LKO-02. LKO-02 has none left and sells about 0.5 a week; BLR-02 still keeps about 31 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-02 to LKO-02. LKO-02 has none left and sells about 0.5 a week; BLR-02 still keeps about 31 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "MZF-01>LKO-02>JKT-05-XXL",
@@ -7227,7 +10375,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-01 to LKO-02. LKO-02 has none left and sells about 0.5 a week; MZF-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-01 to LKO-02. LKO-02 has none left and sells about 0.5 a week; MZF-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "BLR-02>LKO-02>JKT-07-XXL",
@@ -7275,7 +10424,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; BLR-02 still keeps about 56 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; BLR-02 still keeps about 56 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "MZF-02>LKO-02>JKT-07-XXL",
@@ -7323,7 +10473,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-01>LKO-02>KUR-07-M",
@@ -7370,7 +10521,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-01 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-01 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-01 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-03>LKO-02>KUR-07-M",
@@ -7416,7 +10568,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-03 still keeps about 51 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-03 still keeps about 51 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "BLR-03>LKO-02>KUR-07-M",
@@ -7464,7 +10617,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-03 to LKO-02. LKO-02 has none left and sells about 1 a week; BLR-03 still keeps about 263 days of stock. Arrives 7 Nov."
+   "reason": "Move 3 from BLR-03 to LKO-02. LKO-02 has none left and sells about 1 a week; BLR-03 still keeps about 263 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-01>LKO-02>KUR-13-XL",
@@ -7508,7 +10662,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from LKO-01 to LKO-02. LKO-02 has none left and sells about 0.5 a week; LKO-01 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 3 from LKO-01 to LKO-02. LKO-02 has none left and sells about 0.5 a week; LKO-01 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-01>LKO-02>KUR-16-XXL",
@@ -7553,7 +10708,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to LKO-02. LKO-02 has none left and sells about 0.3 a week; LKO-01 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-01 to LKO-02. LKO-02 has none left and sells about 0.3 a week; LKO-01 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-01>LKO-02>KUR-19-XXL",
@@ -7599,7 +10755,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-01 still keeps about 70 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-01 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-01 still keeps about 70 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-04>LKO-02>KUR-19-XXL",
@@ -7646,7 +10803,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-04 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-03>LKO-02>KUR-19-XXL",
@@ -7693,7 +10851,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 1 a week; LKO-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "MZF-02>LKO-02>KUR-21-L",
@@ -7741,7 +10900,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to LKO-02. LKO-02 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to LKO-02. LKO-02 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "KNP-02>LKO-02>KUR-21-XL",
@@ -7788,7 +10948,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-02. LKO-02 has none left and sells about 0.6 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "BLR-01>LKO-02>KUR-21-XL",
@@ -7836,7 +10997,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-01 to LKO-02. LKO-02 has none left and sells about 0.6 a week; BLR-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-01 to LKO-02. LKO-02 has none left and sells about 0.6 a week; BLR-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-03>LKO-02>SHW-02-L",
@@ -7880,7 +11042,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 0.8 a week; LKO-03 still keeps about 34 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has none left and sells about 0.8 a week; LKO-03 still keeps about 34 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "KNP-02>LKO-02>SHW-02-L",
@@ -7924,7 +11087,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-02. LKO-02 has none left and sells about 0.8 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-02. LKO-02 has none left and sells about 0.8 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-03>LKO-04>IW-01-L",
@@ -7968,7 +11132,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-04. LKO-04 has none left and sells about 1.2 a week; LKO-03 still keeps about 84 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-04. LKO-04 has none left and sells about 1.2 a week; LKO-03 still keeps about 84 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>IW-01-L",
@@ -8012,7 +11177,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "KNP-02>LKO-04>IW-01-S",
@@ -8059,7 +11225,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-02 still keeps about 49 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-02 still keeps about 49 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "KNP-03>LKO-04>IW-01-S",
@@ -8106,7 +11273,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-03 still keeps about 50 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-03 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-03 still keeps about 50 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-03>LKO-04>IW-01-S",
@@ -8154,7 +11322,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to LKO-04. LKO-04 has none left and sells about 1 a week; BLR-03 still keeps about 71 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to LKO-04. LKO-04 has none left and sells about 1 a week; BLR-03 still keeps about 71 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-04>LKO-04>IW-01-S",
@@ -8202,7 +11371,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to LKO-04. LKO-04 has none left and sells about 1 a week; BLR-04 still keeps about 34 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-04 to LKO-04. LKO-04 has none left and sells about 1 a week; BLR-04 still keeps about 34 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "MYS-01>LKO-04>IW-01-S",
@@ -8250,7 +11420,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to LKO-04. LKO-04 has none left and sells about 1 a week; MYS-01 still keeps about 48 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-01 to LKO-04. LKO-04 has none left and sells about 1 a week; MYS-01 still keeps about 48 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-02>LKO-04>IW-01-XL",
@@ -8294,7 +11465,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to LKO-04. LKO-04 has none left and sells about 1.2 a week; LKO-02 still keeps about 30 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-02 to LKO-04. LKO-04 has none left and sells about 1.2 a week; LKO-02 still keeps about 30 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>IW-01-XL",
@@ -8338,7 +11510,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "KNP-01>LKO-04>IW-09-XL",
@@ -8385,7 +11558,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 2 from KNP-01 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "PAT-02>LKO-04>IW-09-XL",
@@ -8433,7 +11607,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to LKO-04. LKO-04 has none left and sells about 1 a week; PAT-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from PAT-02 to LKO-04. LKO-04 has none left and sells about 1 a week; PAT-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-02>LKO-04>IW-09-XXL",
@@ -8480,7 +11655,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-02 to LKO-04. LKO-04 has none left and sells about 0.4 a week; BLR-02 still keeps about 56 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-02 to LKO-04. LKO-04 has none left and sells about 0.4 a week; BLR-02 still keeps about 56 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-03>LKO-04>IW-09-XXL",
@@ -8527,7 +11703,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to LKO-04. LKO-04 has none left and sells about 0.4 a week; BLR-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to LKO-04. LKO-04 has none left and sells about 0.4 a week; BLR-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>JKT-01-S",
@@ -8571,7 +11748,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 48 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 48 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>JKT-01-XXXL",
@@ -8615,7 +11793,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 0.5 a week. Sending 3 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 0.5 a week. Sending 3 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>JKT-03-M",
@@ -8659,7 +11838,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 1.4 a week. Sending 7 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 1.4 a week. Sending 7 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-02>LKO-04>KUR-05-XL",
@@ -8703,7 +11883,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from LKO-02 to LKO-04. LKO-04 has none left and sells about 2.7 a week; LKO-02 still keeps about 59 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from LKO-02 to LKO-04. LKO-04 has none left and sells about 2.7 a week; LKO-02 still keeps about 59 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>KUR-05-XL",
@@ -8747,7 +11928,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 2.7 a week. Sending 11 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 2.7 a week. Sending 11 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-02>LKO-04>KUR-06-S",
@@ -8791,7 +11973,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to LKO-04. LKO-04 has none left and sells about 0.3 a week; LKO-02 still keeps about 39 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-02 to LKO-04. LKO-04 has none left and sells about 0.3 a week; LKO-02 still keeps about 39 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>KUR-06-S",
@@ -8835,7 +12018,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 44 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 44 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-03>LKO-04>KUR-07-L",
@@ -8883,7 +12067,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 5 from BLR-03 to LKO-04. LKO-04 has none left and sells about 1 a week; BLR-03 still keeps about 235 days of stock. Arrives 7 Nov."
+   "reason": "Move 5 from BLR-03 to LKO-04. LKO-04 has none left and sells about 1 a week; BLR-03 still keeps about 235 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-01>LKO-04>KUR-17-M",
@@ -8929,7 +12114,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to LKO-04. LKO-04 has none left and sells about 1 a week; LKO-01 still keeps about 70 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-01 to LKO-04. LKO-04 has none left and sells about 1 a week; LKO-01 still keeps about 70 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-02>LKO-04>KUR-17-M",
@@ -8976,7 +12162,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to LKO-04. LKO-04 has none left and sells about 1 a week; LKO-02 still keeps about 168 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-02 to LKO-04. LKO-04 has none left and sells about 1 a week; LKO-02 still keeps about 168 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "KNP-01>LKO-04>KUR-17-M",
@@ -9023,7 +12210,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-01 still keeps about 115 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-01 to LKO-04. LKO-04 has none left and sells about 1 a week; KNP-01 still keeps about 115 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-01>LKO-04>KUR-21-XXXL",
@@ -9068,7 +12256,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-01 to LKO-04. LKO-04 has none left and sells about 0.3 a week; LKO-01 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-01 to LKO-04. LKO-04 has none left and sells about 0.3 a week; LKO-01 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "KNP-02>LKO-04>KUR-21-XXXL",
@@ -9113,7 +12302,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-04. LKO-04 has none left and sells about 0.3 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-04. LKO-04 has none left and sells about 0.3 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "KNP-01>LKO-04>SHW-03-S",
@@ -9158,7 +12348,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to LKO-04. LKO-04 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-01 to LKO-04. LKO-04 has none left and sells about 0.3 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "MZF-02>LKO-04>SHW-03-S",
@@ -9205,7 +12396,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to LKO-04. LKO-04 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to LKO-04. LKO-04 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "PAT-04>PAT-02>IW-01-XL",
@@ -9250,7 +12442,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has none left and sells about 0.5 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has none left and sells about 0.5 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "WH-KOL>PAT-02>IW-01-XL",
@@ -9294,7 +12487,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has none left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has none left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-04>PAT-02>KUR-07-L",
@@ -9341,7 +12535,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has none left and sells about 0.9 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has none left and sells about 0.9 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "MZF-02>PAT-02>KUR-07-L",
@@ -9387,7 +12582,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-02. PAT-02 has none left and sells about 0.9 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-02. PAT-02 has none left and sells about 0.9 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-03>PAT-02>KUR-07-L",
@@ -9435,7 +12631,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-03 to PAT-02. PAT-02 has none left and sells about 0.9 a week; BLR-03 still keeps about 218 days of stock. Arrives 7 Nov."
+   "reason": "Move 3 from BLR-03 to PAT-02. PAT-02 has none left and sells about 0.9 a week; BLR-03 still keeps about 218 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-04>PAT-02>KUR-07-XL",
@@ -9480,7 +12677,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has none left and sells about 0.4 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has none left and sells about 0.4 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-03>PAT-02>KUR-07-XL",
@@ -9527,7 +12725,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to PAT-02. PAT-02 has none left and sells about 0.4 a week; BLR-03 still keeps about 213 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to PAT-02. PAT-02 has none left and sells about 0.4 a week; BLR-03 still keeps about 213 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-01>PAT-02>KUR-10-XXL",
@@ -9574,7 +12773,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-01 to PAT-02. PAT-02 has none left and sells about 2 a week; PAT-01 still keeps about 35 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-01 to PAT-02. PAT-02 has none left and sells about 2 a week; PAT-01 still keeps about 35 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-03>PAT-02>KUR-10-XXL",
@@ -9621,7 +12821,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has none left and sells about 2 a week; PAT-03 still keeps about 80 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has none left and sells about 2 a week; PAT-03 still keeps about 80 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "MZF-02>PAT-02>KUR-10-XXL",
@@ -9668,7 +12869,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-02. PAT-02 has none left and sells about 2 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-02. PAT-02 has none left and sells about 2 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "LKO-01>PAT-02>KUR-10-XXL",
@@ -9716,7 +12918,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to PAT-02. PAT-02 has none left and sells about 2 a week; LKO-01 still keeps about 50 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-01 to PAT-02. PAT-02 has none left and sells about 2 a week; LKO-01 still keeps about 50 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "LKO-02>PAT-02>KUR-10-XXL",
@@ -9764,7 +12967,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to PAT-02. PAT-02 has none left and sells about 2 a week; LKO-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-02 to PAT-02. PAT-02 has none left and sells about 2 a week; LKO-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-04>PAT-02>KUR-10-XXL",
@@ -9812,7 +13016,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to PAT-02. PAT-02 has none left and sells about 2 a week; BLR-04 still keeps about 37 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-04 to PAT-02. PAT-02 has none left and sells about 2 a week; BLR-04 still keeps about 37 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-01>PAT-02>KUR-19-XXL",
@@ -9857,7 +13062,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-01 to PAT-02. PAT-02 has none left and sells about 0.3 a week; PAT-01 still keeps about 162 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-01 to PAT-02. PAT-02 has none left and sells about 0.3 a week; PAT-01 still keeps about 162 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-01>PAT-02>KUR-20-XXL",
@@ -9904,7 +13110,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-01 to PAT-02. PAT-02 has none left and sells about 0.6 a week; PAT-01 still keeps about 35 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-01 to PAT-02. PAT-02 has none left and sells about 0.6 a week; PAT-01 still keeps about 35 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-03>PAT-02>KUR-20-XXL",
@@ -9951,7 +13158,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has none left and sells about 0.6 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has none left and sells about 0.6 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "MZF-01>PAT-02>KUR-20-XXL",
@@ -9998,7 +13206,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-01 to PAT-02. PAT-02 has none left and sells about 0.6 a week; MZF-01 still keeps about 69 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-01 to PAT-02. PAT-02 has none left and sells about 0.6 a week; MZF-01 still keeps about 69 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "MZF-02>PAT-02>KUR-21-XL",
@@ -10045,7 +13254,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-02. PAT-02 has none left and sells about 0.7 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-02. PAT-02 has none left and sells about 0.7 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-04>PAT-02>KUR-21-XL",
@@ -10092,7 +13302,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to PAT-02. PAT-02 has none left and sells about 0.7 a week; BLR-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-04 to PAT-02. PAT-02 has none left and sells about 0.7 a week; BLR-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "KNP-01>PAT-02>SHW-03-XL",
@@ -10139,7 +13350,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to PAT-02. PAT-02 has none left and sells about 1.6 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from KNP-01 to PAT-02. PAT-02 has none left and sells about 1.6 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-01>PAT-02>SHW-07-S",
@@ -10184,7 +13396,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-01 to PAT-02. PAT-02 has none left and sells about 0.3 a week; PAT-01 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-01 to PAT-02. PAT-02 has none left and sells about 0.3 a week; PAT-01 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-01>PAT-02>SHW-07-S",
@@ -10231,7 +13444,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-01 to PAT-02. PAT-02 has none left and sells about 0.3 a week; BLR-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-01 to PAT-02. PAT-02 has none left and sells about 0.3 a week; BLR-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "KNP-03>KNP-02>IW-01-M",
@@ -10276,7 +13490,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>KNP-02>IW-01-M",
@@ -10320,7 +13535,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 52 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 52 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "KNP-03>KNP-02>IW-02-XL",
@@ -10365,7 +13581,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>KNP-02>IW-02-XL",
@@ -10409,7 +13626,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 50 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 50 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "KNP-01>KNP-02>JKT-02-M",
@@ -10453,7 +13671,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from KNP-01 to KNP-02. KNP-02 has none left and sells about 1.2 a week; KNP-01 still keeps about 57 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from KNP-01 to KNP-02. KNP-02 has none left and sells about 1.2 a week; KNP-01 still keeps about 57 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>KNP-02>JKT-02-M",
@@ -10497,7 +13716,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has none left and sells about 1.2 a week. Sending 2 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has none left and sells about 1.2 a week. Sending 2 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "KNP-03>KNP-02>JKT-04-M",
@@ -10542,7 +13762,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 still keeps about 57 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 still keeps about 57 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>KNP-02>JKT-04-M",
@@ -10586,7 +13807,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 46 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 46 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "MZF-02>KNP-02>JKT-06-M",
@@ -10634,7 +13856,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to KNP-02. KNP-02 has none left and sells about 0.6 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to KNP-02. KNP-02 has none left and sells about 0.6 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "PAT-03>KNP-02>JKT-06-M",
@@ -10682,7 +13905,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to KNP-02. KNP-02 has none left and sells about 0.6 a week; PAT-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from PAT-03 to KNP-02. KNP-02 has none left and sells about 0.6 a week; PAT-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "KNP-01>KNP-02>KUR-06-XXXL",
@@ -10727,7 +13951,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-01 still keeps about 41 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from KNP-01 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-01 still keeps about 41 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "BLR-03>KNP-02>KUR-07-L",
@@ -10775,7 +14000,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from BLR-03 to KNP-02. KNP-02 has none left and sells about 0.6 a week; BLR-03 still keeps about 190 days of stock. Arrives 7 Nov."
+   "reason": "Move 4 from BLR-03 to KNP-02. KNP-02 has none left and sells about 0.6 a week; BLR-03 still keeps about 190 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "KNP-03>KNP-02>KUR-10-XXL",
@@ -10820,7 +14046,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 still keeps about 105 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 still keeps about 105 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "LKO-04>KNP-02>KUR-10-XXL",
@@ -10865,7 +14092,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to KNP-02. KNP-02 has none left and sells about 0.3 a week; LKO-04 still keeps about 168 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from LKO-04 to KNP-02. KNP-02 has none left and sells about 0.3 a week; LKO-04 still keeps about 168 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "KNP-03>KNP-02>KUR-20-L",
@@ -10910,7 +14138,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-02. KNP-02 has none left and sells about 0.3 a week; KNP-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>KNP-02>KUR-20-L",
@@ -10954,7 +14183,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 48 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 48 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "LKO-02>LKO-03>IW-02-XL",
@@ -10999,7 +14229,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to LKO-03. LKO-03 has none left and sells about 0.3 a week; LKO-02 still keeps about 84 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-02 to LKO-03. LKO-03 has none left and sells about 0.3 a week; LKO-02 still keeps about 84 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>LKO-03>JKT-05-XL",
@@ -11043,7 +14274,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 54 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 54 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>LKO-03>JKT-07-L",
@@ -11087,7 +14319,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has none left and sells about 0.7 a week. Sending 4 from the warehouse covers it for about 40 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has none left and sells about 0.7 a week. Sending 4 from the warehouse covers it for about 40 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>LKO-03>KUR-05-M",
@@ -11131,7 +14364,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has none left and sells about 0.7 a week. Sending 4 from the warehouse covers it for about 42 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has none left and sells about 0.7 a week. Sending 4 from the warehouse covers it for about 42 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "BLR-03>LKO-03>KUR-07-L",
@@ -11178,7 +14412,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to LKO-03. LKO-03 has none left and sells about 0.4 a week; BLR-03 still keeps about 185 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-03 to LKO-03. LKO-03 has none left and sells about 0.4 a week; BLR-03 still keeps about 185 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "MYS-02>LKO-03>KUR-10-XXL",
@@ -11225,7 +14460,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to LKO-03. LKO-03 has none left and sells about 0.3 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-02 to LKO-03. LKO-03 has none left and sells about 0.3 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "KNP-02>LKO-03>KUR-21-XXL",
@@ -11272,7 +14508,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-03. LKO-03 has none left and sells about 0.6 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-03. LKO-03 has none left and sells about 0.6 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "MZF-02>LKO-03>KUR-21-XXL",
@@ -11320,7 +14557,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to LKO-03. LKO-03 has none left and sells about 0.6 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to LKO-03. LKO-03 has none left and sells about 0.6 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "BLR-04>LKO-03>MOJ-06-11",
@@ -11368,7 +14606,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to LKO-03. LKO-03 has none left and sells about 0.8 a week; BLR-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-04 to LKO-03. LKO-03 has none left and sells about 0.8 a week; BLR-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "KNP-02>LKO-03>SHW-02-M",
@@ -11413,7 +14652,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to LKO-03. LKO-03 has none left and sells about 0.4 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from KNP-02 to LKO-03. LKO-03 has none left and sells about 0.4 a week; KNP-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "PAT-02>LKO-03>SHW-02-M",
@@ -11459,7 +14699,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to LKO-03. LKO-03 has none left and sells about 0.4 a week; PAT-02 still keeps about 42 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from PAT-02 to LKO-03. LKO-03 has none left and sells about 0.4 a week; PAT-02 still keeps about 42 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "MYS-02>MYS-01>IW-03-L",
@@ -11506,7 +14747,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to MYS-01. MYS-01 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from MYS-02 to MYS-01. MYS-01 has none left and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-03>MYS-01>IW-03-L",
@@ -11552,7 +14794,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-03 still keeps about 42 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-03 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-03 still keeps about 42 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MYS-01>IW-03-L",
@@ -11598,7 +14841,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has none left and sells about 1 a week. Sending 2 from the warehouse covers it for about 35 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has none left and sells about 1 a week. Sending 2 from the warehouse covers it for about 35 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MYS-01>JKT-03-M",
@@ -11642,7 +14886,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has none left and sells about 1.3 a week. Sending 7 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has none left and sells about 1.3 a week. Sending 7 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-03>MYS-01>KUR-07-XL",
@@ -11687,7 +14932,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to MYS-01. MYS-01 has none left and sells about 0.4 a week; BLR-03 still keeps about 174 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-03 to MYS-01. MYS-01 has none left and sells about 0.4 a week; BLR-03 still keeps about 174 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-01>MYS-01>KUR-11-XXL",
@@ -11734,7 +14980,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-01 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-01 still keeps about 49 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-01 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-01 still keeps about 49 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-02>MYS-01>KUR-11-XXL",
@@ -11780,7 +15027,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-02 still keeps about 50 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-02 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-02 still keeps about 50 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-03>MYS-01>KUR-11-XXL",
@@ -11827,7 +15075,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-03 still keeps about 196 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from BLR-03 to MYS-01. MYS-01 has none left and sells about 1 a week; BLR-03 still keeps about 196 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "KNP-02>MYS-01>KUR-16-XXXL",
@@ -11874,7 +15123,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to MYS-01. MYS-01 has none left and sells about 0.3 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to MYS-01. MYS-01 has none left and sells about 0.3 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "MZF-02>MYS-01>KUR-16-XXXL",
@@ -11921,7 +15171,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MYS-01. MYS-01 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MZF-02 to MYS-01. MYS-01 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "MYS-02>MYS-01>SHW-11-XXXL",
@@ -11968,7 +15219,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to MYS-01. MYS-01 has none left and sells about 0.6 a week; MYS-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from MYS-02 to MYS-01. MYS-01 has none left and sells about 0.6 a week; MYS-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-01>MYS-01>SHW-11-XXXL",
@@ -12015,7 +15267,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-01 to MYS-01. MYS-01 has none left and sells about 0.6 a week; BLR-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from BLR-01 to MYS-01. MYS-01 has none left and sells about 0.6 a week; BLR-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-02>MYS-01>SHW-11-XXXL",
@@ -12062,7 +15315,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-02 to MYS-01. MYS-01 has none left and sells about 0.6 a week; BLR-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from BLR-02 to MYS-01. MYS-01 has none left and sells about 0.6 a week; BLR-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>JKT-02-XL",
@@ -12107,7 +15361,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 1.3 a week. Sending 7 from the warehouse covers it for about 37 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 1.3 a week. Sending 7 from the warehouse covers it for about 37 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>JKT-03-XL",
@@ -12152,7 +15407,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 1.2 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 1.2 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-02-S",
@@ -12197,7 +15453,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 0.9 a week. Sending 5 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 0.9 a week. Sending 5 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-06-L",
@@ -12242,7 +15499,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MZF-02 to MZF-01. MZF-01 has none left and sells about 2 a week; MZF-02 still keeps about 82 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from MZF-02 to MZF-01. MZF-01 has none left and sells about 2 a week; MZF-02 still keeps about 82 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-06-L",
@@ -12287,7 +15545,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 2 a week. Sending 8 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 2 a week. Sending 8 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-06-M",
@@ -12332,7 +15591,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 1.5 a week. Sending 8 from the warehouse covers it for about 37 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 1.5 a week. Sending 8 from the warehouse covers it for about 37 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-07-M",
@@ -12378,7 +15638,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "PAT-04>MZF-01>KUR-07-M",
@@ -12424,7 +15685,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to MZF-01. MZF-01 has none left and sells about 0.3 a week; PAT-04 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from PAT-04 to MZF-01. MZF-01 has none left and sells about 0.3 a week; PAT-04 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-09-S",
@@ -12469,7 +15731,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 0.8 a week; MZF-02 still keeps about 94 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 0.8 a week; MZF-02 still keeps about 94 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-09-S",
@@ -12514,7 +15777,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-10-L",
@@ -12559,7 +15823,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-10-L",
@@ -12604,7 +15869,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-10-M",
@@ -12649,7 +15915,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 0.7 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 0.7 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-10-M",
@@ -12694,7 +15961,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "LKO-01>MZF-01>KUR-16-M",
@@ -12743,7 +16011,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-01 to MZF-01. MZF-01 has none left and sells about 0.8 a week; LKO-01 still keeps about 37 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-01 to MZF-01. MZF-01 has none left and sells about 0.8 a week; LKO-01 still keeps about 37 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "KNP-01>MZF-01>KUR-16-M",
@@ -12792,7 +16061,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-01 to MZF-01. MZF-01 has none left and sells about 0.8 a week; KNP-01 still keeps about 112 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-01 to MZF-01. MZF-01 has none left and sells about 0.8 a week; KNP-01 still keeps about 112 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "LKO-02>MZF-01>KUR-16-M",
@@ -12841,7 +16111,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to MZF-01. MZF-01 has none left and sells about 0.8 a week; LKO-02 still keeps about 54 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-02 to MZF-01. MZF-01 has none left and sells about 0.8 a week; LKO-02 still keeps about 54 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-20-L",
@@ -12886,7 +16157,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 46 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 46 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>MOJ-01-10",
@@ -12933,7 +16205,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 2.1 a week. Sending 10 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 2.1 a week. Sending 10 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>MOJ-01-7",
@@ -12980,7 +16253,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 1.9 a week. Sending 10 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 1.9 a week. Sending 10 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>MOJ-01-8",
@@ -13028,7 +16302,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MZF-02 to MZF-01. MZF-01 has none left and sells about 1.4 a week; MZF-02 still keeps about 63 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from MZF-02 to MZF-01. MZF-01 has none left and sells about 1.4 a week; MZF-02 still keeps about 63 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>MOJ-01-8",
@@ -13075,7 +16350,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has none left and sells about 1.4 a week. Sending 5 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has none left and sells about 1.4 a week. Sending 5 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>SHW-02-XL",
@@ -13123,7 +16399,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has none left and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "KNP-01>MZF-01>SHW-02-XL",
@@ -13172,7 +16449,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from KNP-01 to MZF-01. MZF-01 has none left and sells about 1 a week; KNP-01 still keeps about 39 days of stock. Arrives 7 Nov."
+   "reason": "Move 3 from KNP-01 to MZF-01. MZF-01 has none left and sells about 1 a week; KNP-01 still keeps about 39 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "KNP-02>MZF-01>SHW-02-XL",
@@ -13220,7 +16498,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to MZF-01. MZF-01 has none left and sells about 1 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to MZF-01. MZF-01 has none left and sells about 1 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "PAT-02>PAT-03>IW-01-L",
@@ -13264,7 +16543,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-02 to PAT-03. PAT-03 has none left and sells about 1 a week; PAT-02 still keeps about 53 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-02 to PAT-03. PAT-03 has none left and sells about 1 a week; PAT-02 still keeps about 53 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "PAT-04>PAT-03>IW-01-L",
@@ -13309,7 +16589,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-03. PAT-03 has none left and sells about 1 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-03. PAT-03 has none left and sells about 1 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "WH-KOL>PAT-03>IW-01-L",
@@ -13353,7 +16634,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has none left and sells about 1 a week. Sending 2 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has none left and sells about 1 a week. Sending 2 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "PAT-04>PAT-03>IW-01-M",
@@ -13398,7 +16680,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-03. PAT-03 has none left and sells about 0.7 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-03. PAT-03 has none left and sells about 0.7 a week; PAT-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "WH-KOL>PAT-03>IW-01-M",
@@ -13442,7 +16725,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has none left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has none left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "WH-KOL>PAT-03>IW-01-XL",
@@ -13486,7 +16770,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 50 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 50 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "PAT-01>PAT-03>JKT-04-XL",
@@ -13531,7 +16816,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-01 to PAT-03. PAT-03 has none left and sells about 0.3 a week; PAT-01 still keeps about 33 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-01 to PAT-03. PAT-03 has none left and sells about 0.3 a week; PAT-01 still keeps about 33 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "BLR-03>PAT-03>KUR-07-M",
@@ -13578,7 +16864,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to PAT-03. PAT-03 has none left and sells about 0.4 a week; BLR-03 still keeps about 162 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from BLR-03 to PAT-03. PAT-03 has none left and sells about 0.4 a week; BLR-03 still keeps about 162 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "LKO-04>PAT-03>KUR-12-M",
@@ -13626,7 +16913,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to PAT-03. PAT-03 has none left and sells about 1 a week; LKO-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-04 to PAT-03. PAT-03 has none left and sells about 1 a week; LKO-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "KNP-03>PAT-03>KUR-12-M",
@@ -13674,7 +16962,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to PAT-03. PAT-03 has none left and sells about 1 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to PAT-03. PAT-03 has none left and sells about 1 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "KNP-02>PAT-03>KUR-17-M",
@@ -13721,7 +17010,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to PAT-03. PAT-03 has none left and sells about 0.4 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to PAT-03. PAT-03 has none left and sells about 0.4 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "KNP-03>PAT-03>KUR-17-M",
@@ -13768,7 +17058,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to PAT-03. PAT-03 has none left and sells about 0.4 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-03 to PAT-03. PAT-03 has none left and sells about 0.4 a week; KNP-03 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "PAT-01>PAT-03>KUR-17-XXL",
@@ -13813,7 +17104,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-01 to PAT-03. PAT-03 has none left and sells about 0.3 a week; PAT-01 still keeps about 47 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-01 to PAT-03. PAT-03 has none left and sells about 0.3 a week; PAT-01 still keeps about 47 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "PAT-02>PAT-03>MOJ-02-7",
@@ -13857,7 +17149,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to PAT-03. PAT-03 has none left and sells about 0.5 a week; PAT-02 still keeps about 52 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-02 to PAT-03. PAT-03 has none left and sells about 0.5 a week; PAT-02 still keeps about 52 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "WH-KOL>PAT-03>MOJ-02-7",
@@ -13901,7 +17194,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has none left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 39 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has none left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 39 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "PAT-02>PAT-03>SHW-02-M",
@@ -13947,7 +17241,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to PAT-03. PAT-03 has none left and sells about 0.9 a week; PAT-02 still keeps about 36 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-02 to PAT-03. PAT-03 has none left and sells about 0.9 a week; PAT-02 still keeps about 36 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "MYS-01>BLR-05>JKT-01-S",
@@ -13995,7 +17290,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-05. BLR-05 has none left and sells about 0.7 a week; MYS-01 still keeps about 49 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-05. BLR-05 has none left and sells about 0.7 a week; MYS-01 still keeps about 49 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "MYS-02>BLR-05>JKT-01-S",
@@ -14043,7 +17339,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-05. BLR-05 has none left and sells about 0.7 a week; MYS-02 still keeps about 32 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-05. BLR-05 has none left and sells about 0.7 a week; MYS-02 still keeps about 32 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>BLR-05>JKT-01-S",
@@ -14090,7 +17387,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has none left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has none left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "BLR-03>BLR-05>KUR-06-XXL",
@@ -14137,7 +17435,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to BLR-05. BLR-05 has none left and sells about 0.7 a week; BLR-03 still keeps about 45 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-03 to BLR-05. BLR-05 has none left and sells about 0.7 a week; BLR-03 still keeps about 45 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "MYS-02>BLR-05>KUR-06-XXL",
@@ -14185,7 +17484,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-05. BLR-05 has none left and sells about 0.7 a week; MYS-02 still keeps about 52 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-05. BLR-05 has none left and sells about 0.7 a week; MYS-02 still keeps about 52 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>BLR-05>KUR-06-XXL",
@@ -14232,7 +17532,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has none left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has none left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "BLR-04>BLR-05>KUR-09-XXL",
@@ -14279,7 +17580,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 5 from BLR-04 to BLR-05. BLR-05 has none left and sells about 1 a week; BLR-04 still keeps about 48 days of stock. Arrives 2 Nov."
+   "reason": "Move 5 from BLR-04 to BLR-05. BLR-05 has none left and sells about 1 a week; BLR-04 still keeps about 48 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "BLR-01>BLR-05>KUR-10-XL",
@@ -14326,7 +17628,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-01 to BLR-05. BLR-05 has none left and sells about 0.7 a week; BLR-01 still keeps about 70 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from BLR-01 to BLR-05. BLR-05 has none left and sells about 0.7 a week; BLR-01 still keeps about 70 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "BLR-05>MYS-02>IW-01-L",
@@ -14373,7 +17676,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to MYS-02. MYS-02 has none left and sells about 0.3 a week; BLR-05 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-05 to MYS-02. MYS-02 has none left and sells about 0.3 a week; BLR-05 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "MYS-01>MYS-02>JKT-01-XXL",
@@ -14417,7 +17721,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from MYS-01 to MYS-02. MYS-02 has none left and sells about 0.6 a week; MYS-01 still keeps about 38 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from MYS-01 to MYS-02. MYS-02 has none left and sells about 0.6 a week; MYS-01 still keeps about 38 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "WH-KOL>MYS-02>KUR-08-M",
@@ -14461,7 +17766,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-02 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 54 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-02 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 54 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "BLR-05>MYS-02>MOJ-04-8",
@@ -14508,7 +17814,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to MYS-02. MYS-02 has none left and sells about 0.3 a week; BLR-05 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-05 to MYS-02. MYS-02 has none left and sells about 0.3 a week; BLR-05 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>JKT-01-S",
@@ -14552,7 +17859,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 54 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 54 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-02-XL",
@@ -14596,7 +17904,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has none left and sells about 1.2 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has none left and sells about 1.2 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-05-L",
@@ -14640,7 +17949,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has none left and sells about 0.5 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has none left and sells about 0.5 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-05-XL",
@@ -14684,7 +17994,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has none left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has none left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-05-XXL",
@@ -14728,7 +18039,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 52 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 52 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>MOJ-02-8",
@@ -14772,7 +18084,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has none left and sells about 0.8 a week. Sending 4 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has none left and sells about 0.8 a week. Sending 4 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "PAT-03>PAT-04>KUR-10-M",
@@ -14817,7 +18130,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-04. PAT-04 has none left and sells about 0.3 a week; PAT-03 still keeps about 60 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-04. PAT-04 has none left and sells about 0.3 a week; PAT-03 still keeps about 60 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "WH-KOL>PAT-04>KUR-10-M",
@@ -14861,7 +18175,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-04 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 54 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-04 has none left and sells about 0.3 a week. Sending 1 from the warehouse covers it for about 54 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "WH-KOL>PAT-04>KUR-10-XL",
@@ -14905,7 +18220,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-04 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 46 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-04 has none left and sells about 0.3 a week. Sending 2 from the warehouse covers it for about 46 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "MZF-02>PAT-04>KUR-10-XXXL",
@@ -14950,7 +18266,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to PAT-04. PAT-04 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MZF-02 to PAT-04. PAT-04 has none left and sells about 0.3 a week; MZF-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "BLR-01>PAT-04>KUR-10-XXXL",
@@ -14997,7 +18314,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-01 to PAT-04. PAT-04 has none left and sells about 0.3 a week; BLR-01 still keeps about 56 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from BLR-01 to PAT-04. PAT-04 has none left and sells about 0.3 a week; BLR-01 still keeps about 56 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "WH-KOL>PAT-04>MOJ-01-11",
@@ -15041,7 +18359,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-04 has none left and sells about 0.8 a week. Sending 4 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-04 has none left and sells about 0.8 a week. Sending 4 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "PAT-02>PAT-04>SHW-02-XXL",
@@ -15087,7 +18406,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to PAT-04. PAT-04 has none left and sells about 1 a week; PAT-02 still keeps about 30 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-02 to PAT-04. PAT-04 has none left and sells about 1 a week; PAT-02 still keeps about 30 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "KNP-02>PAT-04>SHW-02-XXL",
@@ -15135,7 +18455,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to PAT-04. PAT-04 has none left and sells about 1 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to PAT-04. PAT-04 has none left and sells about 1 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "LKO-04>PAT-04>SHW-09-L",
@@ -15182,7 +18503,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to PAT-04. PAT-04 has none left and sells about 0.4 a week; LKO-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-04 to PAT-04. PAT-04 has none left and sells about 0.4 a week; LKO-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "MYS-02>BLR-02>JKT-02-M",
@@ -15226,7 +18548,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MYS-02 to BLR-02. BLR-02 has about 2 days of stock and sells about 3.5 a week; MYS-02 still keeps about 108 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from MYS-02 to BLR-02. BLR-02 has about 2 days of stock and sells about 3.5 a week; MYS-02 still keeps about 108 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>JKT-02-M",
@@ -15269,7 +18592,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 1 left and sells about 3.5 a week. Sending 15 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 1 left and sells about 3.5 a week. Sending 15 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>LKO-04>JKT-01-M",
@@ -15312,7 +18636,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 1 left and sells about 2.8 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 1 left and sells about 2.8 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-05>BLR-01>KUR-02-S",
@@ -15359,7 +18684,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has about 3 days of stock and sells about 2.6 a week; BLR-05 still keeps about 48 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has about 3 days of stock and sells about 2.6 a week; BLR-05 still keeps about 48 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-01>BLR-01>KUR-02-S",
@@ -15403,7 +18729,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has about 3 days of stock and sells about 2.6 a week; MYS-01 still keeps about 108 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has about 3 days of stock and sells about 2.6 a week; MYS-01 still keeps about 108 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-02>BLR-01>KUR-02-S",
@@ -15448,7 +18775,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has about 3 days of stock and sells about 2.6 a week; MYS-02 still keeps about 58 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has about 3 days of stock and sells about 2.6 a week; MYS-02 still keeps about 58 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-02-S",
@@ -15492,7 +18820,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left (+1 on the way) and sells about 2.6 a week. Sending 9 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left (+1 on the way) and sells about 2.6 a week. Sending 9 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "PAT-03>PAT-01>KUR-02-M",
@@ -15538,7 +18867,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-03 to PAT-01. PAT-01 has about 3 days of stock and sells about 4.7 a week; PAT-03 still keeps about 79 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-03 to PAT-01. PAT-01 has about 3 days of stock and sells about 4.7 a week; PAT-03 still keeps about 79 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-02-M",
@@ -15584,7 +18914,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has about 3 days of stock and sells about 4.7 a week; PAT-04 still keeps about 112 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-01. PAT-01 has about 3 days of stock and sells about 4.7 a week; PAT-04 still keeps about 112 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-02-M",
@@ -15630,7 +18961,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has none left (+2 on the way) and sells about 4.7 a week. Sending 17 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has none left (+2 on the way) and sells about 4.7 a week. Sending 17 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>LKO-04>KUR-06-XL",
@@ -15673,7 +19005,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 1 left and sells about 2.2 a week. Sending 10 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 1 left and sells about 2.2 a week. Sending 10 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "LKO-03>LKO-01>MOJ-02-6",
@@ -15717,7 +19050,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 3 days of stock and sells about 2.1 a week; LKO-03 still keeps about 51 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 3 days of stock and sells about 2.1 a week; LKO-03 still keeps about 51 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>MOJ-02-6",
@@ -15760,7 +19094,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 2.1 a week. Sending 9 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 2.1 a week. Sending 9 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-03-S",
@@ -15803,7 +19138,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 1 left and sells about 1.8 a week. Sending 8 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 1 left and sells about 1.8 a week. Sending 8 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-03>MYS-01>KUR-05-L",
@@ -15847,7 +19183,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to MYS-01. MYS-01 has about 4 days of stock and sells about 1.8 a week; BLR-03 still keeps about 112 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-03 to MYS-01. MYS-01 has about 4 days of stock and sells about 1.8 a week; BLR-03 still keeps about 112 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MYS-01>KUR-05-L",
@@ -15891,7 +19228,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has none left (+1 on the way) and sells about 1.8 a week. Sending 7 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has none left (+1 on the way) and sells about 1.8 a week. Sending 7 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-02>BLR-04>KUR-19-XL",
@@ -15936,7 +19274,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-02 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; BLR-02 still keeps about 52 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-02 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; BLR-02 still keeps about 52 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "LKO-04>BLR-04>KUR-19-XL",
@@ -15982,7 +19321,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; LKO-04 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from LKO-04 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; LKO-04 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "PAT-01>BLR-04>KUR-19-XL",
@@ -16028,7 +19368,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-01 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; PAT-01 still keeps about 108 days of stock. Arrives 7 Nov."
+   "reason": "Move 2 from PAT-01 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; PAT-01 still keeps about 108 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "KNP-02>BLR-04>KUR-19-XL",
@@ -16075,7 +19416,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to BLR-04. BLR-04 has about 4 days of stock and sells about 1.8 a week; KNP-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-02-XL",
@@ -16119,7 +19461,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 3 left and sells about 4.9 a week. Sending 21 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 3 left and sells about 4.9 a week. Sending 21 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MYS-01>PAT-01>SHW-02-XL",
@@ -16164,7 +19507,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to PAT-01. PAT-01 has about 4 days of stock and sells about 1.6 a week; MYS-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-01 to PAT-01. PAT-01 has about 4 days of stock and sells about 1.6 a week; MYS-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MYS-02>PAT-01>SHW-02-XL",
@@ -16210,7 +19554,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to PAT-01. PAT-01 has about 4 days of stock and sells about 1.6 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 1 from MYS-02 to PAT-01. PAT-01 has about 4 days of stock and sells about 1.6 a week; MYS-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-03>BLR-04>KUR-05-M",
@@ -16253,7 +19598,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-03 to BLR-04. BLR-04 has about 5 days of stock and sells about 1.5 a week; BLR-03 still keeps about 98 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from BLR-03 to BLR-04. BLR-04 has about 5 days of stock and sells about 1.5 a week; BLR-03 still keeps about 98 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>KUR-05-M",
@@ -16296,7 +19642,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 1 left and sells about 1.5 a week. Sending 4 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 1 left and sells about 1.5 a week. Sending 4 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-09-XL",
@@ -16340,7 +19687,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 2 left and sells about 3 a week. Sending 13 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 2 left and sells about 3 a week. Sending 13 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "BLR-03>MYS-01>JKT-03-L",
@@ -16383,7 +19731,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from BLR-03 to MYS-01. MYS-01 has about 5 days of stock and sells about 1.5 a week; BLR-03 still keeps about 36 days of stock. Arrives 4 Nov."
+   "reason": "Move 4 from BLR-03 to MYS-01. MYS-01 has about 5 days of stock and sells about 1.5 a week; BLR-03 still keeps about 36 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-05>MYS-01>JKT-03-L",
@@ -16429,7 +19778,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to MYS-01. MYS-01 has about 5 days of stock and sells about 1.5 a week; BLR-05 still keeps about 37 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-05 to MYS-01. MYS-01 has about 5 days of stock and sells about 1.5 a week; BLR-05 still keeps about 37 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-05-XL",
@@ -16473,7 +19823,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 1.5 a week. Sending 6 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 1.5 a week. Sending 6 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "BLR-05>BLR-02>JKT-01-M",
@@ -16519,7 +19870,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from BLR-05 to BLR-02. BLR-02 has about 5 days of stock and sells about 4.2 a week; BLR-05 still keeps about 46 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from BLR-05 to BLR-02. BLR-02 has about 5 days of stock and sells about 4.2 a week; BLR-05 still keeps about 46 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-02>JKT-01-M",
@@ -16562,7 +19914,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 5 days of stock and sells about 4.2 a week; BLR-03 still keeps about 42 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 5 days of stock and sells about 4.2 a week; BLR-03 still keeps about 42 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>JKT-01-M",
@@ -16605,7 +19958,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 3 left and sells about 4.2 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 3 left and sells about 4.2 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "PAT-01>LKO-04>JKT-07-XL",
@@ -16652,7 +20006,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-01 to LKO-04. LKO-04 has about 5 days of stock and sells about 1.4 a week; PAT-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from PAT-01 to LKO-04. LKO-04 has about 5 days of stock and sells about 1.4 a week; PAT-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "PAT-02>LKO-04>JKT-07-XL",
@@ -16699,7 +20054,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-02 to LKO-04. LKO-04 has about 5 days of stock and sells about 1.4 a week; PAT-02 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from PAT-02 to LKO-04. LKO-04 has about 5 days of stock and sells about 1.4 a week; PAT-02 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-02>IW-01-L",
@@ -16742,7 +20098,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-02 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-02 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-02-L",
@@ -16785,7 +20142,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "MYS-02>BLR-01>JKT-04-L",
@@ -16829,7 +20187,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has about 5 days of stock and sells about 1.3 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has about 5 days of stock and sells about 1.3 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>JKT-04-L",
@@ -16873,7 +20232,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has none left (+1 on the way) and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has none left (+1 on the way) and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "WH-KOL>BLR-04>JKT-03-M",
@@ -16916,7 +20276,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>LKO-03>KUR-06-L",
@@ -16959,7 +20320,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has 1 left and sells about 1.3 a week. Sending 6 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>MZF-01>JKT-02-L",
@@ -17003,7 +20365,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "BLR-03>BLR-05>JKT-02-L",
@@ -17049,7 +20412,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from BLR-03 to BLR-05. BLR-05 has about 6 days of stock and sells about 1.3 a week; BLR-03 still keeps about 38 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from BLR-03 to BLR-05. BLR-05 has about 6 days of stock and sells about 1.3 a week; BLR-03 still keeps about 38 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>BLR-05>JKT-02-L",
@@ -17095,7 +20459,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has 1 left and sells about 1.3 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has 1 left and sells about 1.3 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "PAT-03>PAT-01>KUR-02-XXL",
@@ -17139,7 +20504,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from PAT-03 to PAT-01. PAT-01 has about 6 days of stock and sells about 2.5 a week; PAT-03 still keeps about 67 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from PAT-03 to PAT-01. PAT-01 has about 6 days of stock and sells about 2.5 a week; PAT-03 still keeps about 67 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-02-XXL",
@@ -17184,7 +20550,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-04 to PAT-01. PAT-01 has about 6 days of stock and sells about 2.5 a week; PAT-04 still keeps about 93 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-04 to PAT-01. PAT-01 has about 6 days of stock and sells about 2.5 a week; PAT-04 still keeps about 93 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-02-XXL",
@@ -17228,7 +20595,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has none left (+2 on the way) and sells about 2.5 a week. Sending 5 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has none left (+2 on the way) and sells about 2.5 a week. Sending 5 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>LKO-04>KUR-06-M",
@@ -17271,7 +20639,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 1 left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 1 left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "PAT-03>PAT-02>JKT-01-S",
@@ -17315,7 +20684,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has about 6 days of stock and sells about 1.2 a week; PAT-03 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has about 6 days of stock and sells about 1.2 a week; PAT-03 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-04>PAT-02>JKT-01-S",
@@ -17359,7 +20729,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has about 6 days of stock and sells about 1.2 a week; PAT-04 still keeps about 35 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has about 6 days of stock and sells about 1.2 a week; PAT-04 still keeps about 35 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "WH-KOL>PAT-02>JKT-01-S",
@@ -17402,7 +20773,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has 1 left and sells about 1.2 a week. Sending 3 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has 1 left and sells about 1.2 a week. Sending 3 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-02-XXL",
@@ -17446,7 +20818,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-02-M",
@@ -17489,7 +20862,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has 1 left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has 1 left and sells about 1.2 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>MZF-01>JKT-02-M",
@@ -17533,7 +20907,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 1.1 a week. Sending 5 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 1.1 a week. Sending 5 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>KNP-02>KUR-06-XXL",
@@ -17578,7 +20953,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has 1 left and sells about 1.1 a week. Sending 5 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has 1 left and sells about 1.1 a week. Sending 5 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>MZF-01>STL-01-FS",
@@ -17622,7 +20998,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 2 left and sells about 2.2 a week. Sending 9 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 2 left and sells about 2.2 a week. Sending 9 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>KNP-02>JKT-01-L",
@@ -17665,7 +21042,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-02 has 2 left and sells about 2.1 a week. Sending 9 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-02 has 2 left and sells about 2.1 a week. Sending 9 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "PAT-03>PAT-02>JKT-01-XXXL",
@@ -17708,7 +21086,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has about 7 days of stock and sells about 1.1 a week; PAT-03 still keeps about 52 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-02. PAT-02 has about 7 days of stock and sells about 1.1 a week; PAT-03 still keeps about 52 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-04>PAT-02>JKT-01-XXXL",
@@ -17752,7 +21131,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has about 7 days of stock and sells about 1.1 a week; PAT-04 still keeps about 31 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-04 to PAT-02. PAT-02 has about 7 days of stock and sells about 1.1 a week; PAT-04 still keeps about 31 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "WH-KOL>PAT-02>JKT-01-XXXL",
@@ -17795,7 +21175,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has 1 left and sells about 1.1 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has 1 left and sells about 1.1 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "LKO-03>LKO-02>MOJ-01-6",
@@ -17838,7 +21219,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has about 7 days of stock and sells about 1 a week; LKO-03 still keeps about 34 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-02. LKO-02 has about 7 days of stock and sells about 1 a week; LKO-03 still keeps about 34 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "LKO-04>LKO-02>MOJ-01-6",
@@ -17881,7 +21263,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to LKO-02. LKO-02 has about 7 days of stock and sells about 1 a week; LKO-04 still keeps about 38 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-04 to LKO-02. LKO-02 has about 7 days of stock and sells about 1 a week; LKO-04 still keeps about 38 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "WH-KOL>LKO-02>MOJ-01-6",
@@ -17924,7 +21307,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-02 has 1 left and sells about 1 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-02 has 1 left and sells about 1 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "PAT-02>PAT-01>KUR-02-L",
@@ -17968,7 +21352,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from PAT-02 to PAT-01. PAT-01 has about 7 days of stock and sells about 4.1 a week; PAT-02 still keeps about 44 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from PAT-02 to PAT-01. PAT-01 has about 7 days of stock and sells about 4.1 a week; PAT-02 still keeps about 44 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-03>PAT-01>KUR-02-L",
@@ -18012,7 +21397,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from PAT-03 to PAT-01. PAT-01 has about 7 days of stock and sells about 4.1 a week; PAT-03 still keeps about 51 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from PAT-03 to PAT-01. PAT-01 has about 7 days of stock and sells about 4.1 a week; PAT-03 still keeps about 51 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-04>PAT-01>KUR-02-L",
@@ -18057,7 +21443,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from PAT-04 to PAT-01. PAT-01 has about 7 days of stock and sells about 4.1 a week; PAT-04 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from PAT-04 to PAT-01. PAT-01 has about 7 days of stock and sells about 4.1 a week; PAT-04 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-02-L",
@@ -18101,7 +21488,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has none left (+4 on the way) and sells about 4.1 a week. Sending 4 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has none left (+4 on the way) and sells about 4.1 a week. Sending 4 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-04>BLR-03>KUR-04-XXXL",
@@ -18144,7 +21532,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-04 to BLR-03. BLR-03 has about 7 days of stock and sells about 2.1 a week; BLR-04 still keeps about 42 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from BLR-04 to BLR-03. BLR-03 has about 7 days of stock and sells about 2.1 a week; BLR-04 still keeps about 42 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "WH-KOL>BLR-03>KUR-04-XXXL",
@@ -18187,7 +21576,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-03 has 2 left and sells about 2.1 a week. Sending 6 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-03 has 2 left and sells about 2.1 a week. Sending 6 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "WH-KOL>BLR-02>KUR-03-XXL",
@@ -18230,7 +21620,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 3 left and sells about 3.1 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 3 left and sells about 3.1 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "LKO-02>LKO-01>KUR-09-S",
@@ -18273,7 +21664,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-02 to LKO-01. LKO-01 has about 7 days of stock and sells about 1 a week; LKO-02 still keeps about 88 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-02 to LKO-01. LKO-01 has about 7 days of stock and sells about 1 a week; LKO-02 still keeps about 88 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-03>LKO-01>KUR-09-S",
@@ -18317,7 +21709,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 7 days of stock and sells about 1 a week; LKO-03 still keeps about 79 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 7 days of stock and sells about 1 a week; LKO-03 still keeps about 79 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-09-S",
@@ -18360,7 +21753,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 1 a week. Sending 1 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 1 a week. Sending 1 from the warehouse covers it for about 35 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>IW-01-XL",
@@ -18403,7 +21797,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>JKT-03-M",
@@ -18446,7 +21841,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 2 left and sells about 2 a week. Sending 6 from the warehouse covers it for about 28 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 2 left and sells about 2 a week. Sending 6 from the warehouse covers it for about 28 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>MOJ-01-11",
@@ -18489,7 +21885,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 2 left and sells about 2 a week. Sending 8 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 2 left and sells about 2 a week. Sending 8 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>MYS-01>KUR-04-XXXL",
@@ -18534,7 +21931,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has 1 left and sells about 1 a week. Sending 5 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has 1 left and sells about 1 a week. Sending 5 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "MYS-02>MYS-01>MAL-02-FS",
@@ -18577,7 +21975,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from MYS-02 to MYS-01. MYS-01 has about 7 days of stock and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 3 from MYS-02 to MYS-01. MYS-01 has about 7 days of stock and sells about 1 a week; MYS-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MYS-01>MAL-02-FS",
@@ -18620,7 +22019,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has 1 left and sells about 1 a week. Sending 2 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has 1 left and sells about 1 a week. Sending 2 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-05-M",
@@ -18664,7 +22064,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "MZF-02>MZF-01>MAL-02-FS",
@@ -18708,7 +22109,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from MZF-02 to MZF-01. MZF-01 has about 7 days of stock and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 3 from MZF-02 to MZF-01. MZF-01 has about 7 days of stock and sells about 1 a week; MZF-02 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>MAL-02-FS",
@@ -18752,7 +22154,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 1 a week. Sending 1 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 1 a week. Sending 1 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>BLR-05>KUR-04-M",
@@ -18799,7 +22202,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has 3 left and sells about 3 a week. Sending 13 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has 3 left and sells about 3 a week. Sending 13 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>BLR-05>KUR-11-L",
@@ -18845,7 +22249,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has 1 left and sells about 1 a week. Sending 5 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has 1 left and sells about 1 a week. Sending 5 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>MYS-02>JKT-01-M",
@@ -18888,7 +22293,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-02 has 1 left and sells about 1 a week. Sending 5 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-02 has 1 left and sells about 1 a week. Sending 5 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "WH-KOL>PAT-04>MOJ-01-8",
@@ -18931,7 +22337,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-04 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-04 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>KUR-02-S",
@@ -18974,7 +22381,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 1 left and sells about 1 a week. Sending 4 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-02-S",
@@ -19017,7 +22425,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has 1 left and sells about 0.9 a week. Sending 4 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has 1 left and sells about 0.9 a week. Sending 4 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "MYS-01>BLR-02>MOJ-02-10",
@@ -19060,7 +22469,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MYS-01 to BLR-02. BLR-02 has about 8 days of stock and sells about 2.8 a week; MYS-01 still keeps about 49 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from MYS-01 to BLR-02. BLR-02 has about 8 days of stock and sells about 2.8 a week; MYS-01 still keeps about 49 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-02>BLR-02>MOJ-02-10",
@@ -19104,7 +22514,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MYS-02 to BLR-02. BLR-02 has about 8 days of stock and sells about 2.8 a week; MYS-02 still keeps about 55 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from MYS-02 to BLR-02. BLR-02 has about 8 days of stock and sells about 2.8 a week; MYS-02 still keeps about 55 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>MOJ-02-10",
@@ -19147,7 +22558,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 3 left and sells about 2.8 a week. Sending 8 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 3 left and sells about 2.8 a week. Sending 8 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-05>BLR-02>JKT-05-L",
@@ -19194,7 +22606,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-02. BLR-02 has about 8 days of stock and sells about 0.9 a week; BLR-05 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-02. BLR-02 has about 8 days of stock and sells about 0.9 a week; BLR-05 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-02>BLR-02>JKT-05-L",
@@ -19238,7 +22651,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has about 8 days of stock and sells about 0.9 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has about 8 days of stock and sells about 0.9 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "LKO-04>LKO-03>JKT-02-M",
@@ -19281,7 +22695,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from LKO-04 to LKO-03. LKO-03 has about 8 days of stock and sells about 0.9 a week; LKO-04 still keeps about 60 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from LKO-04 to LKO-03. LKO-03 has about 8 days of stock and sells about 0.9 a week; LKO-04 still keeps about 60 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>MYS-01>KUR-06-XL",
@@ -19324,7 +22739,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has 1 left and sells about 0.9 a week. Sending 4 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has 1 left and sells about 0.9 a week. Sending 4 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>LKO-04>KUR-04-L",
@@ -19367,7 +22783,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 10 left and sells about 8.8 a week. Sending 33 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 10 left and sells about 8.8 a week. Sending 33 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>JKT-03-L",
@@ -19410,7 +22827,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 2 left and sells about 1.8 a week. Sending 7 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 2 left and sells about 1.8 a week. Sending 7 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-09-XXL",
@@ -19454,7 +22872,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MZF-02 to MZF-01. MZF-01 has about 8 days of stock and sells about 0.9 a week; MZF-02 still keeps about 79 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from MZF-02 to MZF-01. MZF-01 has about 8 days of stock and sells about 0.9 a week; MZF-02 still keeps about 79 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-09-XXL",
@@ -19498,7 +22917,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 0.9 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 0.9 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "PAT-03>PAT-01>MOJ-04-9",
@@ -19542,7 +22962,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has about 8 days of stock and sells about 0.8 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has about 8 days of stock and sells about 0.8 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>MOJ-04-9",
@@ -19585,7 +23006,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 1 left and sells about 0.8 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 1 left and sells about 0.8 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-05>BLR-04>MOJ-01-10",
@@ -19631,7 +23053,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-05 to BLR-04. BLR-04 has about 8 days of stock and sells about 2.5 a week; BLR-05 still keeps about 57 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from BLR-05 to BLR-04. BLR-04 has about 8 days of stock and sells about 2.5 a week; BLR-05 still keeps about 57 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>MOJ-01-10",
@@ -19674,7 +23097,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 3 left and sells about 2.5 a week. Sending 7 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 3 left and sells about 2.5 a week. Sending 7 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "LKO-02>LKO-01>IW-02-M",
@@ -19717,7 +23141,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; LKO-02 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; LKO-02 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-04>LKO-01>IW-02-M",
@@ -19761,7 +23186,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; LKO-04 still keeps about 33 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-04 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; LKO-04 still keeps about 33 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "KNP-01>LKO-01>SHW-04-M",
@@ -19807,7 +23233,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 2 from KNP-01 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; KNP-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>BLR-03>KUR-02-S",
@@ -19851,7 +23278,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-03 has none left (+1 on the way) and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-03 has none left (+1 on the way) and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "PAT-04>PAT-03>KUR-04-XXL",
@@ -19894,7 +23322,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from PAT-04 to PAT-03. PAT-03 has about 9 days of stock and sells about 2.3 a week; PAT-04 still keeps about 32 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from PAT-04 to PAT-03. PAT-03 has about 9 days of stock and sells about 2.3 a week; PAT-04 still keeps about 32 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "WH-KOL>PAT-03>KUR-04-XXL",
@@ -19937,7 +23366,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has 3 left and sells about 2.3 a week. Sending 5 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has 3 left and sells about 2.3 a week. Sending 5 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "BLR-03>MYS-02>KUR-05-XL",
@@ -19980,7 +23410,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-03 to MYS-02. MYS-02 has about 9 days of stock and sells about 0.8 a week; BLR-03 still keeps about 84 days of stock. Arrives 4 Nov."
+   "reason": "Move 3 from BLR-03 to MYS-02. MYS-02 has about 9 days of stock and sells about 0.8 a week; BLR-03 still keeps about 84 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "LKO-02>LKO-04>MOJ-02-10",
@@ -20023,7 +23454,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from LKO-02 to LKO-04. LKO-04 has about 9 days of stock and sells about 1.5 a week; LKO-02 still keeps about 31 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from LKO-02 to LKO-04. LKO-04 has about 9 days of stock and sells about 1.5 a week; LKO-02 still keeps about 31 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>MOJ-02-10",
@@ -20066,7 +23498,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 2 left and sells about 1.5 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 2 left and sells about 1.5 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-14-M",
@@ -20110,7 +23543,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 9 days of stock and sells about 0.8 a week; BLR-03 still keeps about 84 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 9 days of stock and sells about 0.8 a week; BLR-03 still keeps about 84 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-04>BLR-02>KUR-14-M",
@@ -20154,7 +23588,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-04 to BLR-02. BLR-02 has about 9 days of stock and sells about 0.8 a week; BLR-04 still keeps about 31 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-04 to BLR-02. BLR-02 has about 9 days of stock and sells about 0.8 a week; BLR-04 still keeps about 31 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>LKO-01>IW-02-L",
@@ -20197,7 +23632,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>JKT-01-XXXL",
@@ -20240,7 +23676,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-02>LKO-01>KUR-08-M",
@@ -20284,7 +23721,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from LKO-02 to LKO-01. LKO-01 has about 9 days of stock and sells about 1.5 a week; LKO-02 still keeps about 45 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from LKO-02 to LKO-01. LKO-01 has about 9 days of stock and sells about 1.5 a week; LKO-02 still keeps about 45 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-08-M",
@@ -20327,7 +23765,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 2 left and sells about 1.5 a week. Sending 2 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 2 left and sells about 1.5 a week. Sending 2 from the warehouse covers it for about 37 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-04>LKO-01>SHW-03-L",
@@ -20370,7 +23809,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; LKO-04 still keeps about 41 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-04 to LKO-01. LKO-01 has about 9 days of stock and sells about 0.8 a week; LKO-04 still keeps about 41 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "PAT-02>PAT-01>KUR-20-XL",
@@ -20413,7 +23853,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-02 to PAT-01. PAT-01 has about 9 days of stock and sells about 0.8 a week; PAT-02 still keeps about 60 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-02 to PAT-01. PAT-01 has about 9 days of stock and sells about 0.8 a week; PAT-02 still keeps about 60 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-03>PAT-01>KUR-20-XL",
@@ -20457,7 +23898,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has about 9 days of stock and sells about 0.8 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-03 to PAT-01. PAT-01 has about 9 days of stock and sells about 0.8 a week; PAT-03 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-02>MOJ-01-6",
@@ -20500,7 +23942,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has 1 left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has 1 left and sells about 0.8 a week. Sending 3 from the warehouse covers it for about 37 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "MYS-02>MYS-01>KUR-09-M",
@@ -20543,7 +23986,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from MYS-02 to MYS-01. MYS-01 has about 9 days of stock and sells about 0.8 a week; MYS-02 still keeps about 148 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from MYS-02 to MYS-01. MYS-01 has about 9 days of stock and sells about 0.8 a week; MYS-02 still keeps about 148 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "PAT-03>PAT-04>JKT-01-L",
@@ -20586,7 +24030,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from PAT-03 to PAT-04. PAT-04 has about 9 days of stock and sells about 0.8 a week; PAT-03 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from PAT-03 to PAT-04. PAT-04 has about 9 days of stock and sells about 0.8 a week; PAT-03 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "LKO-03>LKO-01>IW-01-XXL",
@@ -20630,7 +24075,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 10 days of stock and sells about 1.5 a week; LKO-03 still keeps about 63 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 10 days of stock and sells about 1.5 a week; LKO-03 still keeps about 63 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>IW-01-XXL",
@@ -20673,7 +24119,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 2 left and sells about 1.5 a week. Sending 5 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 2 left and sells about 1.5 a week. Sending 5 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-03-M",
@@ -20716,7 +24163,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has 1 left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has 1 left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 38 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "PAT-03>PAT-01>JKT-02-XXL",
@@ -20760,7 +24208,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-03 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.1 a week; PAT-03 still keeps about 63 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-03 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.1 a week; PAT-03 still keeps about 63 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-02>PAT-01>JKT-02-XXL",
@@ -20803,7 +24252,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-02 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.1 a week; PAT-02 still keeps about 42 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from PAT-02 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.1 a week; PAT-02 still keeps about 42 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>JKT-02-XXL",
@@ -20846,7 +24296,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 3 left and sells about 2.1 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 3 left and sells about 2.1 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "MYS-02>BLR-02>KUR-08-XXXL",
@@ -20890,7 +24341,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has about 10 days of stock and sells about 0.7 a week; MYS-02 still keeps about 42 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-02. BLR-02 has about 10 days of stock and sells about 0.7 a week; MYS-02 still keeps about 42 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>KUR-08-XXXL",
@@ -20933,7 +24385,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 1 left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 1 left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>LKO-01>JKT-02-S",
@@ -20976,7 +24429,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 30 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 30 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "PAT-02>PAT-01>KUR-02-XL",
@@ -21020,7 +24474,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 4 from PAT-02 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.8 a week; PAT-02 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 4 from PAT-02 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.8 a week; PAT-02 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-03>PAT-01>KUR-02-XL",
@@ -21064,7 +24519,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from PAT-03 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.8 a week; PAT-03 still keeps about 39 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from PAT-03 to PAT-01. PAT-01 has about 10 days of stock and sells about 2.8 a week; PAT-03 still keeps about 39 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-02-XL",
@@ -21108,7 +24564,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has none left (+4 on the way) and sells about 2.8 a week. Sending 3 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has none left (+4 on the way) and sells about 2.8 a week. Sending 3 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-04>BLR-03>JKT-04-M",
@@ -21153,7 +24610,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-03. BLR-03 has about 10 days of stock and sells about 1.4 a week; BLR-04 still keeps about 70 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-03. BLR-03 has about 10 days of stock and sells about 1.4 a week; BLR-04 still keeps about 70 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "MYS-02>BLR-03>JKT-04-M",
@@ -21198,7 +24656,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-03. BLR-03 has about 10 days of stock and sells about 1.4 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-03. BLR-03 has about 10 days of stock and sells about 1.4 a week; MYS-02 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "WH-KOL>BLR-03>JKT-04-M",
@@ -21242,7 +24701,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-03 has none left (+2 on the way) and sells about 1.4 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-03 has none left (+2 on the way) and sells about 1.4 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "BLR-05>BLR-04>MOJ-02-6",
@@ -21288,7 +24748,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-04. BLR-04 has about 10 days of stock and sells about 0.7 a week; BLR-05 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-04. BLR-04 has about 10 days of stock and sells about 0.7 a week; BLR-05 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "KNP-03>KNP-02>JKT-02-XXL",
@@ -21331,7 +24792,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-03 to KNP-02. KNP-02 has about 10 days of stock and sells about 0.7 a week; KNP-03 still keeps about 38 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from KNP-03 to KNP-02. KNP-02 has about 10 days of stock and sells about 0.7 a week; KNP-03 still keeps about 38 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-02"
   },
   {
    "move_id": "WH-KOL>PAT-03>KUR-04-S",
@@ -21376,7 +24838,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has 1 left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has 1 left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "MYS-02>MYS-01>MAL-01-FS",
@@ -21419,7 +24882,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MYS-02 to MYS-01. MYS-01 has about 10 days of stock and sells about 2 a week; MYS-02 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from MYS-02 to MYS-01. MYS-01 has about 10 days of stock and sells about 2 a week; MYS-02 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "BLR-04>MYS-01>MAL-01-FS",
@@ -21462,7 +24926,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 5 from BLR-04 to MYS-01. MYS-01 has about 10 days of stock and sells about 2 a week; BLR-04 still keeps about 103 days of stock. Arrives 4 Nov."
+   "reason": "Move 5 from BLR-04 to MYS-01. MYS-01 has about 10 days of stock and sells about 2 a week; BLR-04 still keeps about 103 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>LKO-03>KUR-05-XL",
@@ -21505,7 +24970,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has 2 left and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has 2 left and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "BLR-05>BLR-01>KUR-05-S",
@@ -21551,7 +25017,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has about 10 days of stock and sells about 0.7 a week; BLR-05 still keeps about 121 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has about 10 days of stock and sells about 0.7 a week; BLR-05 still keeps about 121 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-05>BLR-01>KUR-09-S",
@@ -21597,7 +25064,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has about 10 days of stock and sells about 1.3 a week; BLR-05 still keeps about 50 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-01. BLR-01 has about 10 days of stock and sells about 1.3 a week; BLR-05 still keeps about 50 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-01>BLR-01>KUR-09-S",
@@ -21640,7 +25108,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has about 10 days of stock and sells about 1.3 a week; MYS-01 still keeps about 34 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-01. BLR-01 has about 10 days of stock and sells about 1.3 a week; MYS-01 still keeps about 34 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MYS-02>BLR-01>KUR-09-S",
@@ -21684,7 +25153,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has about 10 days of stock and sells about 1.3 a week; MYS-02 still keeps about 138 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-01. BLR-01 has about 10 days of stock and sells about 1.3 a week; MYS-02 still keeps about 138 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-03>BLR-01>MOJ-05-8",
@@ -21728,7 +25198,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-01. BLR-01 has about 10 days of stock and sells about 0.7 a week; BLR-03 still keeps about 100 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-01. BLR-01 has about 10 days of stock and sells about 0.7 a week; BLR-03 still keeps about 100 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-02>LKO-01>MOJ-05-7",
@@ -21772,7 +25243,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has about 10 days of stock and sells about 0.7 a week; LKO-02 still keeps about 140 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has about 10 days of stock and sells about 0.7 a week; LKO-02 still keeps about 140 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "LKO-03>LKO-01>MOJ-05-7",
@@ -21816,7 +25288,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 10 days of stock and sells about 0.7 a week; LKO-03 still keeps about 90 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-03 to LKO-01. LKO-01 has about 10 days of stock and sells about 0.7 a week; LKO-03 still keeps about 90 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>BLR-04>KUR-08-M",
@@ -21859,7 +25332,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 2 left and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 2 left and sells about 1.3 a week. Sending 5 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "MYS-02>BLR-04>KUR-08-XXL",
@@ -21903,7 +25377,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has about 10 days of stock and sells about 0.7 a week; MYS-02 still keeps about 33 days of stock. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-02 to BLR-04. BLR-04 has about 10 days of stock and sells about 0.7 a week; MYS-02 still keeps about 33 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>KUR-08-XXL",
@@ -21946,7 +25421,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 1 left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 1 left and sells about 0.7 a week. Sending 2 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>LKO-02>MOJ-02-6",
@@ -21989,7 +25465,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-02 has 1 left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-02 has 1 left and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "WH-KOL>MYS-01>JKT-02-M",
@@ -22033,7 +25510,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has none left (+1 on the way) and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has none left (+1 on the way) and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>MYS-01>KUR-05-M",
@@ -22077,7 +25555,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "MYS-01 has none left (+1 on the way) and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-01 has none left (+1 on the way) and sells about 0.7 a week. Sending 3 from the warehouse covers it for about 42 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-01"
   },
   {
    "move_id": "WH-KOL>PAT-02>MOJ-01-7",
@@ -22120,7 +25599,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has 4 left and sells about 2.6 a week. Sending 9 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has 4 left and sells about 2.6 a week. Sending 9 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-04>BLR-01>KUR-22-XL",
@@ -22164,7 +25644,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-04 to BLR-01. BLR-01 has about 11 days of stock and sells about 0.6 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-04 to BLR-01. BLR-01 has about 11 days of stock and sells about 0.6 a week; BLR-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-05>BLR-03>IW-01-M",
@@ -22211,7 +25692,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-05 to BLR-03. BLR-03 has about 11 days of stock and sells about 0.6 a week; BLR-05 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-05 to BLR-03. BLR-03 has about 11 days of stock and sells about 0.6 a week; BLR-05 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "KNP-02>KNP-01>KUR-09-S",
@@ -22255,7 +25737,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has about 11 days of stock and sells about 0.6 a week; KNP-02 still keeps about 68 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has about 11 days of stock and sells about 0.6 a week; KNP-02 still keeps about 68 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "KNP-03>KNP-01>KUR-09-S",
@@ -22299,7 +25782,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-03 to KNP-01. KNP-01 has about 11 days of stock and sells about 0.6 a week; KNP-03 still keeps about 41 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-03 to KNP-01. KNP-01 has about 11 days of stock and sells about 0.6 a week; KNP-03 still keeps about 41 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "WH-KOL>LKO-03>MOJ-01-11",
@@ -22342,7 +25826,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has 1 left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 44 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has 1 left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 44 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>MZF-01>JKT-01-XXL",
@@ -22386,7 +25871,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 33 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>BLR-05>JKT-03-XL",
@@ -22432,7 +25918,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has 1 left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 44 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has 1 left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 44 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>BLR-05>KUR-06-XL",
@@ -22478,7 +25965,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-05 has 1 left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 44 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-05 has 1 left and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 44 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "BLR-03>BLR-05>MOJ-01-7",
@@ -22524,7 +26012,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-05. BLR-05 has about 11 days of stock and sells about 0.6 a week; BLR-03 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-05. BLR-05 has about 11 days of stock and sells about 0.6 a week; BLR-03 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-05"
   },
   {
    "move_id": "WH-KOL>BLR-01>JKT-02-M",
@@ -22567,7 +26056,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has 4 left and sells about 2.5 a week. Sending 9 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has 4 left and sells about 2.5 a week. Sending 9 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-04>BLR-01>KUR-09-XXXL",
@@ -22610,7 +26100,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from BLR-04 to BLR-01. BLR-01 has about 11 days of stock and sells about 1.2 a week; BLR-04 still keeps about 45 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from BLR-04 to BLR-01. BLR-01 has about 11 days of stock and sells about 1.2 a week; BLR-04 still keeps about 45 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "BLR-05>BLR-01>KUR-09-XXXL",
@@ -22656,7 +26147,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-05 to BLR-01. BLR-01 has about 11 days of stock and sells about 1.2 a week; BLR-05 still keeps about 47 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-05 to BLR-01. BLR-01 has about 11 days of stock and sells about 1.2 a week; BLR-05 still keeps about 47 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "LKO-02>LKO-01>KUR-08-XXL",
@@ -22699,7 +26191,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has about 11 days of stock and sells about 1.2 a week; LKO-02 still keeps about 43 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-02 to LKO-01. LKO-01 has about 11 days of stock and sells about 1.2 a week; LKO-02 still keeps about 43 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-08-XXL",
@@ -22742,7 +26235,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>JKT-03-XL",
@@ -22785,7 +26279,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 4 left and sells about 2.5 a week. Sending 8 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 4 left and sells about 2.5 a week. Sending 8 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "PAT-02>PAT-01>MOJ-02-10",
@@ -22828,7 +26323,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from PAT-02 to PAT-01. PAT-01 has about 11 days of stock and sells about 2.5 a week; PAT-02 still keeps about 47 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from PAT-02 to PAT-01. PAT-01 has about 11 days of stock and sells about 2.5 a week; PAT-02 still keeps about 47 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>MOJ-02-10",
@@ -22871,7 +26367,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 4 left and sells about 2.5 a week. Sending 5 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 4 left and sells about 2.5 a week. Sending 5 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "LKO-04>LKO-03>JKT-02-XL",
@@ -22914,7 +26411,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from LKO-04 to LKO-03. LKO-03 has about 11 days of stock and sells about 1.2 a week; LKO-04 still keeps about 55 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from LKO-04 to LKO-03. LKO-03 has about 11 days of stock and sells about 1.2 a week; LKO-04 still keeps about 55 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>LKO-03>JKT-02-XL",
@@ -22957,7 +26455,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has 2 left and sells about 1.2 a week. Sending 3 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has 2 left and sells about 1.2 a week. Sending 3 from the warehouse covers it for about 39 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>PAT-03>MOJ-01-9",
@@ -23000,7 +26499,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "LKO-03>LKO-04>KUR-09-XL",
@@ -23043,7 +26543,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 5 from LKO-03 to LKO-04. LKO-04 has about 11 days of stock and sells about 3.8 a week; LKO-03 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 5 from LKO-03 to LKO-04. LKO-04 has about 11 days of stock and sells about 3.8 a week; LKO-03 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>KUR-09-XL",
@@ -23086,7 +26587,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 6 left and sells about 3.8 a week. Sending 8 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 6 left and sells about 3.8 a week. Sending 8 from the warehouse covers it for about 36 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>LKO-01>KUR-03-S",
@@ -23129,7 +26631,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "MYS-01>BLR-03>JKT-10-XL",
@@ -23173,7 +26676,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MYS-01 to BLR-03. BLR-03 has about 12 days of stock and sells about 0.6 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov."
+   "reason": "Move 1 from MYS-01 to BLR-03. BLR-03 has about 12 days of stock and sells about 0.6 a week; MYS-01 has not sold this in 4 weeks. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "KNP-01>BLR-03>JKT-10-XL",
@@ -23219,7 +26723,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from KNP-01 to BLR-03. BLR-03 has about 12 days of stock and sells about 0.6 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov."
+   "reason": "Move 2 from KNP-01 to BLR-03. BLR-03 has about 12 days of stock and sells about 0.6 a week; KNP-01 has not sold this in 4 weeks. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "WH-KOL>BLR-04>KUR-11-L",
@@ -23263,7 +26768,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has none left (+1 on the way) and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 46 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has none left (+1 on the way) and sells about 0.6 a week. Sending 3 from the warehouse covers it for about 46 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>LKO-02>KUR-06-M",
@@ -23306,7 +26812,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-02 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-02 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-02"
   },
   {
    "move_id": "MZF-02>MZF-01>MOJ-01-11",
@@ -23352,7 +26859,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has about 12 days of stock and sells about 0.6 a week; MZF-02 still keeps about 56 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from MZF-02 to MZF-01. MZF-01 has about 12 days of stock and sells about 0.6 a week; MZF-02 still keeps about 56 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>MOJ-01-11",
@@ -23398,7 +26906,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 1 left and sells about 0.6 a week. Sending 1 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 1 left and sells about 0.6 a week. Sending 1 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>PAT-01>MOJ-01-10",
@@ -23441,7 +26950,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 5 left and sells about 3 a week. Sending 10 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 5 left and sells about 3 a week. Sending 10 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-02-L",
@@ -23484,7 +26994,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 9 from BLR-03 to BLR-02. BLR-02 has about 12 days of stock and sells about 7 a week; BLR-03 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 9 from BLR-03 to BLR-02. BLR-02 has about 12 days of stock and sells about 7 a week; BLR-03 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "MYS-02>BLR-02>KUR-02-L",
@@ -23527,7 +27038,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from MYS-02 to BLR-02. BLR-02 has about 12 days of stock and sells about 7 a week; MYS-02 still keeps about 48 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from MYS-02 to BLR-02. BLR-02 has about 12 days of stock and sells about 7 a week; MYS-02 still keeps about 48 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>KUR-02-L",
@@ -23570,7 +27082,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 12 left and sells about 7 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 12 left and sells about 7 a week. Sending 13 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>PAT-01>KUR-10-XL",
@@ -23613,7 +27126,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 2 left and sells about 1.2 a week. Sending 4 from the warehouse covers it for about 36 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "WH-KOL>BLR-03>KUR-09-S",
@@ -23656,7 +27170,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-03 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-03 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 36 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "KNP-02>BLR-04>KUR-08-S",
@@ -23702,7 +27217,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to BLR-04. BLR-04 has about 12 days of stock and sells about 0.6 a week; KNP-02 still keeps about 35 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from KNP-02 to BLR-04. BLR-04 has about 12 days of stock and sells about 0.6 a week; KNP-02 still keeps about 35 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "LKO-02>BLR-04>KUR-08-S",
@@ -23748,7 +27264,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-02 to BLR-04. BLR-04 has about 12 days of stock and sells about 0.6 a week; LKO-02 still keeps about 40 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from LKO-02 to BLR-04. BLR-04 has about 12 days of stock and sells about 0.6 a week; LKO-02 still keeps about 40 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>LKO-04>JKT-01-XL",
@@ -23791,7 +27308,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-04 has 6 left and sells about 3.5 a week. Sending 11 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-04 has 6 left and sells about 3.5 a week. Sending 11 from the warehouse covers it for about 34 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-04"
   },
   {
    "move_id": "WH-KOL>PAT-02>KUR-04-XXL",
@@ -23834,7 +27352,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has 5 left and sells about 2.9 a week. Sending 9 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has 5 left and sells about 2.9 a week. Sending 9 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "PAT-02>PAT-03>KUR-06-M",
@@ -23877,7 +27396,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from PAT-02 to PAT-03. PAT-03 has about 12 days of stock and sells about 0.6 a week; PAT-02 still keeps about 48 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from PAT-02 to PAT-03. PAT-03 has about 12 days of stock and sells about 0.6 a week; PAT-02 still keeps about 48 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "BLR-05>BLR-04>MOJ-01-8",
@@ -23923,7 +27443,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 5 from BLR-05 to BLR-04. BLR-04 has about 12 days of stock and sells about 4 a week; BLR-05 still keeps about 35 days of stock. Arrives 2 Nov."
+   "reason": "Move 5 from BLR-05 to BLR-04. BLR-04 has about 12 days of stock and sells about 4 a week; BLR-05 still keeps about 35 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>MOJ-01-8",
@@ -23966,7 +27487,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 7 left and sells about 4 a week. Sending 9 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 7 left and sells about 4 a week. Sending 9 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>BLR-04>JKT-01-M",
@@ -24009,7 +27531,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has 4 left and sells about 2.2 a week. Sending 8 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has 4 left and sells about 2.2 a week. Sending 8 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-20-XL",
@@ -24054,7 +27577,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 12 days of stock and sells about 0.6 a week; BLR-03 still keeps about 112 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 12 days of stock and sells about 0.6 a week; BLR-03 still keeps about 112 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-23-L",
@@ -24098,7 +27622,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 12 days of stock and sells about 0.6 a week; BLR-03 still keeps about 140 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-02. BLR-02 has about 12 days of stock and sells about 0.6 a week; BLR-03 still keeps about 140 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-04>KUR-06-XXXL",
@@ -24142,7 +27667,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to BLR-04. BLR-04 has about 12 days of stock and sells about 0.6 a week; BLR-03 still keeps about 40 days of stock. Arrives 2 Nov."
+   "reason": "Move 2 from BLR-03 to BLR-04. BLR-04 has about 12 days of stock and sells about 0.6 a week; BLR-03 still keeps about 40 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "KNP-02>KNP-01>IW-01-XXL",
@@ -24185,7 +27711,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has about 12 days of stock and sells about 0.6 a week; KNP-02 still keeps about 37 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from KNP-02 to KNP-01. KNP-01 has about 12 days of stock and sells about 0.6 a week; KNP-02 still keeps about 37 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "WH-KOL>KNP-01>IW-01-XXL",
@@ -24228,7 +27755,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "KNP-01 has 1 left and sells about 0.6 a week. Sending 1 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "KNP-01 has 1 left and sells about 0.6 a week. Sending 1 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:KNP-01"
   },
   {
    "move_id": "WH-KOL>LKO-03>KUR-06-M",
@@ -24271,7 +27799,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-03 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-03 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-03"
   },
   {
    "move_id": "WH-KOL>MYS-02>KUR-06-L",
@@ -24314,7 +27843,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MYS-02 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "MYS-02 has 1 left and sells about 0.6 a week. Sending 2 from the warehouse covers it for about 38 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "WH-KOL>MZF-02>KUR-04-XL",
@@ -24359,7 +27889,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-02 has 5 left and sells about 2.8 a week. Sending 9 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-02 has 5 left and sells about 2.8 a week. Sending 9 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-02"
   },
   {
    "move_id": "WH-KOL>PAT-04>KUR-04-XL",
@@ -24404,7 +27935,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-04 has 5 left and sells about 2.8 a week. Sending 9 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-04 has 5 left and sells about 2.8 a week. Sending 9 from the warehouse covers it for about 35 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "WH-KOL>BLR-02>KUR-04-L",
@@ -24447,7 +27979,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 30 left and sells about 16.3 a week. Sending 10 from the warehouse covers it for about 17 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 30 left and sells about 16.3 a week. Sending 10 from the warehouse covers it for about 17 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "PAT-04>BLR-02>KUR-04-L",
@@ -24492,7 +28025,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from PAT-04 to BLR-02. BLR-02 has about 13 days of stock and sells about 16.3 a week; PAT-04 still keeps about 30 days of stock. Arrives 7 Nov."
+   "reason": "Move 1 from PAT-04 to BLR-02. BLR-02 has about 13 days of stock and sells about 16.3 a week; PAT-04 still keeps about 30 days of stock. Arrives 7 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>BLR-02>KUR-05-L",
@@ -24535,7 +28069,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-02 has 6 left and sells about 3.2 a week. Sending 11 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-02 has 6 left and sells about 3.2 a week. Sending 11 from the warehouse covers it for about 37 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "WH-KOL>PAT-03>MOJ-01-11",
@@ -24578,7 +28113,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-03 has 1 left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 39 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-03 has 1 left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 39 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-03"
   },
   {
    "move_id": "WH-KOL>PAT-01>MOJ-01-7",
@@ -24621,7 +28157,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-01 has 7 left and sells about 3.8 a week. Sending 11 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-01 has 7 left and sells about 3.8 a week. Sending 11 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-01"
   },
   {
    "move_id": "BLR-01>BLR-02>KUR-17-L",
@@ -24665,7 +28202,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-01 to BLR-02. BLR-02 has about 14 days of stock and sells about 0.5 a week; BLR-01 still keeps about 36 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-01 to BLR-02. BLR-02 has about 14 days of stock and sells about 0.5 a week; BLR-01 still keeps about 36 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "BLR-03>BLR-02>KUR-17-L",
@@ -24710,7 +28248,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from BLR-03 to BLR-02. BLR-02 has about 14 days of stock and sells about 0.5 a week; BLR-03 still keeps about 60 days of stock. Arrives 2 Nov."
+   "reason": "Move 1 from BLR-03 to BLR-02. BLR-02 has about 14 days of stock and sells about 0.5 a week; BLR-03 still keeps about 60 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:BLR-02"
   },
   {
    "move_id": "LKO-04>LKO-01>MOJ-04-7",
@@ -24754,7 +28293,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 1 from LKO-04 to LKO-01. LKO-01 has about 14 days of stock and sells about 0.5 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov."
+   "reason": "Move 1 from LKO-04 to LKO-01. LKO-01 has about 14 days of stock and sells about 0.5 a week; LKO-04 has not sold this in 4 weeks. Arrives 2 Nov.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>LKO-01>MOJ-04-7",
@@ -24797,7 +28337,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "LKO-01 has 1 left and sells about 0.5 a week. Sending 1 from the warehouse covers it for about 40 days; arrives 4 Nov, Diwali in 8 days."
+   "reason": "LKO-01 has 1 left and sells about 0.5 a week. Sending 1 from the warehouse covers it for about 40 days; arrives 4 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:LKO-01"
   },
   {
    "move_id": "WH-KOL>BLR-03>IW-02-L",
@@ -24841,7 +28382,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-03 has none left (+1 on the way) and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-03 has none left (+1 on the way) and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-03"
   },
   {
    "move_id": "WH-KOL>BLR-04>JKT-05-L",
@@ -24885,7 +28427,8 @@ window.MOVES = {
     "F9"
    ],
    "status": "Proposed",
-   "reason": "BLR-04 has none left (+1 on the way) and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-04 has none left (+1 on the way) and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-04"
   },
   {
    "move_id": "WH-KOL>PAT-02>KUR-03-S",
@@ -24928,7 +28471,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-02 has 1 left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-02 has 1 left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-02"
   },
   {
    "move_id": "BLR-03>MYS-02>MOJ-02-7",
@@ -24971,7 +28515,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 2 from BLR-03 to MYS-02. MYS-02 has about 14 days of stock and sells about 0.5 a week; BLR-03 still keeps about 41 days of stock. Arrives 4 Nov."
+   "reason": "Move 2 from BLR-03 to MYS-02. MYS-02 has about 14 days of stock and sells about 0.5 a week; BLR-03 still keeps about 41 days of stock. Arrives 4 Nov.",
+   "action_id": "RESTOCK:MYS-02"
   },
   {
    "move_id": "WH-KOL>PAT-04>KUR-03-M",
@@ -25014,7 +28559,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "PAT-04 has 1 left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "PAT-04 has 1 left and sells about 0.5 a week. Sending 2 from the warehouse covers it for about 40 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:PAT-04"
   },
   {
    "move_id": "MZF-02>MZF-01>KUR-09-M",
@@ -25059,7 +28605,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "Move 3 from MZF-02 to MZF-01. MZF-01 has about 14 days of stock and sells about 2.1 a week; MZF-02 still keeps about 55 days of stock. Arrives 2 Nov."
+   "reason": "Move 3 from MZF-02 to MZF-01. MZF-01 has about 14 days of stock and sells about 2.1 a week; MZF-02 still keeps about 55 days of stock. Arrives 2 Nov.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>MZF-01>KUR-09-M",
@@ -25103,7 +28650,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "MZF-01 has 4 left and sells about 2.1 a week. Sending 3 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days."
+   "reason": "MZF-01 has 4 left and sells about 2.1 a week. Sending 3 from the warehouse covers it for about 34 days; arrives 3 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:MZF-01"
   },
   {
    "move_id": "WH-KOL>BLR-01>KUR-04-M",
@@ -25146,7 +28694,8 @@ window.MOVES = {
     "F8"
    ],
    "status": "Proposed",
-   "reason": "BLR-01 has 19 left and sells about 9.7 a week. Sending 1 from the warehouse covers it for about 14 days; arrives 6 Nov, Diwali in 8 days."
+   "reason": "BLR-01 has 19 left and sells about 9.7 a week. Sending 1 from the warehouse covers it for about 14 days; arrives 6 Nov, Diwali in 8 days.",
+   "action_id": "RESTOCK:BLR-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>IW-01-XXXL",
@@ -25185,7 +28734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 818 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 818 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>IW-01-XXXL",
@@ -25224,7 +28774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 817 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 817 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-17-XXL",
@@ -25263,7 +28814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 816 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 816 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "PAT-01>WH-KOL>SHW-11-S",
@@ -25302,7 +28854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-01: it has sat 812 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-01: it has sat 812 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>SHW-11-S",
@@ -25341,7 +28894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 809 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 809 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "LKO-03>WH-KOL>SHW-11-S",
@@ -25380,7 +28934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 805 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 805 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>SHW-11-S",
@@ -25419,7 +28974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 805 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 805 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-05-S",
@@ -25458,7 +29014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 800 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 800 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>SHW-11-S",
@@ -25497,7 +29054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 798 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 798 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>JKT-02-S",
@@ -25536,7 +29094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 798 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 798 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-05-S",
@@ -25575,7 +29134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 795 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 795 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>SHW-11-S",
@@ -25614,7 +29174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 793 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 793 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>SHW-11-S",
@@ -25653,7 +29214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 792 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 792 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "PAT-02>WH-KOL>SHW-11-S",
@@ -25692,7 +29254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 787 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 787 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>IW-02-M",
@@ -25731,7 +29294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 785 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 785 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>JKT-07-M",
@@ -25770,7 +29334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 783 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 783 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-01>WH-KOL>SHW-11-S",
@@ -25809,7 +29374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 780 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 780 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-17-XXL",
@@ -25848,7 +29414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 776 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 776 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>IW-01-XXXL",
@@ -25887,7 +29454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 774 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 774 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-02-S",
@@ -25926,7 +29494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 774 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 774 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>IW-01-XXXL",
@@ -25965,7 +29534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 774 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 774 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>IW-01-XXL",
@@ -26004,7 +29574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 769 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 769 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-04>WH-KOL>IW-01-XXXL",
@@ -26043,7 +29614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 768 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 768 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>SHW-11-S",
@@ -26082,7 +29654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 763 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 763 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "LKO-01>WH-KOL>SHW-11-S",
@@ -26121,7 +29694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-01: it has sat 761 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-01: it has sat 761 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>SHW-11-S",
@@ -26160,7 +29734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 756 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 756 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "BLR-02>WH-KOL>SHW-11-S",
@@ -26199,7 +29774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "MYS-01>WH-KOL>MOJ-04-7",
@@ -26238,7 +29814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-23-XL",
@@ -26277,7 +29854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "PAT-04>WH-KOL>SHW-11-S",
@@ -26316,7 +29894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 752 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>SHW-11-S",
@@ -26355,7 +29934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 746 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 746 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "BLR-01>WH-KOL>SHW-11-S",
@@ -26394,7 +29974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-01: it has sat 743 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-01: it has sat 743 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-01"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-22-XL",
@@ -26433,7 +30014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 741 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 741 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-10-M",
@@ -26472,7 +30054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 737 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 737 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-13-XXL",
@@ -26511,7 +30094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 737 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 737 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-17-XXL",
@@ -26550,7 +30134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 735 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 735 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-04>WH-KOL>SHW-11-S",
@@ -26589,7 +30174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 734 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 734 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-20-XL",
@@ -26628,7 +30214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 715 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 715 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-13-XXL",
@@ -26667,7 +30254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 699 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 699 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-20-M",
@@ -26706,7 +30294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 681 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 681 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-17-XXL",
@@ -26745,7 +30334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 680 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 680 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-02-XXXL",
@@ -26784,7 +30374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 674 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 674 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-23-M",
@@ -26823,7 +30414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 671 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 671 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-23-M",
@@ -26862,7 +30454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 645 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 645 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-10-M",
@@ -26901,7 +30494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 622 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 622 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-13-M",
@@ -26940,7 +30534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 618 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 618 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "BLR-02>WH-KOL>KUR-17-XXL",
@@ -26979,7 +30574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 615 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 615 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-23-M",
@@ -27018,7 +30614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 596 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 596 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-23-M",
@@ -27057,7 +30654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 569 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 569 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>IW-02-M",
@@ -27096,7 +30694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 554 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 554 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-23-M",
@@ -27135,7 +30734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 554 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 554 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>MOJ-04-7",
@@ -27174,7 +30774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 554 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 554 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-23-XL",
@@ -27213,7 +30814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 538 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 538 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-13-XL",
@@ -27252,7 +30854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 531 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 531 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-20-M",
@@ -27291,7 +30894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 520 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 520 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "MYS-02>WH-KOL>JKT-05-XL",
@@ -27330,7 +30934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 517 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 517 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "BLR-02>WH-KOL>KUR-23-M",
@@ -27369,7 +30974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 496 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 496 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-03-S",
@@ -27408,7 +31014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 478 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 478 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-05-XL",
@@ -27447,7 +31054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 464 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 464 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>MOJ-05-10",
@@ -27486,7 +31094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 463 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 463 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>JKT-03-S",
@@ -27525,7 +31134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 429 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 429 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "MZF-02>WH-KOL>IW-01-XL",
@@ -27564,7 +31174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 422 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 422 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-04-10",
@@ -27603,7 +31214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 421 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 421 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-13-M",
@@ -27642,7 +31254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 415 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 415 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-10-XL",
@@ -27681,7 +31294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 400 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 400 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-13-XXL",
@@ -27720,7 +31334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 387 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 387 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-13-XXL",
@@ -27759,7 +31374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 384 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 384 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-06-S",
@@ -27798,7 +31414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 380 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 380 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>MOJ-04-10",
@@ -27837,7 +31454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 380 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 380 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-04-8",
@@ -27876,7 +31494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 379 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 379 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-11-L",
@@ -27915,7 +31534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 379 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 379 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-01>WH-KOL>IW-03-M",
@@ -27954,7 +31574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "PAT-02>WH-KOL>IW-01-XXL",
@@ -27993,7 +31614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-23-XL",
@@ -28032,7 +31654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-05-XXXL",
@@ -28071,7 +31694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 373 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-04-XL",
@@ -28110,7 +31734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 372 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 372 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "MYS-02>WH-KOL>MOJ-01-6",
@@ -28149,7 +31774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 370 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 370 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>JKT-05-M",
@@ -28188,7 +31814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 366 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 366 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-10-M",
@@ -28227,7 +31854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 365 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 365 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>KUR-20-M",
@@ -28266,7 +31894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "BLR-04>WH-KOL>MOJ-05-9",
@@ -28305,7 +31934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>IW-01-XXL",
@@ -28344,7 +31974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-13-L",
@@ -28383,7 +32014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 363 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-06-S",
@@ -28422,7 +32054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 359 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 359 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-20-M",
@@ -28461,7 +32094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 358 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 358 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>MOJ-02-11",
@@ -28500,7 +32134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 358 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 358 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "MYS-02>WH-KOL>IW-03-M",
@@ -28539,7 +32174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 356 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 356 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>IW-01-L",
@@ -28578,7 +32214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 352 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 352 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "KNP-01>WH-KOL>JKT-03-S",
@@ -28617,7 +32254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 351 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 351 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-16-L",
@@ -28656,7 +32294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 351 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 351 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-13-M",
@@ -28695,7 +32334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 349 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 349 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>JKT-05-M",
@@ -28734,7 +32374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 344 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 344 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-20-L",
@@ -28773,7 +32414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 338 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 338 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-23-M",
@@ -28812,7 +32454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 338 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 338 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-02>WH-KOL>IW-02-M",
@@ -28851,7 +32494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 337 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 337 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>MOJ-05-8",
@@ -28890,7 +32534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 337 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 337 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-10-XL",
@@ -28929,7 +32574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 331 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 331 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-13-M",
@@ -28968,7 +32614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-17-XL",
@@ -29007,7 +32654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>IW-03-M",
@@ -29046,7 +32694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-20-L",
@@ -29085,7 +32734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 330 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-04-7",
@@ -29124,7 +32774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 323 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 323 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-06-XXXL",
@@ -29163,7 +32814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 323 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 323 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-02-XXXL",
@@ -29202,7 +32854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 317 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 317 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-01>WH-KOL>JKT-05-M",
@@ -29241,7 +32894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 317 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 317 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-01-S",
@@ -29280,7 +32934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 309 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 309 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-13-M",
@@ -29319,7 +32974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 309 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 309 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-05-L",
@@ -29358,7 +33014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 303 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 303 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>JKT-03-XXL",
@@ -29397,7 +33054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 303 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 303 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-03>WH-KOL>JKT-07-L",
@@ -29436,7 +33094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 302 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 302 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-11-M",
@@ -29475,7 +33134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 302 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 302 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-07-M",
@@ -29514,7 +33174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 296 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 296 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-17-XXL",
@@ -29553,7 +33214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 296 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 296 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>JKT-01-XXXL",
@@ -29592,7 +33254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 295 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 295 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-06-S",
@@ -29631,7 +33294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 295 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 295 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-20-XL",
@@ -29670,7 +33334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 295 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 295 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>MOJ-02-6",
@@ -29709,7 +33374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 289 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 289 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-14-M",
@@ -29748,7 +33414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 281 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 281 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-13-XXL",
@@ -29787,7 +33454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 281 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 281 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-03-S",
@@ -29826,7 +33494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 279 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 279 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-23-XL",
@@ -29865,7 +33534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 279 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 279 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-23-M",
@@ -29904,7 +33574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 272 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 272 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-17-XL",
@@ -29943,7 +33614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 268 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 268 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-23-M",
@@ -29982,7 +33654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 268 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 268 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-06-XXXL",
@@ -30021,7 +33694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 268 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 268 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "MZF-02>WH-KOL>IW-02-L",
@@ -30060,7 +33734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 261 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 261 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-16-XL",
@@ -30099,7 +33774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 261 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 261 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>JKT-07-M",
@@ -30138,7 +33814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 261 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 261 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "MYS-01>WH-KOL>IW-01-XXXL",
@@ -30177,7 +33854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 258 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 258 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-05-XXXL",
@@ -30216,7 +33894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 253 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 253 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-02-XXXL",
@@ -30255,7 +33934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 253 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 253 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-20-M",
@@ -30294,7 +33974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 253 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 253 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-11-M",
@@ -30333,7 +34014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 251 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 251 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-02-XXXL",
@@ -30372,7 +34054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 251 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 251 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-05-XXXL",
@@ -30411,7 +34094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 247 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 247 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>MOJ-05-7",
@@ -30450,7 +34134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 246 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 246 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-23-M",
@@ -30489,7 +34174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 246 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 246 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>SAF-04-FS",
@@ -30528,7 +34214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 244 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 244 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MZF-01>WH-KOL>JKT-02-XXXL",
@@ -30567,7 +34254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-02-XXL",
@@ -30606,7 +34294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-08-L",
@@ -30645,7 +34334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-08-XL",
@@ -30684,7 +34374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-08-XXL",
@@ -30723,7 +34414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MZF-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-01>WH-KOL>JKT-08-L",
@@ -30762,7 +34454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>JKT-08-M",
@@ -30801,7 +34494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>JKT-08-XL",
@@ -30840,7 +34534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>JKT-08-XXL",
@@ -30879,7 +34574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>KUR-14-M",
@@ -30918,7 +34614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-02>WH-KOL>JKT-08-L",
@@ -30957,7 +34654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>JKT-08-M",
@@ -30996,7 +34694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>JKT-08-XL",
@@ -31035,7 +34734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>JKT-08-XXL",
@@ -31074,7 +34774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-13-XL",
@@ -31113,7 +34814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-14-M",
@@ -31152,7 +34854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 240 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>JKT-08-L",
@@ -31191,7 +34894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>JKT-08-M",
@@ -31230,7 +34934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-08-L",
@@ -31269,7 +34974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-08-M",
@@ -31308,7 +35014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-08-XL",
@@ -31347,7 +35054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-08-XXL",
@@ -31386,7 +35094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-05-XXXL",
@@ -31425,7 +35134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-13-L",
@@ -31464,7 +35174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-02-11",
@@ -31503,7 +35214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-02-6",
@@ -31542,7 +35254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>IW-02-L",
@@ -31581,7 +35294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-01>WH-KOL>JKT-08-L",
@@ -31620,7 +35334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-01>WH-KOL>JKT-08-M",
@@ -31659,7 +35374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-01>WH-KOL>JKT-08-XXL",
@@ -31698,7 +35414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-02>WH-KOL>JKT-08-L",
@@ -31737,7 +35454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>JKT-08-M",
@@ -31776,7 +35494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>JKT-08-XL",
@@ -31815,7 +35534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>JKT-08-XXL",
@@ -31854,7 +35574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-13-XXL",
@@ -31893,7 +35614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-08-L",
@@ -31932,7 +35654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-08-M",
@@ -31971,7 +35694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-08-XL",
@@ -32010,7 +35734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-08-XXL",
@@ -32049,7 +35774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-03: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>JKT-08-L",
@@ -32088,7 +35814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>JKT-08-M",
@@ -32127,7 +35854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>JKT-08-XL",
@@ -32166,7 +35894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>JKT-08-XXL",
@@ -32205,7 +35934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-16-XL",
@@ -32244,7 +35974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 239 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-01>WH-KOL>JKT-08-M",
@@ -32283,7 +36014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-01"
   },
   {
    "move_id": "BLR-01>WH-KOL>JKT-08-XXL",
@@ -32322,7 +36054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-01"
   },
   {
    "move_id": "BLR-02>WH-KOL>JKT-08-L",
@@ -32361,7 +36094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-02>WH-KOL>JKT-08-M",
@@ -32400,7 +36134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-02>WH-KOL>JKT-08-XL",
@@ -32439,7 +36174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-02>WH-KOL>JKT-08-XXL",
@@ -32478,7 +36214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-03>WH-KOL>JKT-08-M",
@@ -32517,7 +36254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>JKT-08-XL",
@@ -32556,7 +36294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>JKT-08-XXL",
@@ -32595,7 +36334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>JKT-08-L",
@@ -32634,7 +36374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "BLR-04>WH-KOL>JKT-08-M",
@@ -32673,7 +36414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "BLR-04>WH-KOL>JKT-08-XL",
@@ -32712,7 +36454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "BLR-04>WH-KOL>JKT-08-XXL",
@@ -32751,7 +36494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-01>WH-KOL>JKT-08-L",
@@ -32790,7 +36534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>JKT-08-M",
@@ -32829,7 +36574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>JKT-08-XL",
@@ -32868,7 +36614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>JKT-08-XXL",
@@ -32907,7 +36654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>MOJ-02-11",
@@ -32946,7 +36694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 237 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>MOJ-02-11",
@@ -32985,7 +36734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>MOJ-05-10",
@@ -33024,7 +36774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>MOJ-05-7",
@@ -33063,7 +36814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>JKT-07-L",
@@ -33102,7 +36854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-10-L",
@@ -33141,7 +36894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-02-XXXL",
@@ -33180,7 +36934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 233 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-16-XL",
@@ -33219,7 +36974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 232 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 232 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-04-XL",
@@ -33258,7 +37014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 232 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 232 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>IW-01-XXXL",
@@ -33297,7 +37054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 230 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 230 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>KUR-13-XL",
@@ -33336,7 +37094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 230 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 230 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>MOJ-04-10",
@@ -33375,7 +37134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 230 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 230 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>IW-01-XXL",
@@ -33414,7 +37174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 226 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 226 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-20-M",
@@ -33453,7 +37214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>IW-02-L",
@@ -33492,7 +37254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>MOJ-04-8",
@@ -33531,7 +37294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-10-L",
@@ -33570,7 +37334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>MOJ-04-9",
@@ -33609,7 +37374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 225 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-13-XXL",
@@ -33648,7 +37414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 223 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 223 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MYS-02>WH-KOL>MOJ-02-11",
@@ -33687,7 +37454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 223 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 223 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-05-XXXL",
@@ -33726,7 +37494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 219 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 219 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-11-M",
@@ -33765,7 +37534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-20-L",
@@ -33804,7 +37574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-06-S",
@@ -33843,7 +37614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-10-M",
@@ -33882,7 +37654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-11-M",
@@ -33921,7 +37694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 218 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>IW-01-XXL",
@@ -33960,7 +37734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 216 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 216 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-13-M",
@@ -33999,7 +37774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 216 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 216 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MZF-01>WH-KOL>JKT-02-XXL",
@@ -34038,7 +37814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-20-XL",
@@ -34077,7 +37854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>JKT-07-L",
@@ -34116,7 +37894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-11-L",
@@ -34155,7 +37934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 212 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-02-XXXL",
@@ -34194,7 +37974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 211 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 211 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "BLR-03>WH-KOL>JKT-03-S",
@@ -34233,7 +38014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-17-L",
@@ -34272,7 +38054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-13-XL",
@@ -34311,7 +38094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>MOJ-04-10",
@@ -34350,7 +38134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 209 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-02-XXXL",
@@ -34389,7 +38174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 205 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 205 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-05-S",
@@ -34428,7 +38214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 205 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 205 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-02-S",
@@ -34467,7 +38254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 205 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 205 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>JKT-05-M",
@@ -34506,7 +38294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-13-XXL",
@@ -34545,7 +38334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-04-9",
@@ -34584,7 +38374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-04-M",
@@ -34623,7 +38414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 204 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-02>WH-KOL>KUR-13-XXL",
@@ -34662,7 +38454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 202 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 202 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-04>WH-KOL>KUR-23-XL",
@@ -34701,7 +38494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 202 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 202 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-05-S",
@@ -34740,7 +38534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 202 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 202 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>JKT-01-XXXL",
@@ -34779,7 +38574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 198 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 198 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-01>WH-KOL>JKT-03-S",
@@ -34818,7 +38614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 198 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 198 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-05-M",
@@ -34857,7 +38654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 198 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 198 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>MOJ-02-6",
@@ -34896,7 +38694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-04-L",
@@ -34935,7 +38734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-05-M",
@@ -34974,7 +38774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-03: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-03: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>MOJ-01-11",
@@ -35013,7 +38814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-13-M",
@@ -35052,7 +38854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-02>WH-KOL>SHW-11-S",
@@ -35091,7 +38894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-04>WH-KOL>JKT-05-M",
@@ -35130,7 +38934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 197 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-02>WH-KOL>MOJ-05-10",
@@ -35169,7 +38974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 195 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 195 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-22-XL",
@@ -35208,7 +39014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-06-XXL",
@@ -35247,7 +39054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-10-M",
@@ -35286,7 +39094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-04-L",
@@ -35325,7 +39134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-13-XXL",
@@ -35364,7 +39174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>MOJ-02-11",
@@ -35403,7 +39214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-01-XXL",
@@ -35442,7 +39254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-14-M",
@@ -35481,7 +39294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 191 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-23-M",
@@ -35520,7 +39334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "LKO-02>WH-KOL>JKT-01-S",
@@ -35559,7 +39374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-06-XXXL",
@@ -35598,7 +39414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-23-XL",
@@ -35637,7 +39454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 190 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-01>WH-KOL>KUR-11-M",
@@ -35676,7 +39494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-01"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-20-M",
@@ -35715,7 +39534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>IW-02-M",
@@ -35754,7 +39574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "BLR-04>WH-KOL>JKT-07-M",
@@ -35793,7 +39614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-06-S",
@@ -35832,7 +39654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-02>WH-KOL>MOJ-04-7",
@@ -35871,7 +39694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 188 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>JKT-05-XL",
@@ -35910,7 +39734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-16-L",
@@ -35949,7 +39774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-01-XXXL",
@@ -35988,7 +39814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-08-S",
@@ -36027,7 +39854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-17-L",
@@ -36066,7 +39894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 184 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-03-S",
@@ -36105,7 +39934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-10-M",
@@ -36144,7 +39974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-06-S",
@@ -36183,7 +40014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>MOJ-04-9",
@@ -36222,7 +40054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-02>WH-KOL>IW-03-L",
@@ -36261,7 +40094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-10-XL",
@@ -36300,7 +40134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-11-L",
@@ -36339,7 +40174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 183 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-02>WH-KOL>JKT-07-L",
@@ -36378,7 +40214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-02: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-13-XL",
@@ -36417,7 +40254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-23-XL",
@@ -36456,7 +40294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MYS-02>WH-KOL>JKT-02-XXXL",
@@ -36495,7 +40334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 181 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-13-M",
@@ -36534,7 +40374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>JKT-07-M",
@@ -36573,7 +40414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-06-XXXL",
@@ -36612,7 +40454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-01-XXXL",
@@ -36651,7 +40494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 177 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-11-XL",
@@ -36690,7 +40534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-17-L",
@@ -36729,7 +40574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-17-XL",
@@ -36768,7 +40614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>IW-01-XXXL",
@@ -36807,7 +40654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-01-XXXL",
@@ -36846,7 +40694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 176 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-02>WH-KOL>KUR-16-XL",
@@ -36885,7 +40734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "BLR-03>WH-KOL>JKT-07-L",
@@ -36924,7 +40774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>SAF-04-FS",
@@ -36963,7 +40814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>KUR-13-XXL",
@@ -37002,7 +40854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-10-L",
@@ -37041,7 +40894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-11-L",
@@ -37080,7 +40934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-22-XL",
@@ -37119,7 +40974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 174 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-17-XL",
@@ -37158,7 +41014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 170 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 170 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-08-XXXL",
@@ -37197,7 +41054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 170 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 170 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-05-L",
@@ -37236,7 +41094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 170 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 170 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-16-L",
@@ -37275,7 +41134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-16-XL",
@@ -37314,7 +41174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>MOJ-02-6",
@@ -37353,7 +41214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-14-L",
@@ -37392,7 +41254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 169 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>IW-03-M",
@@ -37431,7 +41294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 163 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 163 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-11-XL",
@@ -37470,7 +41334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 163 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 163 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-10-L",
@@ -37509,7 +41374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 163 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 163 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-10-M",
@@ -37548,7 +41414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 162 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 162 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-10-L",
@@ -37587,7 +41454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 162 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 162 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-13-L",
@@ -37626,7 +41494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 162 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 162 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-01>WH-KOL>KUR-20-L",
@@ -37665,7 +41534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-01"
   },
   {
    "move_id": "BLR-03>WH-KOL>MOJ-05-9",
@@ -37704,7 +41574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-05-S",
@@ -37743,7 +41614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-06-XXXL",
@@ -37782,7 +41654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>MOJ-04-9",
@@ -37821,7 +41694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-02>WH-KOL>MOJ-02-6",
@@ -37860,7 +41734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 160 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>KUR-09-XXXL",
@@ -37899,7 +41774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 156 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 156 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>KUR-23-M",
@@ -37938,7 +41814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 156 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 156 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-13-L",
@@ -37977,7 +41854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 156 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 156 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>JKT-02-S",
@@ -38016,7 +41894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>MOJ-02-7",
@@ -38055,7 +41934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-02: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-06-M",
@@ -38094,7 +41974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-09-M",
@@ -38133,7 +42014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 4 back to the warehouse from LKO-03: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 4 back to the warehouse from LKO-03: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>IW-01-XXXL",
@@ -38172,7 +42054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>JKT-03-S",
@@ -38211,7 +42094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 155 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-02>WH-KOL>KUR-10-M",
@@ -38250,7 +42134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 153 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-02: it has sat 153 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-06-XXXL",
@@ -38289,7 +42174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-05-XXXL",
@@ -38328,7 +42214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-02: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-01-XXL",
@@ -38367,7 +42254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-03: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-03: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-03-XXL",
@@ -38406,7 +42294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-06-XXXL",
@@ -38445,7 +42334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 149 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-03>WH-KOL>JKT-04-L",
@@ -38484,7 +42374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-20-M",
@@ -38523,7 +42414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-17-XXL",
@@ -38562,7 +42454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-20-XL",
@@ -38601,7 +42494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>JKT-07-M",
@@ -38640,7 +42534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 148 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>JKT-05-XL",
@@ -38679,7 +42574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-05-XXXL",
@@ -38718,7 +42614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-03: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>JKT-07-L",
@@ -38757,7 +42654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-04: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>MOJ-04-9",
@@ -38796,7 +42694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-02: it has sat 146 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "MZF-01>WH-KOL>IW-01-XXXL",
@@ -38835,7 +42734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 142 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-01: it has sat 142 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-01"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-17-L",
@@ -38874,7 +42774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 142 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 142 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-09-XXXL",
@@ -38913,7 +42814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 142 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 142 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>IW-03-M",
@@ -38952,7 +42854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-14-L",
@@ -38991,7 +42894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>KUR-17-L",
@@ -39030,7 +42934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-11-L",
@@ -39069,7 +42974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 3 back to the warehouse from LKO-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 3 back to the warehouse from LKO-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-01>WH-KOL>KUR-17-XXL",
@@ -39108,7 +43014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-05-XXXL",
@@ -39147,7 +43054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 141 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "BLR-04>WH-KOL>MOJ-04-7",
@@ -39186,7 +43094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 139 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-04: it has sat 139 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-04"
   },
   {
    "move_id": "MYS-02>WH-KOL>KUR-06-M",
@@ -39225,7 +43134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from MYS-02: it has sat 139 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from MYS-02: it has sat 139 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-02"
   },
   {
    "move_id": "PAT-01>WH-KOL>KUR-14-XL",
@@ -39264,7 +43174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 135 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 135 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-04>WH-KOL>JKT-03-L",
@@ -39303,7 +43214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 135 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-04: it has sat 135 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-05-XXL",
@@ -39342,7 +43254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 135 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 135 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-06-S",
@@ -39381,7 +43294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-03>WH-KOL>JKT-01-XXL",
@@ -39420,7 +43334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>KUR-23-XL",
@@ -39459,7 +43374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "KNP-03>WH-KOL>MOJ-02-11",
@@ -39498,7 +43414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-03"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-10-L",
@@ -39537,7 +43454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-02-S",
@@ -39576,7 +43494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-16-XL",
@@ -39615,7 +43534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-11-M",
@@ -39654,7 +43574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-13-XXL",
@@ -39693,7 +43614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 134 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "BLR-01>WH-KOL>KUR-13-M",
@@ -39732,7 +43654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from BLR-01: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-01"
   },
   {
    "move_id": "BLR-03>WH-KOL>KUR-14-L",
@@ -39771,7 +43694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from BLR-03: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:BLR-03"
   },
   {
    "move_id": "MYS-01>WH-KOL>KUR-01-XXL",
@@ -39810,7 +43734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "MYS-01>WH-KOL>MOJ-02-6",
@@ -39849,7 +43774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MYS-01: it has sat 132 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MYS-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>IW-03-L",
@@ -39888,7 +43814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>MOJ-05-8",
@@ -39927,7 +43854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 3 back to the warehouse from PAT-01: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 3 back to the warehouse from PAT-01: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-02>WH-KOL>IW-03-L",
@@ -39966,7 +43894,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-02>WH-KOL>KUR-23-XL",
@@ -40005,7 +43934,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>JKT-02-L",
@@ -40044,7 +43974,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-03: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-03: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-09-XXL",
@@ -40083,7 +44014,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 3 back to the warehouse from PAT-03: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 3 back to the warehouse from PAT-03: it has sat 128 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "KNP-01>WH-KOL>MOJ-05-10",
@@ -40122,7 +44054,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-01: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "LKO-01>WH-KOL>MOJ-05-10",
@@ -40161,7 +44094,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-01: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-01"
   },
   {
    "move_id": "LKO-02>WH-KOL>MOJ-05-9",
@@ -40200,7 +44134,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-14-M",
@@ -40239,7 +44174,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-04: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-17-L",
@@ -40278,7 +44214,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 127 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-06-S",
@@ -40317,7 +44254,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "MZF-02>WH-KOL>KUR-13-L",
@@ -40356,7 +44294,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from MZF-02: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:MZF-02"
   },
   {
    "move_id": "PAT-01>WH-KOL>KUR-14-L",
@@ -40395,7 +44334,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-01>WH-KOL>KUR-16-XL",
@@ -40434,7 +44374,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-01: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-01"
   },
   {
    "move_id": "PAT-02>WH-KOL>IW-02-M",
@@ -40473,7 +44414,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from PAT-02: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-02"
   },
   {
    "move_id": "PAT-03>WH-KOL>KUR-09-S",
@@ -40512,7 +44454,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-03: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-03"
   },
   {
    "move_id": "PAT-04>WH-KOL>IW-01-XXL",
@@ -40551,7 +44494,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "PAT-04>WH-KOL>KUR-09-XXXL",
@@ -40590,7 +44534,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from PAT-04: it has sat 121 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:PAT-04"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-02-S",
@@ -40629,7 +44574,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>KUR-11-M",
@@ -40668,7 +44614,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-01>WH-KOL>MOJ-05-8",
@@ -40707,7 +44654,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from KNP-01: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-01"
   },
   {
    "move_id": "KNP-02>WH-KOL>JKT-01-XXXL",
@@ -40746,7 +44694,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from KNP-02: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:KNP-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>KUR-09-XXXL",
@@ -40785,7 +44734,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-02: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-02>WH-KOL>SAF-04-FS",
@@ -40824,7 +44774,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-02: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-02"
   },
   {
    "move_id": "LKO-03>WH-KOL>KUR-16-L",
@@ -40863,7 +44814,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 1 back to the warehouse from LKO-03: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-03"
   },
   {
    "move_id": "LKO-04>WH-KOL>KUR-05-XXXL",
@@ -40902,7 +44854,8 @@ window.MOVES = {
     "F5"
    ],
    "status": "Proposed",
-   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it."
+   "reason": "Bring 2 back to the warehouse from LKO-04: it has sat 120 days and sold 0 in the last 4 weeks. No store needs it.",
+   "action_id": "CLEAR:LKO-04"
   }
  ],
  "blocked": [

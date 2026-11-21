@@ -5,3 +5,10 @@
 - `evidence.to_on_hand/to_in_transit/to_cover_before` are the pre-plan receiver position; `to_cover_after` includes all units allocated to that need so far.
 - Added to contract: `validator.badge` (string), `Inputs.monthly`, `Inputs.row_counts`. Written header-only: `out/approved.csv`, `out/pick-list.csv`. `out/validation.json` is the validator's raw result.
 - Exceptions are 232 of 960 moves (THIN_DATA 137, CROSS_ZONE 110, NEW_STORE 30); build-spec T10 target is ~40. Tuning left for T10.
+
+## Consolidation + Sarvam (engine/consolidate.py, narrate.py)
+- 38 actions (19 RESTOCK by destination, 19 CLEAR by source); every move carries `action_id`. Sort: needs_decision, urgency asc (null last), value desc.
+- Facts sent to the model are counts/strings from code (donor list trimmed to 3 names + a count, value pre-formatted `Rs 8,38,425`). Verifier: digit-runs must be in facts (store-code digits and date parts count as allowed), store codes in facts or WH-KOL, JSON keys exact, limits headline 70 / summary 220 / Hindi 260, Devanagari present, finish_reason stop. Prompt asks 200/230 so answers fit.
+- One re-ask is allowed when an answer is rejected (not only on 429/5xx) because the first pass accepted only 26 of 38. Cache key includes prompt version (v2) + facts.
+- Template mode: narration `{source:'template', checked:false}`. `payload.narration` holds run stats. `demo/moves.js` is overwritten after a clean run unless --no-demo-copy; a `--no-llm` run also overwrites out/moves.js (use --no-demo-copy if needed). Narration run takes ~55 s cold (1.1 s spacing x 38 + retries), ~1 s warm, so NFR-1 (60 s) holds only warm or with --no-llm.
+- Allowed-number check is lenient: a model could swap two numbers that both appear in the facts. Acceptable per brief (digit membership).
